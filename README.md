@@ -1,4 +1,4 @@
-# Planck PCB project
+# Ortho40 project
 
 This is an ongoing project to make a freely available and customizable 40% Ortho Keyboard PCB.
 
