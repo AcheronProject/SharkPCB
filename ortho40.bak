@@ -2263,46 +2263,16 @@ F 3 "" H 7300 9150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7300 9150 7350 9150
-Text Label 7275 9275 2    31   ~ 0
-Row1
-Text Label 7275 9375 2    31   ~ 0
-Row2
-Text Label 7275 9475 2    31   ~ 0
-Row3
-Text Label 7275 9575 2    31   ~ 0
-Row4
-Wire Wire Line
-	7275 9275 7275 9250
-Wire Wire Line
-	7275 9250 7350 9250
-Wire Wire Line
-	7275 9350 7275 9375
-Wire Wire Line
-	7275 9350 7350 9350
-Wire Wire Line
-	7275 9450 7275 9475
-Wire Wire Line
-	7275 9450 7350 9450
-Wire Wire Line
-	7275 9550 7275 9575
-Wire Wire Line
-	7275 9550 7350 9550
 Wire Wire Line
 	7275 9750 7350 9750
-Wire Wire Line
-	7350 9650 7275 9650
-Text Label 7275 9675 2    31   ~ 0
-Col1
-Wire Wire Line
-	7275 9650 7275 9675
 Wire Wire Line
 	7350 10550 7275 10550
 Wire Wire Line
 	7350 10650 7275 10650
 Text Label 7275 10575 2    31   ~ 0
-Row1
-Text Label 7275 10675 2    31   ~ 0
 Row2
+Text Label 7275 10675 2    31   ~ 0
+Row1
 Wire Wire Line
 	7275 10575 7275 10550
 Wire Wire Line
@@ -2387,4 +2357,75 @@ Row4
 NoConn ~ 7350 10250
 NoConn ~ 7350 10350
 NoConn ~ 7350 10450
+NoConn ~ 7350 9250
+NoConn ~ 7350 9350
+NoConn ~ 7350 9450
+NoConn ~ 7350 9550
+NoConn ~ 7350 9650
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BF27058
+P 14700 1975
+F 0 "H3" H 14800 2021 50  0000 L CNN
+F 1 "MountingHole" H 14800 1930 50  0000 L CNN
+F 2 "keyboard_parts:Poker_oval_hole" H 14700 1975 50  0001 C CNN
+F 3 "~" H 14700 1975 50  0001 C CNN
+	1    14700 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BF2790A
+P 14700 2175
+F 0 "H4" H 14800 2221 50  0000 L CNN
+F 1 "MountingHole" H 14800 2130 50  0000 L CNN
+F 2 "keyboard_parts:Poker_oval_hole" H 14700 2175 50  0001 C CNN
+F 3 "~" H 14700 2175 50  0001 C CNN
+	1    14700 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BF463E3
+P 14700 1575
+F 0 "H1" H 14800 1621 50  0000 L CNN
+F 1 "MountingHole" H 14800 1530 50  0000 L CNN
+F 2 "keyboard_parts:Poker_oval_hole" H 14700 1575 50  0001 C CNN
+F 3 "~" H 14700 1575 50  0001 C CNN
+	1    14700 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BF463E9
+P 14700 1775
+F 0 "H2" H 14800 1821 50  0000 L CNN
+F 1 "MountingHole" H 14800 1730 50  0000 L CNN
+F 2 "keyboard_parts:Poker_oval_hole" H 14700 1775 50  0001 C CNN
+F 3 "~" H 14700 1775 50  0001 C CNN
+	1    14700 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5BF64E7F
+P 14700 2375
+F 0 "H5" H 14800 2421 50  0000 L CNN
+F 1 "MountingHole" H 14800 2330 50  0000 L CNN
+F 2 "keyboard_parts:Poker_oval_hole" H 14700 2375 50  0001 C CNN
+F 3 "~" H 14700 2375 50  0001 C CNN
+	1    14700 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5BF64E85
+P 14700 2575
+F 0 "H6" H 14800 2621 50  0000 L CNN
+F 1 "MountingHole" H 14800 2530 50  0000 L CNN
+F 2 "" H 14700 2575 50  0001 C CNN
+F 3 "~" H 14700 2575 50  0001 C CNN
+	1    14700 2575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

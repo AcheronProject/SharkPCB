@@ -2368,7 +2368,7 @@ U 1 1 5BF27058
 P 14700 1975
 F 0 "H3" H 14800 2021 50  0000 L CNN
 F 1 "MountingHole" H 14800 1930 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm_Pad_Via" H 14700 1975 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 1975 50  0001 C CNN
 F 3 "~" H 14700 1975 50  0001 C CNN
 	1    14700 1975
 	1    0    0    -1  
@@ -2379,7 +2379,7 @@ U 1 1 5BF2790A
 P 14700 2175
 F 0 "H4" H 14800 2221 50  0000 L CNN
 F 1 "MountingHole" H 14800 2130 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm_Pad_Via" H 14700 2175 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 2175 50  0001 C CNN
 F 3 "~" H 14700 2175 50  0001 C CNN
 	1    14700 2175
 	1    0    0    -1  
@@ -2390,7 +2390,7 @@ U 1 1 5BF463E3
 P 14700 1575
 F 0 "H1" H 14800 1621 50  0000 L CNN
 F 1 "MountingHole" H 14800 1530 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm_Pad_Via" H 14700 1575 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 1575 50  0001 C CNN
 F 3 "~" H 14700 1575 50  0001 C CNN
 	1    14700 1575
 	1    0    0    -1  
@@ -2401,7 +2401,7 @@ U 1 1 5BF463E9
 P 14700 1775
 F 0 "H2" H 14800 1821 50  0000 L CNN
 F 1 "MountingHole" H 14800 1730 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm_Pad_Via" H 14700 1775 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 1775 50  0001 C CNN
 F 3 "~" H 14700 1775 50  0001 C CNN
 	1    14700 1775
 	1    0    0    -1  
@@ -2412,7 +2412,7 @@ U 1 1 5BF64E7F
 P 14700 2375
 F 0 "H5" H 14800 2421 50  0000 L CNN
 F 1 "MountingHole" H 14800 2330 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm_Pad_Via" H 14700 2375 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 2375 50  0001 C CNN
 F 3 "~" H 14700 2375 50  0001 C CNN
 	1    14700 2375
 	1    0    0    -1  
@@ -2423,7 +2423,7 @@ U 1 1 5BF64E85
 P 14700 2575
 F 0 "H6" H 14800 2621 50  0000 L CNN
 F 1 "MountingHole" H 14800 2530 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm_Pad_Via" H 14700 2575 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 2575 50  0001 C CNN
 F 3 "~" H 14700 2575 50  0001 C CNN
 	1    14700 2575
 	1    0    0    -1  
