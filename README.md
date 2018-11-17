@@ -1,6 +1,6 @@
 # SharkPCB project
 
-This is an ongoing project to make a freely available and customizable 40% Keyboard PCB.
+This is an ongoing project to make a freely available and customizable 40% Keyboard PCB. The PCB is compatible with Planck cases and plates.
 
 Currently two branches are available. The first, UndecidedSharkPCB, is an ortho keyboard PCB. Second is the DecidedShark, which is staggered.
 
