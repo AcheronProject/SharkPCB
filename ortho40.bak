@@ -1617,7 +1617,7 @@ Wire Wire Line
 	7150 4400 7150 4500
 Connection ~ 7150 4500
 Wire Wire Line
-	7150 4500 6150 4500
+	7150 4500 6875 4500
 Wire Wire Line
 	5150 4500 6150 4500
 Connection ~ 5150 4500
@@ -2207,7 +2207,7 @@ Connection ~ 10150 4500
 Wire Wire Line
 	10150 4500 11150 4500
 Wire Wire Line
-	7150 4500 9150 4500
+	7150 4500 8150 4500
 Text Label 2850 1350 0    39   ~ 0
 Col1
 Text Label 3850 1350 0    39   ~ 0
@@ -2368,7 +2368,7 @@ U 1 1 5BF27058
 P 14700 1975
 F 0 "H3" H 14800 2021 50  0000 L CNN
 F 1 "MountingHole" H 14800 1930 50  0000 L CNN
-F 2 "keyboard_parts:Poker_oval_hole" H 14700 1975 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 1975 50  0001 C CNN
 F 3 "~" H 14700 1975 50  0001 C CNN
 	1    14700 1975
 	1    0    0    -1  
@@ -2379,7 +2379,7 @@ U 1 1 5BF2790A
 P 14700 2175
 F 0 "H4" H 14800 2221 50  0000 L CNN
 F 1 "MountingHole" H 14800 2130 50  0000 L CNN
-F 2 "keyboard_parts:Poker_oval_hole" H 14700 2175 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 2175 50  0001 C CNN
 F 3 "~" H 14700 2175 50  0001 C CNN
 	1    14700 2175
 	1    0    0    -1  
@@ -2390,7 +2390,7 @@ U 1 1 5BF463E3
 P 14700 1575
 F 0 "H1" H 14800 1621 50  0000 L CNN
 F 1 "MountingHole" H 14800 1530 50  0000 L CNN
-F 2 "keyboard_parts:Poker_oval_hole" H 14700 1575 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 1575 50  0001 C CNN
 F 3 "~" H 14700 1575 50  0001 C CNN
 	1    14700 1575
 	1    0    0    -1  
@@ -2401,7 +2401,7 @@ U 1 1 5BF463E9
 P 14700 1775
 F 0 "H2" H 14800 1821 50  0000 L CNN
 F 1 "MountingHole" H 14800 1730 50  0000 L CNN
-F 2 "keyboard_parts:Poker_oval_hole" H 14700 1775 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 1775 50  0001 C CNN
 F 3 "~" H 14700 1775 50  0001 C CNN
 	1    14700 1775
 	1    0    0    -1  
@@ -2412,7 +2412,7 @@ U 1 1 5BF64E7F
 P 14700 2375
 F 0 "H5" H 14800 2421 50  0000 L CNN
 F 1 "MountingHole" H 14800 2330 50  0000 L CNN
-F 2 "keyboard_parts:Poker_oval_hole" H 14700 2375 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 2375 50  0001 C CNN
 F 3 "~" H 14700 2375 50  0001 C CNN
 	1    14700 2375
 	1    0    0    -1  
@@ -2423,9 +2423,85 @@ U 1 1 5BF64E85
 P 14700 2575
 F 0 "H6" H 14800 2621 50  0000 L CNN
 F 1 "MountingHole" H 14800 2530 50  0000 L CNN
-F 2 "" H 14700 2575 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 2575 50  0001 C CNN
 F 3 "~" H 14700 2575 50  0001 C CNN
 	1    14700 2575
 	1    0    0    -1  
 $EndComp
+$Comp
+L keyboard_parts:KEYSW K47
+U 1 1 5BF8980E
+P 8500 4050
+F 0 "K47" H 8500 4261 31  0000 C CNN
+F 1 "KEYSW" H 8500 3950 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8500 4050 60  0001 C CNN
+F 3 "" H 8500 4050 60  0000 C CNN
+	1    8500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5BF89814
+P 8150 4250
+F 0 "D47" V 8181 4171 31  0000 R CNN
+F 1 "1N4148" V 8119 4171 31  0000 R CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" H 8150 4250 50  0001 C CNN
+F 3 "~" H 8150 4250 50  0001 C CNN
+	1    8150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 4050 8150 4050
+Wire Wire Line
+	8150 4050 8150 4100
+Wire Wire Line
+	8800 4050 8850 4050
+Wire Wire Line
+	8850 4050 8850 3300
+Wire Wire Line
+	8150 4400 8150 4500
+Connection ~ 8150 4500
+Wire Wire Line
+	8150 4500 9150 4500
+Connection ~ 8850 3300
+$Comp
+L keyboard_parts:KEYSW K2U
+U 1 1 5BFAAFCB
+P 7500 4800
+F 0 "K2U" H 7500 5011 31  0000 C CNN
+F 1 "KEYSW" H 7500 4700 60  0001 C CNN
+F 2 "keebs:Mx_Alps_200" H 7500 4800 60  0001 C CNN
+F 3 "" H 7500 4800 60  0000 C CNN
+	1    7500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2U
+U 1 1 5BFAAFD1
+P 7150 5000
+F 0 "D2U" V 7181 4921 31  0000 R CNN
+F 1 "1N4148" V 7119 4921 31  0000 R CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" H 7150 5000 50  0001 C CNN
+F 3 "~" H 7150 5000 50  0001 C CNN
+	1    7150 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 4800 7150 4800
+Wire Wire Line
+	7150 4800 7150 4850
+Wire Wire Line
+	7800 4800 7850 4800
+Wire Wire Line
+	7850 4800 7850 4050
+Wire Wire Line
+	7150 5150 7150 5250
+Wire Wire Line
+	7150 5250 6875 5250
+Connection ~ 7850 4050
+Wire Wire Line
+	6875 4500 6875 5250
+Connection ~ 6875 4500
+Wire Wire Line
+	6875 4500 6150 4500
 $EndSCHEMATC
