@@ -1,5 +1,4 @@
-# SharkPCB
-SharkPCB project
+# SharkPCB project
 
 This is a project to make a freely available, open-source 40% keyboard Printed Circuit Board (PCB).
 
