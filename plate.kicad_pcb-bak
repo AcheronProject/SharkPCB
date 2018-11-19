@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 200)
+    (drawings 199)
     (tracks 0)
     (zones 0)
     (modules 6)
@@ -432,9 +432,6 @@
     (arrow1b (pts (xy 261.725 149.625) (xy 260.598496 149.038579)))
     (arrow2a (pts (xy 34.675 149.625) (xy 35.801504 150.211421)))
     (arrow2b (pts (xy 34.675 149.625) (xy 35.801504 149.038579)))
-  )
-  (gr_text "GondolinElectronics UndecidedShark Plate" (at 63.65 121.6) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_line (start 228.475 64.125) (end 219.45 64.125) (layer Edge.Cuts) (width 0.15) (tstamp 5BFEDCD9))
   (gr_arc (start 228.475 64.6) (end 228.95 64.6) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BFEDCD3))
