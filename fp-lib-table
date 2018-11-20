@@ -2,4 +2,5 @@
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/keyboard_parts.pretty-master)(options "")(descr ""))
   (lib (name keebs)(type KiCad)(uri ${KIPRJMOD}/keebs.pretty-master)(options "")(descr ""))
   (lib (name mountHoles)(type KiCad)(uri ${KIPRJMOD}/mountHoles.pretty)(options "")(descr ""))
+  (lib (name sharkLogo)(type KiCad)(uri ${KIPRJMOD}/sharkLogo.pretty)(options "")(descr ""))
 )
