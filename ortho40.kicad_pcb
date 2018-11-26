@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 24)
     (tracks 722)
     (zones 0)
     (modules 122)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./gerbers"))
+      (outputdirectory "./layout.svg"))
   )
 
   (net 0 "")
@@ -6281,6 +6281,12 @@
       (net 41 "Net-(D46-Pad2)"))
   )
 
+  (gr_circle (center 53.2 102.6) (end 55.944253 102.6) (layer F.SilkS) (width 0.15) (tstamp 5BFC88FD))
+  (gr_circle (center 91.2 121.6) (end 93.944253 121.6) (layer F.SilkS) (width 0.15) (tstamp 5BFC88A6))
+  (gr_circle (center 205.2 121.6) (end 207.944253 121.6) (layer F.SilkS) (width 0.15) (tstamp 5BFC80BB))
+  (gr_circle (center 243.2 102.6) (end 245.944253 102.6) (layer F.SilkS) (width 0.15) (tstamp 5BFC8031))
+  (gr_circle (center 205.2 83.6) (end 207.944253 83.6) (layer F.SilkS) (width 0.15) (tstamp 5BFC7FD3))
+  (gr_circle (center 91.2 83.6) (end 93.944253 83.6) (layer F.SilkS) (width 0.15) (tstamp 5BFC7E95))
   (dimension 75.05 (width 0.3) (layer F.SilkS)
     (gr_text "75.050 mm" (at 27.1125 102.6 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
