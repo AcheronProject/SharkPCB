@@ -3,4 +3,5 @@
   (lib (name keebs)(type KiCad)(uri ${KIPRJMOD}/keebs.pretty-master)(options "")(descr ""))
   (lib (name mountHoles)(type KiCad)(uri ${KIPRJMOD}/mountHoles.pretty)(options "")(descr ""))
   (lib (name sharkLogo)(type KiCad)(uri ${KIPRJMOD}/sharkLogo.pretty)(options "")(descr ""))
+  (lib (name Keyboard_switches)(type KiCad)(uri /home/alvaro/Desktop/MX/Keyboard_switches.pretty)(options "")(descr ""))
 )
