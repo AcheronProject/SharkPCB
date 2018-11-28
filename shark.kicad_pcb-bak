@@ -686,7 +686,7 @@
     )
   )
 
-  (module Keyboard_switches:thtDiode (layer F.Cu) (tedit 5BFDC8CC) (tstamp 5C0BD9CE)
+  (module Keyboard_switches:thtDiode (layer F.Cu) (tedit 5BFDC8CC) (tstamp 5C171360)
     (at 86.025001 -4.174999)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -1322,7 +1322,7 @@
     )
   )
 
-  (module Keyboard_switches:thtDiode (layer F.Cu) (tedit 5BFDC8CC) (tstamp 5C0C604F)
+  (module Keyboard_switches:thtDiode (layer F.Cu) (tedit 5BFDC8CC) (tstamp 5C0C60E1)
     (at 115.1255 102.743)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -2064,7 +2064,7 @@
     )
   )
 
-  (module Keyboard_switches:thtDiode (layer F.Cu) (tedit 5BFDC8CC) (tstamp 5C0BDD90)
+  (module Keyboard_switches:thtDiode (layer F.Cu) (tedit 5BFDC8CC) (tstamp 5C1712CF)
     (at 26.505001 46.255001)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")

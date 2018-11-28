@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:shark-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1976,8 +1977,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 5100 7650 5075
 Connection ~ 6650 5075
-Wire Wire Line
-	6650 5075 6950 5075
 Connection ~ 7650 5075
 Wire Wire Line
 	7650 5075 8650 5075
@@ -2178,10 +2177,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 3725 5150 5775
 Wire Wire Line
-	6150 3725 6150 5775
-Wire Wire Line
-	7150 3725 7150 5775
-Wire Wire Line
 	8150 3725 8150 5775
 Wire Wire Line
 	9150 3725 9150 5775
@@ -2193,104 +2188,47 @@ Wire Wire Line
 	12150 3725 12150 5775
 Wire Wire Line
 	13150 3725 13150 5775
-$Comp
-L Device:D D49
-U 1 1 5C2D302C
-P 6650 6250
-F 0 "D49" V 6619 6329 31  0000 L CNN
-F 1 "1N4148" V 6681 6329 31  0000 L CNN
-F 2 "Keyboard_switches:thtDiode" H 6650 6250 50  0001 C CNN
-F 3 "~" H 6650 6250 50  0001 C CNN
-	1    6650 6250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6650 6425 6650 6400
+	7300 6525 7150 6525
 Wire Wire Line
-	6300 6775 6150 6775
+	7150 6525 7150 5775
 Wire Wire Line
-	6650 6100 6950 6100
+	8300 6525 8150 6525
 Wire Wire Line
-	6950 6100 6950 5075
-Connection ~ 6950 5075
-Wire Wire Line
-	6950 5075 7650 5075
-Wire Wire Line
-	6150 6775 6150 5775
-Connection ~ 6150 5775
-$Comp
-L Device:D D50
-U 1 1 5C358C14
-P 7650 6250
-F 0 "D50" V 7619 6329 31  0000 L CNN
-F 1 "1N4148" V 7681 6329 31  0000 L CNN
-F 2 "Keyboard_switches:thtDiode" H 7650 6250 50  0001 C CNN
-F 3 "~" H 7650 6250 50  0001 C CNN
-	1    7650 6250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7650 6425 7650 6400
-Wire Wire Line
-	7300 6775 7150 6775
-Wire Wire Line
-	7650 6100 7950 6100
-Wire Wire Line
-	7150 6775 7150 5775
-$Comp
-L Keyboard_switches:MXSwitch SW49
-U 1 1 5C2D3025
-P 6650 6775
-F 0 "SW49" H 6550 6825 50  0000 L CNN
-F 1 "MXSwitch" H 6525 6600 39  0000 L CNN
-F 2 "Keyboard_switches:MX200R" H 6650 6775 50  0001 C CNN
-F 3 "" H 6650 6775 50  0001 C CNN
-	1    6650 6775
-	1    0    0    -1  
-$EndComp
+	8150 6525 8150 5775
 $Comp
 L Keyboard_switches:MXSwitch SW50
-U 1 1 5C358C0D
-P 7650 6775
-F 0 "SW50" H 7550 6825 50  0000 L CNN
-F 1 "MXSwitch" H 7525 6600 39  0000 L CNN
-F 2 "Keyboard_switches:MX200R" H 7650 6775 50  0001 C CNN
-F 3 "" H 7650 6775 50  0001 C CNN
-	1    7650 6775
+U 1 1 5C2D3025
+P 7650 6525
+F 0 "SW50" H 7550 6575 50  0000 L CNN
+F 1 "MXSwitch" H 7525 6350 39  0000 L CNN
+F 2 "Keyboard_switches:MX200R" H 7650 6525 50  0001 C CNN
+F 3 "" H 7650 6525 50  0001 C CNN
+	1    7650 6525
 	1    0    0    -1  
 $EndComp
 $Comp
 L Keyboard_switches:MXSwitch SW51
-U 1 1 5C4B27E7
-P 7650 7775
-F 0 "SW51" H 7550 7825 50  0000 L CNN
-F 1 "MXSwitch" H 7525 7600 39  0000 L CNN
-F 2 "Keyboard_switches:MX200R" H 7650 7775 50  0001 C CNN
-F 3 "" H 7650 7775 50  0001 C CNN
-	1    7650 7775
+U 1 1 5C358C0D
+P 8650 6525
+F 0 "SW51" H 8550 6575 50  0000 L CNN
+F 1 "MXSwitch" H 8525 6350 39  0000 L CNN
+F 2 "Keyboard_switches:MX200R" H 8650 6525 50  0001 C CNN
+F 3 "" H 8650 6525 50  0001 C CNN
+	1    8650 6525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D51
-U 1 1 5C4B27EE
-P 7650 7250
-F 0 "D51" V 7619 7329 31  0000 L CNN
-F 1 "1N4148" V 7681 7329 31  0000 L CNN
-F 2 "Keyboard_switches:thtDiode" H 7650 7250 50  0001 C CNN
-F 3 "~" H 7650 7250 50  0001 C CNN
-	1    7650 7250
-	0    1    1    0   
+L Keyboard_switches:MXSwitch SW49
+U 1 1 5C4B27E7
+P 6650 6525
+F 0 "SW49" H 6550 6575 50  0000 L CNN
+F 1 "MXSwitch" H 6525 6350 39  0000 L CNN
+F 2 "Keyboard_switches:MX200R" H 6650 6525 50  0001 C CNN
+F 3 "" H 6650 6525 50  0001 C CNN
+	1    6650 6525
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 7425 7650 7400
-Wire Wire Line
-	7300 7775 7150 7775
-Wire Wire Line
-	7650 7100 7950 7100
-Wire Wire Line
-	7150 7775 7150 6775
-Wire Wire Line
-	7950 5075 7950 7100
 Wire Wire Line
 	2150 3725 2150 5775
 Wire Wire Line
@@ -2419,4 +2357,68 @@ F 3 "~" H 14700 3175 50  0001 C CNN
 	1    14700 3175
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5C00FDC2
+P 14700 3375
+F 0 "H10" H 14800 3421 50  0000 L CNN
+F 1 "MountingHole" H 14800 3330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 3375 50  0001 C CNN
+F 3 "~" H 14700 3375 50  0001 C CNN
+	1    14700 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5C00FEDC
+P 14700 3575
+F 0 "H11" H 14800 3621 50  0000 L CNN
+F 1 "MountingHole" H 14800 3530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14700 3575 50  0001 C CNN
+F 3 "~" H 14700 3575 50  0001 C CNN
+	1    14700 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5075 7650 5075
+Wire Wire Line
+	6650 5400 6950 5400
+Wire Wire Line
+	7950 6100 7650 6100
+Wire Wire Line
+	7650 6100 7650 6175
+Connection ~ 6650 5400
+Wire Wire Line
+	7950 5400 7950 6100
+Wire Wire Line
+	6150 4750 6150 5775
+Connection ~ 6150 4750
+Wire Wire Line
+	7150 4750 7150 5775
+Connection ~ 7150 4750
+Wire Wire Line
+	8650 6100 8950 6100
+Wire Wire Line
+	8950 6100 8950 5400
+Wire Wire Line
+	7950 5400 7650 5400
+Wire Wire Line
+	8650 6100 8650 6175
+Connection ~ 7650 5400
+Wire Wire Line
+	6950 6100 6950 5400
+Connection ~ 7150 5775
+Connection ~ 6150 5775
+Connection ~ 8150 5775
+Wire Wire Line
+	6300 6525 6150 6525
+Wire Wire Line
+	6150 5775 6150 6525
+Wire Wire Line
+	8650 5400 8950 5400
+Connection ~ 8650 5400
+Wire Wire Line
+	6650 6100 6650 6175
+Wire Wire Line
+	6650 6100 6950 6100
 $EndSCHEMATC
