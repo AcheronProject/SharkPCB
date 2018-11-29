@@ -2230,7 +2230,7 @@ F 3 "" H 6650 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 3725 2150 5775
+	2150 3725 2150 4750
 Wire Wire Line
 	2150 2700 2150 3725
 Wire Wire Line
@@ -2421,4 +2421,7 @@ Wire Wire Line
 	6650 6100 6650 6175
 Wire Wire Line
 	6650 6100 6950 6100
+Connection ~ 2150 4750
+Wire Wire Line
+	2150 4750 2150 5775
 $EndSCHEMATC
