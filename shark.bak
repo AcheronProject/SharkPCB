@@ -255,17 +255,6 @@ Wire Wire Line
 Wire Wire Line
 	10575 9400 10525 9400
 $Comp
-L power:GND #PWR0107
-U 1 1 5BEE37FA
-P 2125 8975
-F 0 "#PWR0107" H 2125 8725 50  0001 C CNN
-F 1 "GND" V 2130 8847 50  0000 R CNN
-F 2 "" H 2125 8975 50  0001 C CNN
-F 3 "" H 2125 8975 50  0001 C CNN
-	1    2125 8975
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0108
 U 1 1 5BEE3841
 P 2225 9075
@@ -299,8 +288,6 @@ Text Label 2625 8525 0    39   ~ 0
 D+
 Wire Wire Line
 	2225 8925 2225 9075
-Wire Wire Line
-	2125 8925 2125 8975
 $Comp
 L Device:R R3
 U 1 1 5BEE6602
@@ -484,39 +471,33 @@ Wire Wire Line
 Wire Wire Line
 	9250 7300 9325 7300
 Wire Wire Line
-	10525 8800 10575 8800
+	10525 7500 10575 7500
 Wire Wire Line
-	10525 9000 10575 9000
-Text Label 10575 8825 0    31   ~ 0
+	10525 7400 10575 7400
+Text Label 10575 7525 0    31   ~ 0
 Row2
-Text Label 10575 9025 0    31   ~ 0
+Text Label 10575 7425 0    31   ~ 0
 Row1
 Wire Wire Line
-	10525 8900 10575 8900
-Wire Wire Line
 	10525 9100 10575 9100
+Wire Wire Line
+	10525 9800 10575 9800
 Wire Wire Line
 	10525 9200 10575 9200
 Wire Wire Line
 	10525 7700 10575 7700
 Wire Wire Line
 	10525 7800 10575 7800
-Wire Wire Line
-	10525 7900 10575 7900
-Text Label 10575 8925 0    31   ~ 0
-Col8
 Text Label 10575 9125 0    31   ~ 0
+Col3
+Text Label 10575 9825 0    31   ~ 0
 Col7
 Text Label 10575 9225 0    31   ~ 0
-Col6
+Col4
 Text Label 10575 7725 0    31   ~ 0
 Col5
 Text Label 10575 7825 0    31   ~ 0
-Col4
-Text Label 10575 7925 0    31   ~ 0
-Col3
-Wire Wire Line
-	10575 7925 10575 7900
+Col6
 Wire Wire Line
 	10575 7825 10575 7800
 Wire Wire Line
@@ -524,9 +505,9 @@ Wire Wire Line
 Wire Wire Line
 	10575 9200 10575 9225
 Wire Wire Line
-	10575 9100 10575 9125
+	10575 9800 10575 9825
 Wire Wire Line
-	10575 8900 10575 8925
+	10575 9100 10575 9125
 NoConn ~ 10525 9500
 Wire Wire Line
 	10525 8200 10575 8200
@@ -537,20 +518,14 @@ Wire Wire Line
 Wire Wire Line
 	10575 8300 10575 8325
 Text Label 10575 8325 0    31   ~ 0
-Col1
+Col9
 Text Label 10575 8225 0    31   ~ 0
-Col2
+Col8
 Wire Wire Line
-	10525 9800 10575 9800
+	10525 10100 10575 10100
 Wire Wire Line
-	10575 9800 10575 9825
-Wire Wire Line
-	10525 9700 10575 9700
-Wire Wire Line
-	10575 9700 10575 9725
-Text Label 10575 9725 0    31   ~ 0
-Row3
-Text Label 10575 9825 0    31   ~ 0
+	10575 10100 10575 10125
+Text Label 10575 10125 0    31   ~ 0
 Row4
 $Comp
 L Mechanical:MountingHole H3
@@ -2230,7 +2205,7 @@ F 3 "" H 6650 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 3725 2150 5775
+	2150 3725 2150 4750
 Wire Wire Line
 	2150 2700 2150 3725
 Wire Wire Line
@@ -2271,21 +2246,15 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10525 7300
-NoConn ~ 10525 7400
-NoConn ~ 10525 7500
 NoConn ~ 10525 7600
 NoConn ~ 10525 7975
 NoConn ~ 10525 8500
 NoConn ~ 10525 8600
 NoConn ~ 10525 8700
 Wire Wire Line
-	10575 9000 10575 9025
+	10575 7400 10575 7425
 Wire Wire Line
-	10575 8800 10575 8825
-NoConn ~ 10525 10200
-NoConn ~ 10525 10100
-NoConn ~ 10525 10000
-NoConn ~ 10525 9900
+	10575 7500 10575 7525
 NoConn ~ 9325 7900
 $Comp
 L Connector:USB_B J1
@@ -2421,4 +2390,41 @@ Wire Wire Line
 	6650 6100 6650 6175
 Wire Wire Line
 	6650 6100 6950 6100
+Connection ~ 2150 4750
+Wire Wire Line
+	2150 4750 2150 5775
+Wire Wire Line
+	2125 8925 2125 8975
+$Comp
+L power:GND #PWR0107
+U 1 1 5BEE37FA
+P 2125 8975
+F 0 "#PWR0107" H 2125 8725 50  0001 C CNN
+F 1 "GND" V 2130 8847 50  0000 R CNN
+F 2 "" H 2125 8975 50  0001 C CNN
+F 3 "" H 2125 8975 50  0001 C CNN
+	1    2125 8975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10525 10200 10600 10200
+Wire Wire Line
+	10600 10200 10600 10250
+Text Label 10600 10250 0    50   ~ 0
+Row3
+NoConn ~ 10525 9700
+NoConn ~ 10525 8800
+Wire Wire Line
+	10525 9900 10575 9900
+Wire Wire Line
+	10575 9900 10575 9925
+Text Label 10575 9925 0    31   ~ 0
+Col10
+NoConn ~ 10525 7900
+Wire Wire Line
+	10525 9000 10575 9000
+Text Label 10575 9025 0    31   ~ 0
+Col2
+Wire Wire Line
+	10575 9000 10575 9025
 $EndSCHEMATC
