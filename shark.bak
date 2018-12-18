@@ -2084,20 +2084,8 @@ Wire Wire Line
 Wire Wire Line
 	2225 1950 2225 2975
 Connection ~ 2225 1950
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5C564495
-P 14500 7550
-F 0 "U1" H 14500 6350 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 14500 6475 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 14500 7550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14500 7550 50  0001 C CNN
-	1    14500 7550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 15100 6050
 NoConn ~ 15100 6350
-NoConn ~ 15100 6725
 NoConn ~ 15100 7450
 NoConn ~ 13900 6650
 $Comp
@@ -2432,8 +2420,6 @@ Text GLabel 15150 6450 2    50   Input ~ 0
 Col5
 Wire Wire Line
 	15150 6450 15100 6450
-Text GLabel 15150 6250 2    50   Input ~ 0
-Row2
 Wire Wire Line
 	15150 6250 15100 6250
 Text GLabel 15150 6150 2    50   Input ~ 0
@@ -2481,7 +2467,6 @@ Col4
 Wire Wire Line
 	15125 7950 15100 7950
 NoConn ~ 15100 7650
-NoConn ~ 15100 8750
 Text GLabel 15125 8650 2    50   Input ~ 0
 Col10
 Text GLabel 15125 8850 2    50   Input ~ 0
@@ -2542,4 +2527,1590 @@ Text GLabel 15125 7350 2    50   Input ~ 0
 Col7
 Wire Wire Line
 	15125 7350 15100 7350
+$Comp
+L Device:R_Small RL1
+U 1 1 5C1A3269
+P 4200 7650
+F 0 "RL1" H 4259 7681 31  0000 L CNN
+F 1 "R_LED" H 4259 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4200 7650 50  0001 C CNN
+F 3 "~" H 4200 7650 50  0001 C CNN
+	1    4200 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL2
+U 1 1 5C1A4AA9
+P 4475 7650
+F 0 "RL2" H 4534 7681 31  0000 L CNN
+F 1 "R_LED" H 4534 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4475 7650 50  0001 C CNN
+F 3 "~" H 4475 7650 50  0001 C CNN
+	1    4475 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL3
+U 1 1 5C1C47E2
+P 4750 7650
+F 0 "RL3" H 4809 7681 31  0000 L CNN
+F 1 "R_LED" H 4809 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4750 7650 50  0001 C CNN
+F 3 "~" H 4750 7650 50  0001 C CNN
+	1    4750 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL4
+U 1 1 5C1C47F0
+P 5025 7650
+F 0 "RL4" H 5084 7681 31  0000 L CNN
+F 1 "R_LED" H 5084 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5025 7650 50  0001 C CNN
+F 3 "~" H 5025 7650 50  0001 C CNN
+	1    5025 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL5
+U 1 1 5C1E4B19
+P 5300 7650
+F 0 "RL5" H 5359 7681 31  0000 L CNN
+F 1 "R_LED" H 5359 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5300 7650 50  0001 C CNN
+F 3 "~" H 5300 7650 50  0001 C CNN
+	1    5300 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL6
+U 1 1 5C1E4B27
+P 5575 7650
+F 0 "RL6" H 5634 7681 31  0000 L CNN
+F 1 "R_LED" H 5634 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5575 7650 50  0001 C CNN
+F 3 "~" H 5575 7650 50  0001 C CNN
+	1    5575 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL7
+U 1 1 5C1E4B35
+P 5850 7650
+F 0 "RL7" H 5909 7681 31  0000 L CNN
+F 1 "R_LED" H 5909 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5850 7650 50  0001 C CNN
+F 3 "~" H 5850 7650 50  0001 C CNN
+	1    5850 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL8
+U 1 1 5C1E4B43
+P 6125 7650
+F 0 "RL8" H 6184 7681 31  0000 L CNN
+F 1 "R_LED" H 6184 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6125 7650 50  0001 C CNN
+F 3 "~" H 6125 7650 50  0001 C CNN
+	1    6125 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL9
+U 1 1 5C204AA0
+P 6400 7650
+F 0 "RL9" H 6459 7681 31  0000 L CNN
+F 1 "R_LED" H 6459 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6400 7650 50  0001 C CNN
+F 3 "~" H 6400 7650 50  0001 C CNN
+	1    6400 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL10
+U 1 1 5C204AAE
+P 6675 7650
+F 0 "RL10" H 6734 7681 31  0000 L CNN
+F 1 "R_LED" H 6734 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6675 7650 50  0001 C CNN
+F 3 "~" H 6675 7650 50  0001 C CNN
+	1    6675 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL11
+U 1 1 5C204ABC
+P 6950 7650
+F 0 "RL11" H 7009 7681 31  0000 L CNN
+F 1 "R_LED" H 7009 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6950 7650 50  0001 C CNN
+F 3 "~" H 6950 7650 50  0001 C CNN
+	1    6950 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL12
+U 1 1 5C204ACA
+P 7225 7650
+F 0 "RL12" H 7284 7681 31  0000 L CNN
+F 1 "R_LED" H 7284 7619 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 7225 7650 50  0001 C CNN
+F 3 "~" H 7225 7650 50  0001 C CNN
+	1    7225 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL13
+U 1 1 5C228515
+P 4200 8325
+F 0 "RL13" H 4259 8356 31  0000 L CNN
+F 1 "R_LED" H 4259 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4200 8325 50  0001 C CNN
+F 3 "~" H 4200 8325 50  0001 C CNN
+	1    4200 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL14
+U 1 1 5C228523
+P 4475 8325
+F 0 "RL14" H 4534 8356 31  0000 L CNN
+F 1 "R_LED" H 4534 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4475 8325 50  0001 C CNN
+F 3 "~" H 4475 8325 50  0001 C CNN
+	1    4475 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL15
+U 1 1 5C228531
+P 4750 8325
+F 0 "RL15" H 4809 8356 31  0000 L CNN
+F 1 "R_LED" H 4809 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4750 8325 50  0001 C CNN
+F 3 "~" H 4750 8325 50  0001 C CNN
+	1    4750 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL16
+U 1 1 5C22853F
+P 5025 8325
+F 0 "RL16" H 5084 8356 31  0000 L CNN
+F 1 "R_LED" H 5084 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5025 8325 50  0001 C CNN
+F 3 "~" H 5025 8325 50  0001 C CNN
+	1    5025 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL17
+U 1 1 5C22854D
+P 5300 8325
+F 0 "RL17" H 5359 8356 31  0000 L CNN
+F 1 "R_LED" H 5359 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5300 8325 50  0001 C CNN
+F 3 "~" H 5300 8325 50  0001 C CNN
+	1    5300 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL18
+U 1 1 5C22855B
+P 5575 8325
+F 0 "RL18" H 5634 8356 31  0000 L CNN
+F 1 "R_LED" H 5634 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5575 8325 50  0001 C CNN
+F 3 "~" H 5575 8325 50  0001 C CNN
+	1    5575 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL19
+U 1 1 5C228569
+P 5850 8325
+F 0 "RL19" H 5909 8356 31  0000 L CNN
+F 1 "R_LED" H 5909 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5850 8325 50  0001 C CNN
+F 3 "~" H 5850 8325 50  0001 C CNN
+	1    5850 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL20
+U 1 1 5C228577
+P 6125 8325
+F 0 "RL20" H 6184 8356 31  0000 L CNN
+F 1 "R_LED" H 6184 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6125 8325 50  0001 C CNN
+F 3 "~" H 6125 8325 50  0001 C CNN
+	1    6125 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL21
+U 1 1 5C228585
+P 6400 8325
+F 0 "RL21" H 6459 8356 31  0000 L CNN
+F 1 "R_LED" H 6459 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6400 8325 50  0001 C CNN
+F 3 "~" H 6400 8325 50  0001 C CNN
+	1    6400 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL22
+U 1 1 5C228593
+P 6675 8325
+F 0 "RL22" H 6734 8356 31  0000 L CNN
+F 1 "R_LED" H 6734 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6675 8325 50  0001 C CNN
+F 3 "~" H 6675 8325 50  0001 C CNN
+	1    6675 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL23
+U 1 1 5C2285A1
+P 6950 8325
+F 0 "RL23" H 7009 8356 31  0000 L CNN
+F 1 "R_LED" H 7009 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6950 8325 50  0001 C CNN
+F 3 "~" H 6950 8325 50  0001 C CNN
+	1    6950 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL24
+U 1 1 5C2285AF
+P 7225 8325
+F 0 "RL24" H 7284 8356 31  0000 L CNN
+F 1 "R_LED" H 7284 8294 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 7225 8325 50  0001 C CNN
+F 3 "~" H 7225 8325 50  0001 C CNN
+	1    7225 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL25
+U 1 1 5C26C143
+P 4200 9025
+F 0 "RL25" H 4259 9056 31  0000 L CNN
+F 1 "R_LED" H 4259 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4200 9025 50  0001 C CNN
+F 3 "~" H 4200 9025 50  0001 C CNN
+	1    4200 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL26
+U 1 1 5C26C151
+P 4475 9025
+F 0 "RL26" H 4534 9056 31  0000 L CNN
+F 1 "R_LED" H 4534 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4475 9025 50  0001 C CNN
+F 3 "~" H 4475 9025 50  0001 C CNN
+	1    4475 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL27
+U 1 1 5C26C15F
+P 4750 9025
+F 0 "RL27" H 4809 9056 31  0000 L CNN
+F 1 "R_LED" H 4809 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4750 9025 50  0001 C CNN
+F 3 "~" H 4750 9025 50  0001 C CNN
+	1    4750 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL28
+U 1 1 5C26C16D
+P 5025 9025
+F 0 "RL28" H 5084 9056 31  0000 L CNN
+F 1 "R_LED" H 5084 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5025 9025 50  0001 C CNN
+F 3 "~" H 5025 9025 50  0001 C CNN
+	1    5025 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL29
+U 1 1 5C26C17B
+P 5300 9025
+F 0 "RL29" H 5359 9056 31  0000 L CNN
+F 1 "R_LED" H 5359 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5300 9025 50  0001 C CNN
+F 3 "~" H 5300 9025 50  0001 C CNN
+	1    5300 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL30
+U 1 1 5C26C189
+P 5575 9025
+F 0 "RL30" H 5634 9056 31  0000 L CNN
+F 1 "R_LED" H 5634 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5575 9025 50  0001 C CNN
+F 3 "~" H 5575 9025 50  0001 C CNN
+	1    5575 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL31
+U 1 1 5C26C197
+P 5850 9025
+F 0 "RL31" H 5909 9056 31  0000 L CNN
+F 1 "R_LED" H 5909 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5850 9025 50  0001 C CNN
+F 3 "~" H 5850 9025 50  0001 C CNN
+	1    5850 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL32
+U 1 1 5C26C1A5
+P 6125 9025
+F 0 "RL32" H 6184 9056 31  0000 L CNN
+F 1 "R_LED" H 6184 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6125 9025 50  0001 C CNN
+F 3 "~" H 6125 9025 50  0001 C CNN
+	1    6125 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL33
+U 1 1 5C26C1B3
+P 6400 9025
+F 0 "RL33" H 6459 9056 31  0000 L CNN
+F 1 "R_LED" H 6459 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6400 9025 50  0001 C CNN
+F 3 "~" H 6400 9025 50  0001 C CNN
+	1    6400 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL34
+U 1 1 5C26C1C1
+P 6675 9025
+F 0 "RL34" H 6734 9056 31  0000 L CNN
+F 1 "R_LED" H 6734 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6675 9025 50  0001 C CNN
+F 3 "~" H 6675 9025 50  0001 C CNN
+	1    6675 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL35
+U 1 1 5C26C1CF
+P 6950 9025
+F 0 "RL35" H 7009 9056 31  0000 L CNN
+F 1 "R_LED" H 7009 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6950 9025 50  0001 C CNN
+F 3 "~" H 6950 9025 50  0001 C CNN
+	1    6950 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL36
+U 1 1 5C26C1DD
+P 7225 9025
+F 0 "RL36" H 7284 9056 31  0000 L CNN
+F 1 "R_LED" H 7284 8994 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 7225 9025 50  0001 C CNN
+F 3 "~" H 7225 9025 50  0001 C CNN
+	1    7225 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL37
+U 1 1 5C26C1EB
+P 4200 9700
+F 0 "RL37" H 4259 9731 31  0000 L CNN
+F 1 "R_LED" H 4259 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4200 9700 50  0001 C CNN
+F 3 "~" H 4200 9700 50  0001 C CNN
+	1    4200 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL38
+U 1 1 5C26C1F9
+P 4475 9700
+F 0 "RL38" H 4534 9731 31  0000 L CNN
+F 1 "R_LED" H 4534 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4475 9700 50  0001 C CNN
+F 3 "~" H 4475 9700 50  0001 C CNN
+	1    4475 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL39
+U 1 1 5C26C207
+P 4750 9700
+F 0 "RL39" H 4809 9731 31  0000 L CNN
+F 1 "R_LED" H 4809 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 4750 9700 50  0001 C CNN
+F 3 "~" H 4750 9700 50  0001 C CNN
+	1    4750 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL40
+U 1 1 5C26C215
+P 5025 9700
+F 0 "RL40" H 5084 9731 31  0000 L CNN
+F 1 "R_LED" H 5084 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5025 9700 50  0001 C CNN
+F 3 "~" H 5025 9700 50  0001 C CNN
+	1    5025 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL41
+U 1 1 5C26C223
+P 5300 9700
+F 0 "RL41" H 5359 9731 31  0000 L CNN
+F 1 "R_LED" H 5359 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5300 9700 50  0001 C CNN
+F 3 "~" H 5300 9700 50  0001 C CNN
+	1    5300 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL42
+U 1 1 5C26C231
+P 5575 9700
+F 0 "RL42" H 5634 9731 31  0000 L CNN
+F 1 "R_LED" H 5634 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5575 9700 50  0001 C CNN
+F 3 "~" H 5575 9700 50  0001 C CNN
+	1    5575 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL43
+U 1 1 5C26C23F
+P 5850 9700
+F 0 "RL43" H 5909 9731 31  0000 L CNN
+F 1 "R_LED" H 5909 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 5850 9700 50  0001 C CNN
+F 3 "~" H 5850 9700 50  0001 C CNN
+	1    5850 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL44
+U 1 1 5C26C24D
+P 6125 9700
+F 0 "RL44" H 6184 9731 31  0000 L CNN
+F 1 "R_LED" H 6184 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6125 9700 50  0001 C CNN
+F 3 "~" H 6125 9700 50  0001 C CNN
+	1    6125 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL45
+U 1 1 5C26C25B
+P 6400 9700
+F 0 "RL45" H 6459 9731 31  0000 L CNN
+F 1 "R_LED" H 6459 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6400 9700 50  0001 C CNN
+F 3 "~" H 6400 9700 50  0001 C CNN
+	1    6400 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL46
+U 1 1 5C26C269
+P 6675 9700
+F 0 "RL46" H 6734 9731 31  0000 L CNN
+F 1 "R_LED" H 6734 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6675 9700 50  0001 C CNN
+F 3 "~" H 6675 9700 50  0001 C CNN
+	1    6675 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL47
+U 1 1 5C26C277
+P 6950 9700
+F 0 "RL47" H 7009 9731 31  0000 L CNN
+F 1 "R_LED" H 7009 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 6950 9700 50  0001 C CNN
+F 3 "~" H 6950 9700 50  0001 C CNN
+	1    6950 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL48
+U 1 1 5C26C285
+P 7225 9700
+F 0 "RL48" H 7284 9731 31  0000 L CNN
+F 1 "R_LED" H 7284 9669 31  0000 L CNN
+F 2 "Keyboard_switches:Resistor_THT_5.08mm_Horizontal" H 7225 9700 50  0001 C CNN
+F 3 "~" H 7225 9700 50  0001 C CNN
+	1    7225 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 6750 15150 6750
+Text GLabel 15150 6750 2    50   Input ~ 0
+LED_PWM
+Text GLabel 3550 10350 0    50   Input ~ 0
+LED_PWM
+$Comp
+L Device:R_Small RSGate101
+U 1 1 5C2E1F91
+P 3725 10350
+F 0 "RSGate101" V 3573 10350 31  0000 C CNN
+F 1 "1k" V 3635 10350 31  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3725 10350 50  0001 C CNN
+F 3 "~" H 3725 10350 50  0001 C CNN
+	1    3725 10350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small RPGate101
+U 1 1 5C2E54A4
+P 3875 10525
+F 0 "RPGate101" H 3816 10494 31  0000 R CNN
+F 1 "10k" H 3816 10556 31  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3875 10525 50  0001 C CNN
+F 3 "~" H 3875 10525 50  0001 C CNN
+	1    3875 10525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3875 10350 3875 10425
+Wire Wire Line
+	3875 10350 3900 10350
+$Comp
+L power:GND #PWR0114
+U 1 1 5C3CE56B
+P 4200 10825
+F 0 "#PWR0114" H 4200 10575 50  0001 C CNN
+F 1 "GND" H 4205 10652 50  0000 C CNN
+F 2 "" H 4200 10825 50  0001 C CNN
+F 3 "" H 4200 10825 50  0001 C CNN
+	1    4200 10825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 10350 3625 10350
+Wire Wire Line
+	3825 10350 3875 10350
+Connection ~ 3875 10350
+Wire Wire Line
+	4200 9850 4200 9800
+Wire Wire Line
+	4475 9850 4475 9800
+Wire Wire Line
+	4750 9850 4750 9800
+Wire Wire Line
+	5025 9800 5025 9850
+Wire Wire Line
+	5300 9800 5300 9825
+Wire Wire Line
+	5300 9825 5400 9825
+Wire Wire Line
+	5400 9825 5400 9850
+Connection ~ 5300 9825
+Wire Wire Line
+	5300 9825 5300 9850
+Wire Wire Line
+	5575 9800 5575 9825
+Wire Wire Line
+	5575 9825 5675 9825
+Wire Wire Line
+	5675 9825 5675 9850
+Connection ~ 5575 9825
+Wire Wire Line
+	5575 9825 5575 9850
+Wire Wire Line
+	5850 9800 5850 9825
+Wire Wire Line
+	5850 9825 5950 9825
+Wire Wire Line
+	5950 9825 5950 9850
+Connection ~ 5850 9825
+Wire Wire Line
+	5850 9825 5850 9850
+Wire Wire Line
+	6125 9800 6125 9850
+Wire Wire Line
+	6400 9800 6400 9850
+Wire Wire Line
+	6675 9800 6675 9850
+Wire Wire Line
+	6950 9800 6950 9850
+Wire Wire Line
+	7225 9800 7225 9850
+Wire Wire Line
+	7225 9125 7225 9175
+Wire Wire Line
+	6950 9125 6950 9175
+Wire Wire Line
+	6675 9125 6675 9175
+Wire Wire Line
+	6400 9125 6400 9175
+Wire Wire Line
+	6125 9125 6125 9175
+Wire Wire Line
+	5850 9125 5850 9175
+Wire Wire Line
+	5575 9125 5575 9175
+Wire Wire Line
+	5300 9125 5300 9175
+Wire Wire Line
+	5025 9125 5025 9175
+Wire Wire Line
+	4750 9125 4750 9175
+Wire Wire Line
+	4475 9125 4475 9175
+Wire Wire Line
+	4200 9175 4200 9125
+Wire Wire Line
+	4200 8475 4200 8425
+Wire Wire Line
+	4475 8475 4475 8425
+Wire Wire Line
+	4750 8425 4750 8475
+Wire Wire Line
+	5025 8425 5025 8475
+Wire Wire Line
+	5300 8425 5300 8475
+Wire Wire Line
+	5575 8425 5575 8475
+Wire Wire Line
+	5850 8425 5850 8475
+Wire Wire Line
+	6125 8425 6125 8475
+Wire Wire Line
+	6400 8425 6400 8475
+Wire Wire Line
+	6675 8425 6675 8475
+Wire Wire Line
+	6950 8425 6950 8475
+Wire Wire Line
+	7225 8425 7225 8475
+Wire Wire Line
+	7225 9600 6950 9600
+Wire Wire Line
+	4025 9600 4025 8925
+Wire Wire Line
+	4025 7550 4200 7550
+Connection ~ 4200 9600
+Wire Wire Line
+	4200 9600 4025 9600
+Connection ~ 4475 9600
+Wire Wire Line
+	4475 9600 4200 9600
+Connection ~ 4750 9600
+Wire Wire Line
+	4750 9600 4475 9600
+Connection ~ 5025 9600
+Wire Wire Line
+	5025 9600 4750 9600
+Connection ~ 5300 9600
+Wire Wire Line
+	5300 9600 5025 9600
+Connection ~ 5575 9600
+Wire Wire Line
+	5575 9600 5300 9600
+Connection ~ 5850 9600
+Wire Wire Line
+	5850 9600 5575 9600
+Connection ~ 6125 9600
+Wire Wire Line
+	6125 9600 5850 9600
+Connection ~ 6400 9600
+Wire Wire Line
+	6400 9600 6125 9600
+Connection ~ 6675 9600
+Wire Wire Line
+	6675 9600 6400 9600
+Connection ~ 6950 9600
+Wire Wire Line
+	6950 9600 6675 9600
+Connection ~ 4200 7550
+Wire Wire Line
+	4200 7550 4475 7550
+Connection ~ 4475 7550
+Wire Wire Line
+	4475 7550 4750 7550
+Connection ~ 4750 7550
+Wire Wire Line
+	4750 7550 5025 7550
+Connection ~ 5025 7550
+Wire Wire Line
+	5025 7550 5300 7550
+Connection ~ 5300 7550
+Wire Wire Line
+	5300 7550 5575 7550
+Connection ~ 5575 7550
+Wire Wire Line
+	5575 7550 5850 7550
+Connection ~ 5850 7550
+Wire Wire Line
+	5850 7550 6125 7550
+Connection ~ 6125 7550
+Wire Wire Line
+	6125 7550 6400 7550
+Connection ~ 6400 7550
+Wire Wire Line
+	6400 7550 6675 7550
+Connection ~ 6675 7550
+Wire Wire Line
+	6675 7550 6950 7550
+Connection ~ 6950 7550
+Wire Wire Line
+	6950 7550 7225 7550
+Wire Wire Line
+	7225 8225 6950 8225
+Connection ~ 4025 8225
+Wire Wire Line
+	4025 8225 4025 7550
+Connection ~ 4200 8225
+Wire Wire Line
+	4200 8225 4025 8225
+Connection ~ 4475 8225
+Wire Wire Line
+	4475 8225 4200 8225
+Connection ~ 4750 8225
+Wire Wire Line
+	4750 8225 4475 8225
+Connection ~ 5025 8225
+Wire Wire Line
+	5025 8225 4750 8225
+Connection ~ 5300 8225
+Wire Wire Line
+	5300 8225 5025 8225
+Connection ~ 5575 8225
+Wire Wire Line
+	5575 8225 5300 8225
+Connection ~ 5850 8225
+Wire Wire Line
+	5850 8225 5575 8225
+Connection ~ 6125 8225
+Wire Wire Line
+	6125 8225 5850 8225
+Connection ~ 6400 8225
+Wire Wire Line
+	6400 8225 6125 8225
+Connection ~ 6675 8225
+Wire Wire Line
+	6675 8225 6400 8225
+Connection ~ 6950 8225
+Wire Wire Line
+	6950 8225 6675 8225
+Wire Wire Line
+	7225 8925 6950 8925
+Connection ~ 4025 8925
+Wire Wire Line
+	4025 8925 4025 8225
+Connection ~ 4200 8925
+Wire Wire Line
+	4200 8925 4025 8925
+Connection ~ 4475 8925
+Wire Wire Line
+	4475 8925 4200 8925
+Connection ~ 4750 8925
+Wire Wire Line
+	4750 8925 4475 8925
+Connection ~ 5025 8925
+Wire Wire Line
+	5025 8925 4750 8925
+Connection ~ 5300 8925
+Wire Wire Line
+	5300 8925 5025 8925
+Connection ~ 5575 8925
+Wire Wire Line
+	5575 8925 5300 8925
+Connection ~ 5850 8925
+Wire Wire Line
+	5850 8925 5575 8925
+Connection ~ 6125 8925
+Wire Wire Line
+	6125 8925 5850 8925
+Connection ~ 6400 8925
+Wire Wire Line
+	6400 8925 6125 8925
+Connection ~ 6675 8925
+Wire Wire Line
+	6675 8925 6400 8925
+Connection ~ 6950 8925
+Wire Wire Line
+	6950 8925 6675 8925
+$Comp
+L power:VCC #PWR0115
+U 1 1 5D0FF437
+P 4025 7500
+F 0 "#PWR0115" H 4025 7350 50  0001 C CNN
+F 1 "VCC" H 4042 7673 50  0000 C CNN
+F 2 "" H 4025 7500 50  0001 C CNN
+F 3 "" H 4025 7500 50  0001 C CNN
+	1    4025 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 7500 4025 7550
+Connection ~ 4025 7550
+Wire Wire Line
+	4200 10550 4200 10725
+Wire Wire Line
+	3875 10725 4200 10725
+Wire Wire Line
+	3875 10625 3875 10725
+Connection ~ 4200 10725
+Wire Wire Line
+	4200 10725 4200 10825
+$Comp
+L Keyboard_switches:LED LED1
+U 1 1 5D1EBF5B
+P 4200 7900
+F 0 "LED1" V 4075 7925 20  0000 L CNN
+F 1 "LED" V 4050 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4200 7900 50  0001 C CNN
+F 3 "" H 4200 7900 50  0001 C CNN
+	1    4200 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED2
+U 1 1 5D4ECDE0
+P 4475 7900
+F 0 "LED2" V 4350 7925 20  0000 L CNN
+F 1 "LED" V 4325 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4475 7900 50  0001 C CNN
+F 3 "" H 4475 7900 50  0001 C CNN
+	1    4475 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED3
+U 1 1 5D4ED356
+P 4750 7900
+F 0 "LED3" V 4625 7925 20  0000 L CNN
+F 1 "LED" V 4600 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4750 7900 50  0001 C CNN
+F 3 "" H 4750 7900 50  0001 C CNN
+	1    4750 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED4
+U 1 1 5D4ED9B7
+P 5025 7900
+F 0 "LED4" V 4900 7925 20  0000 L CNN
+F 1 "LED" V 4875 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5025 7900 50  0001 C CNN
+F 3 "" H 5025 7900 50  0001 C CNN
+	1    5025 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED5
+U 1 1 5D4EE32F
+P 5300 7900
+F 0 "LED5" V 5175 7925 20  0000 L CNN
+F 1 "LED" V 5150 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5300 7900 50  0001 C CNN
+F 3 "" H 5300 7900 50  0001 C CNN
+	1    5300 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED6
+U 1 1 5D4EE336
+P 5575 7900
+F 0 "LED6" V 5450 7925 20  0000 L CNN
+F 1 "LED" V 5425 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5575 7900 50  0001 C CNN
+F 3 "" H 5575 7900 50  0001 C CNN
+	1    5575 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED7
+U 1 1 5D4EE33D
+P 5850 7900
+F 0 "LED7" V 5725 7925 20  0000 L CNN
+F 1 "LED" V 5700 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5850 7900 50  0001 C CNN
+F 3 "" H 5850 7900 50  0001 C CNN
+	1    5850 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED8
+U 1 1 5D4EE344
+P 6125 7900
+F 0 "LED8" V 6000 7925 20  0000 L CNN
+F 1 "LED" V 5975 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6125 7900 50  0001 C CNN
+F 3 "" H 6125 7900 50  0001 C CNN
+	1    6125 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED9
+U 1 1 5D533C76
+P 6400 7900
+F 0 "LED9" V 6275 7925 20  0000 L CNN
+F 1 "LED" V 6250 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6400 7900 50  0001 C CNN
+F 3 "" H 6400 7900 50  0001 C CNN
+	1    6400 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED10
+U 1 1 5D533C7D
+P 6675 7900
+F 0 "LED10" V 6550 7925 20  0000 L CNN
+F 1 "LED" V 6525 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6675 7900 50  0001 C CNN
+F 3 "" H 6675 7900 50  0001 C CNN
+	1    6675 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED11
+U 1 1 5D533C84
+P 6950 7900
+F 0 "LED11" V 6825 7925 20  0000 L CNN
+F 1 "LED" V 6800 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6950 7900 50  0001 C CNN
+F 3 "" H 6950 7900 50  0001 C CNN
+	1    6950 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED12
+U 1 1 5D533C8B
+P 7225 7900
+F 0 "LED12" V 7100 7925 20  0000 L CNN
+F 1 "LED" V 7075 7925 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 7225 7900 50  0001 C CNN
+F 3 "" H 7225 7900 50  0001 C CNN
+	1    7225 7900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 8050 4475 8050
+Connection ~ 4475 8050
+Wire Wire Line
+	4475 8050 4750 8050
+Connection ~ 4750 8050
+Wire Wire Line
+	4750 8050 5025 8050
+Connection ~ 5025 8050
+Wire Wire Line
+	5025 8050 5300 8050
+Connection ~ 5300 8050
+Wire Wire Line
+	5300 8050 5575 8050
+Connection ~ 5575 8050
+Wire Wire Line
+	5575 8050 5850 8050
+Connection ~ 5850 8050
+Wire Wire Line
+	5850 8050 6125 8050
+Connection ~ 6125 8050
+Wire Wire Line
+	6125 8050 6400 8050
+Connection ~ 6400 8050
+Wire Wire Line
+	6400 8050 6675 8050
+Connection ~ 6675 8050
+Wire Wire Line
+	6675 8050 6950 8050
+Connection ~ 6950 8050
+Wire Wire Line
+	6950 8050 7225 8050
+Connection ~ 7225 8050
+Wire Wire Line
+	7225 8050 7500 8050
+$Comp
+L Keyboard_switches:LED LED13
+U 1 1 5D93FD83
+P 4200 8625
+F 0 "LED13" V 4075 8650 20  0000 L CNN
+F 1 "LED" V 4050 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4200 8625 50  0001 C CNN
+F 3 "" H 4200 8625 50  0001 C CNN
+	1    4200 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED14
+U 1 1 5D93FD8A
+P 4475 8625
+F 0 "LED14" V 4350 8650 20  0000 L CNN
+F 1 "LED" V 4325 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4475 8625 50  0001 C CNN
+F 3 "" H 4475 8625 50  0001 C CNN
+	1    4475 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED15
+U 1 1 5D93FD91
+P 4750 8625
+F 0 "LED15" V 4625 8650 20  0000 L CNN
+F 1 "LED" V 4600 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4750 8625 50  0001 C CNN
+F 3 "" H 4750 8625 50  0001 C CNN
+	1    4750 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED16
+U 1 1 5D93FD98
+P 5025 8625
+F 0 "LED16" V 4900 8650 20  0000 L CNN
+F 1 "LED" V 4875 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5025 8625 50  0001 C CNN
+F 3 "" H 5025 8625 50  0001 C CNN
+	1    5025 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED17
+U 1 1 5D93FD9F
+P 5300 8625
+F 0 "LED17" V 5175 8650 20  0000 L CNN
+F 1 "LED" V 5150 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5300 8625 50  0001 C CNN
+F 3 "" H 5300 8625 50  0001 C CNN
+	1    5300 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED18
+U 1 1 5D93FDA6
+P 5575 8625
+F 0 "LED18" V 5450 8650 20  0000 L CNN
+F 1 "LED" V 5425 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5575 8625 50  0001 C CNN
+F 3 "" H 5575 8625 50  0001 C CNN
+	1    5575 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED19
+U 1 1 5D93FDAD
+P 5850 8625
+F 0 "LED19" V 5725 8650 20  0000 L CNN
+F 1 "LED" V 5700 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5850 8625 50  0001 C CNN
+F 3 "" H 5850 8625 50  0001 C CNN
+	1    5850 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED20
+U 1 1 5D93FDB4
+P 6125 8625
+F 0 "LED20" V 6000 8650 20  0000 L CNN
+F 1 "LED" V 5975 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6125 8625 50  0001 C CNN
+F 3 "" H 6125 8625 50  0001 C CNN
+	1    6125 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED21
+U 1 1 5D93FDBB
+P 6400 8625
+F 0 "LED21" V 6275 8650 20  0000 L CNN
+F 1 "LED" V 6250 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6400 8625 50  0001 C CNN
+F 3 "" H 6400 8625 50  0001 C CNN
+	1    6400 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED22
+U 1 1 5D93FDC2
+P 6675 8625
+F 0 "LED22" V 6550 8650 20  0000 L CNN
+F 1 "LED" V 6525 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6675 8625 50  0001 C CNN
+F 3 "" H 6675 8625 50  0001 C CNN
+	1    6675 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED23
+U 1 1 5D93FDC9
+P 6950 8625
+F 0 "LED23" V 6825 8650 20  0000 L CNN
+F 1 "LED" V 6800 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6950 8625 50  0001 C CNN
+F 3 "" H 6950 8625 50  0001 C CNN
+	1    6950 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED24
+U 1 1 5D93FDD0
+P 7225 8625
+F 0 "LED24" V 7100 8650 20  0000 L CNN
+F 1 "LED" V 7075 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 7225 8625 50  0001 C CNN
+F 3 "" H 7225 8625 50  0001 C CNN
+	1    7225 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED25
+U 1 1 5DABCF34
+P 4200 9325
+F 0 "LED25" V 4075 9350 20  0000 L CNN
+F 1 "LED" V 4050 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4200 9325 50  0001 C CNN
+F 3 "" H 4200 9325 50  0001 C CNN
+	1    4200 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED26
+U 1 1 5DABCF3B
+P 4475 9325
+F 0 "LED26" V 4350 9350 20  0000 L CNN
+F 1 "LED" V 4325 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4475 9325 50  0001 C CNN
+F 3 "" H 4475 9325 50  0001 C CNN
+	1    4475 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED27
+U 1 1 5DABCF42
+P 4750 9325
+F 0 "LED27" V 4625 9350 20  0000 L CNN
+F 1 "LED" V 4600 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4750 9325 50  0001 C CNN
+F 3 "" H 4750 9325 50  0001 C CNN
+	1    4750 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED28
+U 1 1 5DABCF49
+P 5025 9325
+F 0 "LED28" V 4900 9350 20  0000 L CNN
+F 1 "LED" V 4875 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5025 9325 50  0001 C CNN
+F 3 "" H 5025 9325 50  0001 C CNN
+	1    5025 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED29
+U 1 1 5DABCF50
+P 5300 9325
+F 0 "LED29" V 5175 9350 20  0000 L CNN
+F 1 "LED" V 5150 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5300 9325 50  0001 C CNN
+F 3 "" H 5300 9325 50  0001 C CNN
+	1    5300 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED30
+U 1 1 5DABCF57
+P 5575 9325
+F 0 "LED30" V 5450 9350 20  0000 L CNN
+F 1 "LED" V 5425 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5575 9325 50  0001 C CNN
+F 3 "" H 5575 9325 50  0001 C CNN
+	1    5575 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED31
+U 1 1 5DABCF5E
+P 5850 9325
+F 0 "LED31" V 5725 9350 20  0000 L CNN
+F 1 "LED" V 5700 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5850 9325 50  0001 C CNN
+F 3 "" H 5850 9325 50  0001 C CNN
+	1    5850 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED32
+U 1 1 5DABCF65
+P 6125 9325
+F 0 "LED32" V 6000 9350 20  0000 L CNN
+F 1 "LED" V 5975 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6125 9325 50  0001 C CNN
+F 3 "" H 6125 9325 50  0001 C CNN
+	1    6125 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED33
+U 1 1 5DABCF6C
+P 6400 9325
+F 0 "LED33" V 6275 9350 20  0000 L CNN
+F 1 "LED" V 6250 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6400 9325 50  0001 C CNN
+F 3 "" H 6400 9325 50  0001 C CNN
+	1    6400 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED34
+U 1 1 5DABCF73
+P 6675 9325
+F 0 "LED34" V 6550 9350 20  0000 L CNN
+F 1 "LED" V 6525 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6675 9325 50  0001 C CNN
+F 3 "" H 6675 9325 50  0001 C CNN
+	1    6675 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED35
+U 1 1 5DABCF7A
+P 6950 9325
+F 0 "LED35" V 6825 9350 20  0000 L CNN
+F 1 "LED" V 6800 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6950 9325 50  0001 C CNN
+F 3 "" H 6950 9325 50  0001 C CNN
+	1    6950 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED36
+U 1 1 5DABCF81
+P 7225 9325
+F 0 "LED36" V 7100 9350 20  0000 L CNN
+F 1 "LED" V 7075 9350 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 7225 9325 50  0001 C CNN
+F 3 "" H 7225 9325 50  0001 C CNN
+	1    7225 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED37
+U 1 1 5DAFB63A
+P 4200 10000
+F 0 "LED37" V 4075 10025 20  0000 L CNN
+F 1 "LED" V 4050 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4200 10000 50  0001 C CNN
+F 3 "" H 4200 10000 50  0001 C CNN
+	1    4200 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED38
+U 1 1 5DAFB641
+P 4475 10000
+F 0 "LED38" V 4350 10025 20  0000 L CNN
+F 1 "LED" V 4325 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4475 10000 50  0001 C CNN
+F 3 "" H 4475 10000 50  0001 C CNN
+	1    4475 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED39
+U 1 1 5DAFB648
+P 4750 10000
+F 0 "LED39" V 4625 10025 20  0000 L CNN
+F 1 "LED" V 4600 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4750 10000 50  0001 C CNN
+F 3 "" H 4750 10000 50  0001 C CNN
+	1    4750 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED40
+U 1 1 5DAFB64F
+P 5025 10000
+F 0 "LED40" V 4900 10025 20  0000 L CNN
+F 1 "LED" V 4875 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5025 10000 50  0001 C CNN
+F 3 "" H 5025 10000 50  0001 C CNN
+	1    5025 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED41
+U 1 1 5DAFB656
+P 5300 10000
+F 0 "LED41" V 5175 10025 20  0000 L CNN
+F 1 "LED" V 5150 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5300 10000 50  0001 C CNN
+F 3 "" H 5300 10000 50  0001 C CNN
+	1    5300 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED42
+U 1 1 5DAFB65D
+P 5575 10000
+F 0 "LED42" V 5450 10025 20  0000 L CNN
+F 1 "LED" V 5425 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5575 10000 50  0001 C CNN
+F 3 "" H 5575 10000 50  0001 C CNN
+	1    5575 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED43
+U 1 1 5DAFB664
+P 5850 10000
+F 0 "LED43" V 5725 10025 20  0000 L CNN
+F 1 "LED" V 5700 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5850 10000 50  0001 C CNN
+F 3 "" H 5850 10000 50  0001 C CNN
+	1    5850 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED44
+U 1 1 5DAFB66B
+P 6125 10000
+F 0 "LED44" V 6000 10025 20  0000 L CNN
+F 1 "LED" V 5975 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6125 10000 50  0001 C CNN
+F 3 "" H 6125 10000 50  0001 C CNN
+	1    6125 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED45
+U 1 1 5DAFB672
+P 6400 10000
+F 0 "LED45" V 6275 10025 20  0000 L CNN
+F 1 "LED" V 6250 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6400 10000 50  0001 C CNN
+F 3 "" H 6400 10000 50  0001 C CNN
+	1    6400 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED46
+U 1 1 5DAFB679
+P 6675 10000
+F 0 "LED46" V 6550 10025 20  0000 L CNN
+F 1 "LED" V 6525 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6675 10000 50  0001 C CNN
+F 3 "" H 6675 10000 50  0001 C CNN
+	1    6675 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED47
+U 1 1 5DAFB680
+P 6950 10000
+F 0 "LED47" V 6825 10025 20  0000 L CNN
+F 1 "LED" V 6800 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 6950 10000 50  0001 C CNN
+F 3 "" H 6950 10000 50  0001 C CNN
+	1    6950 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED48
+U 1 1 5DAFB687
+P 7225 10000
+F 0 "LED48" V 7100 10025 20  0000 L CNN
+F 1 "LED" V 7075 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 7225 10000 50  0001 C CNN
+F 3 "" H 7225 10000 50  0001 C CNN
+	1    7225 10000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 10150 7225 10150
+Wire Wire Line
+	7500 8050 7500 8775
+Connection ~ 4475 10150
+Wire Wire Line
+	4475 10150 4200 10150
+Connection ~ 4750 10150
+Wire Wire Line
+	4750 10150 4475 10150
+Connection ~ 5025 10150
+Wire Wire Line
+	5025 10150 4750 10150
+Connection ~ 5300 10150
+Wire Wire Line
+	5300 10150 5025 10150
+Connection ~ 5575 10150
+Wire Wire Line
+	5575 10150 5400 10150
+Connection ~ 5850 10150
+Wire Wire Line
+	5850 10150 5675 10150
+Connection ~ 6125 10150
+Wire Wire Line
+	6125 10150 5950 10150
+Connection ~ 6400 10150
+Wire Wire Line
+	6400 10150 6125 10150
+Connection ~ 6675 10150
+Wire Wire Line
+	6675 10150 6400 10150
+Connection ~ 6950 10150
+Wire Wire Line
+	6950 10150 6675 10150
+Connection ~ 7225 10150
+Wire Wire Line
+	7225 10150 6950 10150
+Wire Wire Line
+	7500 9475 7225 9475
+Connection ~ 7500 9475
+Wire Wire Line
+	7500 9475 7500 10150
+Connection ~ 4475 9475
+Wire Wire Line
+	4475 9475 4200 9475
+Connection ~ 4750 9475
+Wire Wire Line
+	4750 9475 4475 9475
+Connection ~ 5025 9475
+Wire Wire Line
+	5025 9475 4750 9475
+Connection ~ 5300 9475
+Wire Wire Line
+	5300 9475 5025 9475
+Connection ~ 5575 9475
+Wire Wire Line
+	5575 9475 5300 9475
+Connection ~ 5850 9475
+Wire Wire Line
+	5850 9475 5575 9475
+Connection ~ 6125 9475
+Wire Wire Line
+	6125 9475 5850 9475
+Connection ~ 6400 9475
+Wire Wire Line
+	6400 9475 6125 9475
+Connection ~ 6675 9475
+Wire Wire Line
+	6675 9475 6400 9475
+Connection ~ 6950 9475
+Wire Wire Line
+	6950 9475 6675 9475
+Connection ~ 7225 9475
+Wire Wire Line
+	7225 9475 6950 9475
+Wire Wire Line
+	4200 8775 4475 8775
+Connection ~ 7500 8775
+Wire Wire Line
+	7500 8775 7500 9475
+Connection ~ 4475 8775
+Wire Wire Line
+	4475 8775 4750 8775
+Connection ~ 4750 8775
+Wire Wire Line
+	4750 8775 5025 8775
+Connection ~ 5025 8775
+Wire Wire Line
+	5025 8775 5300 8775
+Connection ~ 5300 8775
+Wire Wire Line
+	5300 8775 5575 8775
+Connection ~ 5575 8775
+Wire Wire Line
+	5575 8775 5850 8775
+Connection ~ 5850 8775
+Wire Wire Line
+	5850 8775 6125 8775
+Connection ~ 6125 8775
+Wire Wire Line
+	6125 8775 6400 8775
+Connection ~ 6400 8775
+Wire Wire Line
+	6400 8775 6675 8775
+Connection ~ 6675 8775
+Wire Wire Line
+	6675 8775 6950 8775
+Connection ~ 6950 8775
+Wire Wire Line
+	6950 8775 7225 8775
+Connection ~ 7225 8775
+Wire Wire Line
+	7225 8775 7500 8775
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5C564495
+P 14500 7550
+F 0 "U1" H 14500 6350 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 14500 6475 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 14500 7550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14500 7550 50  0001 C CNN
+	1    14500 7550
+	1    0    0    -1  
+$EndComp
+Text GLabel 15125 8750 2    50   Input ~ 0
+Row2
+Wire Wire Line
+	15125 8750 15100 8750
+NoConn ~ 15150 6250
+$Comp
+L Keyboard_switches:LED LED49
+U 1 1 5DD1C8D4
+P 5400 10000
+F 0 "LED49" V 5275 10025 20  0000 L CNN
+F 1 "LED" V 5250 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5400 10000 50  0001 C CNN
+F 3 "" H 5400 10000 50  0001 C CNN
+	1    5400 10000
+	0    1    1    0   
+$EndComp
+Connection ~ 5400 10150
+Wire Wire Line
+	5400 10150 5300 10150
+$Comp
+L Keyboard_switches:LED LED50
+U 1 1 5DD1CD7B
+P 5675 10000
+F 0 "LED50" V 5550 10025 20  0000 L CNN
+F 1 "LED" V 5525 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5675 10000 50  0001 C CNN
+F 3 "" H 5675 10000 50  0001 C CNN
+	1    5675 10000
+	0    1    1    0   
+$EndComp
+Connection ~ 5675 10150
+Wire Wire Line
+	5675 10150 5575 10150
+$Comp
+L Keyboard_switches:LED LED51
+U 1 1 5DD1D242
+P 5950 10000
+F 0 "LED51" V 5825 10025 20  0000 L CNN
+F 1 "LED" V 5800 10025 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 5950 10000 50  0001 C CNN
+F 3 "" H 5950 10000 50  0001 C CNN
+	1    5950 10000
+	0    1    1    0   
+$EndComp
+Connection ~ 5950 10150
+Wire Wire Line
+	5950 10150 5850 10150
+$Comp
+L Keyboard_switches:AO4406AL Q1
+U 1 1 5DDB1E0B
+P 4200 10350
+F 0 "Q1" H 4306 10372 50  0000 L CNN
+F 1 "AO4406AL" H 4306 10305 20  0000 L CNN
+F 2 "" H 4200 10350 50  0001 C CNN
+F 3 "" H 4200 10350 50  0001 C CNN
+	1    4200 10350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 10150
 $EndSCHEMATC
