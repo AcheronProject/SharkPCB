@@ -2216,7 +2216,6 @@ Wire Wire Line
 Wire Wire Line
 	14550 4575 14550 4625
 NoConn ~ 15100 8450
-NoConn ~ 15100 6650
 $Comp
 L Device:C_Small C7
 U 1 1 5C192852
@@ -4051,7 +4050,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    14500 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 15150 6350 2    50   Input ~ 0
+Text GLabel 15150 6650 2    50   Input ~ 0
 Row2
 $Comp
 L Keyboard_switches:LED LED49
@@ -4107,8 +4106,9 @@ F 3 "" H 4200 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4200 10150
-Wire Wire Line
-	15150 6350 15100 6350
 NoConn ~ 15100 6150
 NoConn ~ 15100 8750
+Wire Wire Line
+	15150 6650 15100 6650
+NoConn ~ 15100 6350
 $EndSCHEMATC

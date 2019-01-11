@@ -4111,4 +4111,17 @@ NoConn ~ 15100 8750
 Wire Wire Line
 	15150 6650 15100 6650
 NoConn ~ 15100 6350
+Text Notes 13200 4400 0    50   ~ 0
+ESD Protection
+$Comp
+L Mechanical:MountingHole L1
+U 1 1 5C54F135
+P 15300 3450
+F 0 "L1" H 15400 3496 50  0000 L CNN
+F 1 "Logo" H 15400 3405 50  0000 L CNN
+F 2 "sharkLogo:sharkLogo" H 15300 3450 50  0001 C CNN
+F 3 "~" H 15300 3450 50  0001 C CNN
+	1    15300 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

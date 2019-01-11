@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/alvaro/Desktop/SharkPCB/shark.sch)
-    (date "Fri 11 Jan 2019 04:31:49 PM -02")
+    (date "Fri 11 Jan 2019 05:13:49 PM -02")
     (tool "Eeschema 5.0.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1548,7 +1548,14 @@
       (footprint Keyboard_switches:AO4406AL)
       (libsource (lib Keyboard_switches) (part AO4406AL) (description ""))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5DDB1E0B)))
+      (tstamp 5DDB1E0B))
+    (comp (ref L1)
+      (value Logo)
+      (footprint sharkLogo:sharkLogo)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5C54F135)))
   (libparts
     (libpart (lib Connector) (part USB_B_Micro)
       (aliases
