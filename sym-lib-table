@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Keyboard_switches)(type Legacy)(uri /home/alvaro/Desktop/MX/Keyboard_switches.lib)(options "")(descr ""))
+  (lib (name stm32f303cct7)(type Legacy)(uri /home/alvaro/Desktop/MX/stm32f303cct7.lib)(options "")(descr ""))
 )
