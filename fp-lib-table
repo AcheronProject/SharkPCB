@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name sharkLogo)(type KiCad)(uri ${KIPRJMOD}/sharkLogo/sharkLogo.pretty)(options "")(descr ""))
   (lib (name Keyboard_switches)(type KiCad)(uri /home/alvaro/Desktop/MX/Keyboard_switches.pretty)(options "")(descr ""))
+  (lib (name USBconnector)(type KiCad)(uri /home/alvaro/Desktop/MX/USBconnector)(options "")(descr ""))
 )
