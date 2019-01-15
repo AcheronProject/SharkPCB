@@ -12,19 +12,19 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
 
 # Changelog and version control
 
-## **12/01/19 (V3.0.1)**:
+## **2019/01/12 (V3.0.1)**:
 
 Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor
 
-## **13/01/19 (V3.0.2)**:
+## **2019/01/13 (V3.0.2)**:
 
 Added USBC connector
 
-## **14/01/19 (V3.0.3)**:
+## **2019/01/14 (V3.0.3)**:
 
 Added RGB underglow with the WS2812B
 
-## **15/01/19 (V3.0.3)**:
+## **2019/01/15 (V3.0.4)**:
 
 Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
 
