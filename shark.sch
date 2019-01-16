@@ -4479,10 +4479,10 @@ Text GLabel 2825 10050 1    50   Input ~ 0
 5V
 Wire Wire Line
 	2825 10050 2825 10100
-Text GLabel 15375 8075 2    50   Output ~ 0
+Text GLabel 15375 8175 2    50   Output ~ 0
 RGB_PWM
 Wire Wire Line
-	15375 8075 15300 8075
+	15375 8175 15300 8175
 Text GLabel 2475 9525 0    50   Input ~ 0
 RGB_PWM
 Text GLabel 2475 10450 0    50   Input ~ 0

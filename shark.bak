@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
 Date "2019-01-13"
-Rev "Rev 3.0"
+Rev "Rev 3.0.4"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
