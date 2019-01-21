@@ -28,10 +28,15 @@ Added RGB underglow with the WS2812B
 
 Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
 
+## **2019/01/21 (V3.0.5)**:
+
+Solved a problem with connector wiring and added a nice render to the README
+
 # To-do list
-- [ ] Finish the porting to STM32 (as suggested by Walkerstop from GH)
-- [ ] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
+- [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
+- [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
+- [ ] Finish SMD design
 - [ ] Finish THT design
 - [ ] Prototype SMD design
 - [ ] Prototype THT design
