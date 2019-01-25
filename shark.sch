@@ -4514,23 +4514,23 @@ Wire Notes Line
 	7875 9150 7875 10125
 Text GLabel 5875 8750 0    50   Input ~ 0
 3.3V
-Text GLabel 15375 9125 2    50   Input ~ 0
+Text GLabel 15375 9275 2    50   Input ~ 0
 Col7
 Wire Wire Line
-	15375 9125 15300 9125
+	15375 9275 15300 9275
 Text GLabel 15375 8725 2    50   Input ~ 0
 Row3
-Text GLabel 15375 9275 2    50   Input ~ 0
+Text GLabel 15375 7975 2    50   Input ~ 0
 Row2
 Wire Wire Line
-	15375 9275 15300 9275
+	15375 7975 15300 7975
 Text GLabel 15375 8825 2    50   Input ~ 0
 Row4
 Wire Wire Line
 	15375 8825 15300 8825
 Wire Wire Line
 	15375 8725 15300 8725
-Text GLabel 15375 9125 2    50   Input ~ 0
+Text GLabel 15375 9275 2    50   Input ~ 0
 Col7
 Text GLabel 15375 8625 2    50   Input ~ 0
 Col6
