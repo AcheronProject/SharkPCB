@@ -3634,12 +3634,12 @@ ESD Protection
 $Comp
 L Mechanical:MountingHole L1
 U 1 1 5C54F135
-P 14625 3700
-F 0 "L1" H 14725 3746 50  0000 L CNN
-F 1 "Logo" H 14725 3655 50  0000 L CNN
-F 2 "sharkLogo:sharkLogo" H 14625 3700 50  0001 C CNN
-F 3 "~" H 14625 3700 50  0001 C CNN
-	1    14625 3700
+P 14625 3525
+F 0 "L1" H 14725 3571 50  0000 L CNN
+F 1 "Logo" H 14725 3480 50  0000 L CNN
+F 2 "sharkLogo:sharkLogo" H 14625 3525 50  0001 C CNN
+F 3 "~" H 14625 3525 50  0001 C CNN
+	1    14625 3525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4552,4 +4552,15 @@ Text GLabel 15375 7975 2    50   Input ~ 0
 Col10
 Wire Wire Line
 	15375 7975 15300 7975
+$Comp
+L Mechanical:MountingHole L2
+U 1 1 5C525928
+P 14625 3750
+F 0 "L2" H 14725 3796 50  0000 L CNN
+F 1 "LogoBack" H 14725 3705 50  0000 L CNN
+F 2 "sharkLogo:skark" H 14625 3750 50  0001 C CNN
+F 3 "~" H 14625 3750 50  0001 C CNN
+	1    14625 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

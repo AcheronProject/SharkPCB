@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/alvaro/Desktop/SharkPCB/shark.sch)
-    (date "Fri 25 Jan 2019 02:50:57 PM -02")
+    (date "Sat 26 Jan 2019 11:17:03 AM -02")
     (tool "Eeschema 5.0.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1673,7 +1673,14 @@
       (datasheet http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657)
       (libsource (lib Transistor_BJT) (part BC847) (description "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5D237915)))
+      (tstamp 5D237915))
+    (comp (ref L2)
+      (value LogoBack)
+      (footprint sharkLogo:skark)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5C525928)))
   (libparts
     (libpart (lib Connector) (part USB_C_Receptacle)
       (description "USB Full-Featured Type-C Receptacle connector")
