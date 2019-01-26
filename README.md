@@ -32,6 +32,15 @@ Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
 
 Solved a problem with connector wiring and added a nice render to the README
 
+## **2019/01/26 (V3.0.6)**
+
+Changed components to SMD.
+
+Added Blender renders.
+
+Updated preview.
+
+
 # To-do list
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
