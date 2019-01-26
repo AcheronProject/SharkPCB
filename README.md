@@ -6,7 +6,7 @@ The gerber files also contain a plate file, from which a plate can be made of FR
 
 # Board preview (version 2.2.1)
 
-![Alt text](boardPreview.png)
+![Alt text](./renders/frontRender.png)
 
 This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
