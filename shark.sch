@@ -4518,40 +4518,36 @@ Text GLabel 15375 9275 2    50   Input ~ 0
 Col7
 Wire Wire Line
 	15375 9275 15300 9275
-Text GLabel 15375 8725 2    50   Input ~ 0
+Text GLabel 15375 6625 2    50   Input ~ 0
 Row3
 Text GLabel 15375 7875 2    50   Input ~ 0
 Row2
 Wire Wire Line
 	15375 7875 15300 7875
-Text GLabel 15375 8825 2    50   Input ~ 0
+Text GLabel 15375 8075 2    50   Input ~ 0
 Row4
 Wire Wire Line
-	15375 8825 15300 8825
+	15375 8075 15300 8075
 Wire Wire Line
-	15375 8725 15300 8725
+	15375 6625 15300 6625
 Text GLabel 15375 9275 2    50   Input ~ 0
 Col7
 Text GLabel 15375 8625 2    50   Input ~ 0
 Col6
 Wire Wire Line
 	15375 8625 15300 8625
-Text GLabel 15375 6625 2    50   Input ~ 0
-Col10
-Wire Wire Line
-	15375 6625 15300 6625
 Text GLabel 15375 6725 2    50   Input ~ 0
 Col8
 Wire Wire Line
 	15375 6725 15300 6725
-Text GLabel 15375 7125 2    50   Input ~ 0
+Text GLabel 15375 6525 2    50   Input ~ 0
 Col11
 Wire Wire Line
-	15375 7125 15300 7125
-Text GLabel 15375 7975 2    50   Input ~ 0
+	15375 6525 15300 6525
+Text GLabel 15375 9125 2    50   Input ~ 0
 Col10
 Wire Wire Line
-	15375 7975 15300 7975
+	15375 9125 15300 9125
 $Comp
 L Mechanical:MountingHole L2
 U 1 1 5C525928
@@ -4563,4 +4559,8 @@ F 3 "~" H 14625 3750 50  0001 C CNN
 	1    14625 3750
 	1    0    0    -1  
 $EndComp
+Text GLabel 15375 7225 2    50   Input ~ 0
+Col12
+Wire Wire Line
+	15375 7225 15300 7225
 $EndSCHEMATC
