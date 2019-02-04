@@ -2004,7 +2004,7 @@ U 1 1 5C3B52F4
 P 7025 6775
 F 0 "H12" H 7125 6826 50  0000 L CNN
 F 1 "CASE" H 7125 6735 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7025 6775 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 7025 6775 50  0001 C CNN
 F 3 "~" H 7025 6775 50  0001 C CNN
 	1    7025 6775
 	1    0    0    -1  
@@ -4441,10 +4441,10 @@ Wire Wire Line
 Connection ~ 3475 10800
 Wire Wire Line
 	3475 10800 4125 10800
-Text GLabel 15375 6875 2    50   Output ~ 0
+Text GLabel 15375 6625 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
-	15375 6875 15300 6875
+	15375 6625 15300 6625
 Text GLabel 2825 9100 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -4516,7 +4516,7 @@ Text GLabel 15375 9275 2    50   Input ~ 0
 Col1
 Wire Wire Line
 	15375 9275 15300 9275
-Text GLabel 15375 6625 2    50   Input ~ 0
+Text GLabel 15375 6725 2    50   Input ~ 0
 Row3
 Text GLabel 15375 7875 2    50   Input ~ 0
 Row2
@@ -4527,7 +4527,7 @@ Row4
 Wire Wire Line
 	15375 8075 15300 8075
 Wire Wire Line
-	15375 6625 15300 6625
+	15375 6725 15300 6725
 Text GLabel 15375 8625 2    50   Input ~ 0
 Col7
 Wire Wire Line
