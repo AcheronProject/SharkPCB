@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7.698698mm"
+   height="5.2016926mm"
+   viewBox="0 0 7.698698 5.2016925"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="brazilFlag.svg"
+   inkscape:export-filename="/home/alvaro/Desktop/SharkPCB/sharkLogo/brazilFlag.png"
+   inkscape:export-xdpi="10000"
+   inkscape:export-ydpi="10000">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="9.5076931"
+     inkscape:cy="-33.035124"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-center="true"
+     inkscape:snap-nodes="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="1920"
+     inkscape:window-y="220"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815"
+       empspacing="10"
+       originx="-61.246487"
+       originy="-177.43482" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.246483,-114.36347)">
+    <rect
+       ry="0.15140994"
+       y="114.14246"
+       x="60.886017"
+       height="5.6437268"
+       width="8.419632"
+       id="rect893"
+       style="fill:#fffff3;fill-opacity:0.86530612;stroke:none;stroke-width:0.1389617;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 63.453521,116.37591 c 0,0 0.992799,0.0529 1.723303,0.20475 0.730504,0.15189 1.580321,0.48214 1.580321,0.48214"
+       id="path829"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czc" />
+    <path
+       sodipodi:nodetypes="czc"
+       inkscape:connector-curvature="0"
+       id="path831"
+       d="m 63.207463,116.9639 c 0,0 0.992798,0.0529 1.723303,0.20475 0.730504,0.15189 1.580321,0.48214 1.580321,0.48214"
+       style="fill:none;stroke:#000000;stroke-width:0.075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#110000;stroke-width:0.125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path825"
+       cx="65"
+       cy="117"
+       r="1.7136544" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#110000;stroke-width:0.13808002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827"
+       width="4.1424026"
+       height="4.1424026"
+       x="141.29071"
+       y="62.696789"
+       ry="7.8489724e-15"
+       transform="matrix(0.82703602,0.56214893,-0.82703602,0.56214893,0,0)" />
+    <rect
+       style="fill:none;fill-opacity:0.86530612;stroke:#110000;stroke-width:0.125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect891"
+       width="7.573698"
+       height="5.0766926"
+       x="61.308983"
+       y="114.42597"
+       ry="0.13619754" />
+  </g>
+</svg>

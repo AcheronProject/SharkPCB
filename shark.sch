@@ -4441,10 +4441,10 @@ Wire Wire Line
 Connection ~ 3475 10800
 Wire Wire Line
 	3475 10800 4125 10800
-Text GLabel 15375 6875 2    50   Output ~ 0
+Text GLabel 15375 6625 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
-	15375 6875 15300 6875
+	15375 6625 15300 6625
 Text GLabel 2825 9100 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -4479,10 +4479,8 @@ Text GLabel 2825 10050 1    50   Input ~ 0
 5V
 Wire Wire Line
 	2825 10050 2825 10100
-Text GLabel 15375 8175 2    50   Output ~ 0
+Text GLabel 15400 8425 2    50   Output ~ 0
 RGB_PWM
-Wire Wire Line
-	15375 8175 15300 8175
 Text GLabel 2475 9525 0    50   Input ~ 0
 RGB_PWM
 Text GLabel 2475 10450 0    50   Input ~ 0
@@ -4515,10 +4513,10 @@ Wire Notes Line
 Text GLabel 5875 8750 0    50   Input ~ 0
 3.3V
 Text GLabel 15375 9275 2    50   Input ~ 0
-Col7
+Col1
 Wire Wire Line
 	15375 9275 15300 9275
-Text GLabel 15375 6625 2    50   Input ~ 0
+Text GLabel 15375 6725 2    50   Input ~ 0
 Row3
 Text GLabel 15375 7875 2    50   Input ~ 0
 Row2
@@ -4529,17 +4527,11 @@ Row4
 Wire Wire Line
 	15375 8075 15300 8075
 Wire Wire Line
-	15375 6625 15300 6625
-Text GLabel 15375 9275 2    50   Input ~ 0
-Col7
+	15375 6725 15300 6725
 Text GLabel 15375 8625 2    50   Input ~ 0
-Col6
+Col7
 Wire Wire Line
 	15375 8625 15300 8625
-Text GLabel 15375 6725 2    50   Input ~ 0
-Col8
-Wire Wire Line
-	15375 6725 15300 6725
 Text GLabel 15375 6525 2    50   Input ~ 0
 Col11
 Wire Wire Line
@@ -4563,4 +4555,38 @@ Text GLabel 15375 7225 2    50   Input ~ 0
 Col12
 Wire Wire Line
 	15375 7225 15300 7225
+Text GLabel 13050 7925 0    50   Input ~ 0
+Col2
+Wire Wire Line
+	13050 7925 13100 7925
+Text GLabel 13050 8025 0    50   Input ~ 0
+Col3
+Wire Wire Line
+	13050 8025 13100 8025
+Text GLabel 15375 9025 2    50   Input ~ 0
+Col4
+Wire Wire Line
+	15375 9025 15300 9025
+Text GLabel 15375 8925 2    50   Input ~ 0
+Col5
+Wire Wire Line
+	15375 8925 15300 8925
+Text GLabel 15375 8825 2    50   Input ~ 0
+Col6
+Wire Wire Line
+	15375 8825 15300 8825
+Text GLabel 15375 8725 2    50   Input ~ 0
+Col8
+Wire Wire Line
+	15375 8725 15300 8725
+Text GLabel 15375 8525 2    50   Input ~ 0
+Col9
+Wire Wire Line
+	15375 8525 15300 8525
+Text GLabel 15375 7125 2    50   Input ~ 0
+Row1
+Wire Wire Line
+	15375 7125 15300 7125
+Wire Wire Line
+	15400 8425 15300 8425
 $EndSCHEMATC
