@@ -47,7 +47,9 @@ Updated preview.
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
-- [ ] Finish SMD design
+- [x] Finish SMD design
 - [ ] Finish THT design
+- [ ] Sent SMD design to fabrication
 - [ ] Prototype SMD design
+- [ ] Sent THT design to fabrication
 - [ ] Prototype THT design
