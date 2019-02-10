@@ -4589,4 +4589,26 @@ Wire Wire Line
 	15375 7125 15300 7125
 Wire Wire Line
 	15400 8425 15300 8425
+$Comp
+L Mechanical:MountingHole L3
+U 1 1 5C66B5D5
+P 14625 3975
+F 0 "L3" H 14725 4021 50  0000 L CNN
+F 1 "OSHLogo" H 14725 3930 50  0000 L CNN
+F 2 "sharkLogo:osh-logo" H 14625 3975 50  0001 C CNN
+F 3 "~" H 14625 3975 50  0001 C CNN
+	1    14625 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L4
+U 1 1 5C66D4A4
+P 14625 4200
+F 0 "L4" H 14725 4246 50  0000 L CNN
+F 1 "BrazilianFlag" H 14725 4155 50  0000 L CNN
+F 2 "sharkLogo:brazilFlag" H 14625 4200 50  0001 C CNN
+F 3 "~" H 14625 4200 50  0001 C CNN
+	1    14625 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
