@@ -1762,61 +1762,6 @@ Wire Wire Line
 	14350 4950 14550 4950
 Wire Wire Line
 	14850 4950 15050 4950
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5D038FCF
-P 14625 2500
-F 0 "H7" H 14725 2546 50  0000 L CNN
-F 1 "MountingHole" H 14725 2455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2500 50  0001 C CNN
-F 3 "~" H 14625 2500 50  0001 C CNN
-	1    14625 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 5D03B7BC
-P 14625 2700
-F 0 "H8" H 14725 2746 50  0000 L CNN
-F 1 "MountingHole" H 14725 2655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2700 50  0001 C CNN
-F 3 "~" H 14625 2700 50  0001 C CNN
-	1    14625 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 5D03B8D6
-P 14625 2900
-F 0 "H9" H 14725 2946 50  0000 L CNN
-F 1 "MountingHole" H 14725 2855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2900 50  0001 C CNN
-F 3 "~" H 14625 2900 50  0001 C CNN
-	1    14625 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 5C00FDC2
-P 14625 3100
-F 0 "H10" H 14725 3146 50  0000 L CNN
-F 1 "MountingHole" H 14725 3055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 3100 50  0001 C CNN
-F 3 "~" H 14625 3100 50  0001 C CNN
-	1    14625 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H11
-U 1 1 5C00FEDC
-P 14625 3300
-F 0 "H11" H 14725 3346 50  0000 L CNN
-F 1 "MountingHole" H 14725 3255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 3300 50  0001 C CNN
-F 3 "~" H 14625 3300 50  0001 C CNN
-	1    14625 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5725 4325 6725 4325
 Wire Wire Line
