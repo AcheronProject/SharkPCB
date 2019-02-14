@@ -60,7 +60,7 @@ In the ./bom/ folder there is an .xlsx file that can be uploaded directly into t
 If you don't want to order them from LCSC, the table below can be used.
 
 | Description  | Value | Package | Quantity |
-| ------------- | :-------------: |
+| ------------- | :-------------: | :-------------: | :-------------: |
 | USB Connector | - | TYPE-C-31-M-12  | 1 |
 | C1 and C2 | 22pF | 0805  | 2 |
 | C7, C9, CRST1, CRST2 | 4.7nF | 0805| 4 | 
