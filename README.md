@@ -2,7 +2,7 @@
 
 This is a project to make a freely available, open-source 40% keyboard Printed Circuit Board (PCB). The board is compatible with Planck plates and cases and supports three layouts: full grid, 1x2U spacebar and 2x2U spacebar.
 
-The gerber files also contain a plate file, from which a plate can be made of FR4 (the same material as the circuit board) in the same factory as the PCB itself.
+The gerber files also contain plate files, from which plates can be made of FR4 (the same material as the circuit board) in the same factory as the PCB itself.
 
 # Board preview (version 3.0.6)
 
@@ -73,7 +73,7 @@ If you don't want to order them from LCSC, the table below can be used.
 | DF1 | RB060M-60TR Schottky Diode | SOD-123 | 1 | 
 | QRST | BC846 NPN BJT | SOT-23 | 1 | 
 | RCC | 5.1kOhm | 1206 | 1 | 
-| RD+ and RD- | 22ROhm | 1206 || 2 | 
+| RD+ and RD- | 22ROhm | 1206 | 2 | 
 | RD+Up | 1.5kOhm | 1206 |  1 | 
 | RPGate | 10kOhm | 1206 | 1 | 
 | RRST | 100kOhm|  1206	| 1 | 
