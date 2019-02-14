@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-01-13"
-Rev "Rev 3.0.4"
+Date "2019-02-13"
+Rev "Rev 3.0.7"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -3801,7 +3801,7 @@ U 1 1 5E070BED
 P 6075 8750
 F 0 "SWRST1" H 6075 8950 31  0000 C CNN
 F 1 "SW_Push" H 6075 8929 31  0001 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem" H 6075 8950 50  0001 C CNN
+F 2 "smdPushBtn:smdPushBtn" H 6075 8950 50  0001 C CNN
 F 3 "" H 6075 8950 50  0001 C CNN
 	1    6075 8750
 	1    0    0    -1  
@@ -4192,7 +4192,7 @@ U 1 1 5FDEF82F
 P 14700 4950
 F 0 "Y1" H 14775 5225 50  0000 L CNN
 F 1 "8MHz" H 14750 5150 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 14700 4950 50  0001 C CNN
+F 2 "crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 14700 4950 50  0001 C CNN
 F 3 "~" H 14700 4950 50  0001 C CNN
 	1    14700 4950
 	1    0    0    -1  
@@ -4554,6 +4554,17 @@ F 1 "BrazilianFlag" H 14725 4155 50  0000 L CNN
 F 2 "sharkLogo:brazilFlag" H 14625 4200 50  0001 C CNN
 F 3 "~" H 14625 4200 50  0001 C CNN
 	1    14625 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L5
+U 1 1 5C6AAB95
+P 15375 4200
+F 0 "L5" H 15475 4246 50  0000 L CNN
+F 1 "usFlag" H 15475 4155 50  0000 L CNN
+F 2 "sharkLogo:usFlag" H 15375 4200 50  0001 C CNN
+F 3 "~" H 15375 4200 50  0001 C CNN
+	1    15375 4200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

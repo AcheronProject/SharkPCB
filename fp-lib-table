@@ -2,4 +2,7 @@
   (lib (name sharkLogo)(type KiCad)(uri ${KIPRJMOD}/sharkLogo/sharkLogo.pretty)(options "")(descr ""))
   (lib (name Keyboard_switches)(type KiCad)(uri /home/alvaro/Desktop/MX/Keyboard_switches.pretty)(options "")(descr ""))
   (lib (name USBconnector)(type KiCad)(uri /home/alvaro/Desktop/MX/USBconnector)(options "")(descr ""))
+  (lib (name switchSlots)(type KiCad)(uri /home/alvaro/Desktop/MX/switchSlots.pretty)(options "")(descr ""))
+  (lib (name smdPushBtn)(type KiCad)(uri /home/alvaro/Desktop/MX/smdPushBtn.pretty)(options "")(descr ""))
+  (lib (name crystal)(type KiCad)(uri /home/alvaro/Desktop/MX/crystal.pretty)(options "")(descr ""))
 )
