@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
-    (tracks 0)
+    (drawings 9)
+    (tracks 6)
     (zones 0)
     (modules 46)
     (nets 1)
@@ -946,12 +946,7 @@
     (fp_line (start 16.2 -7) (end -16.2 -7) (layer Edge.Cuts) (width 0.15))
   )
 
-  (gr_circle (center 205.463 102.743) (end 207.541125 102.743) (layer Edge.Cuts) (width 0.15) (tstamp 5C64B538))
-  (gr_circle (center 148.463 102.743) (end 149.963 102.743) (layer Edge.Cuts) (width 0.15) (tstamp 5C710014))
   (gr_circle (center 243.463 83.743) (end 244.963 83.743) (layer Edge.Cuts) (width 0.15) (tstamp 5C710008))
-  (gr_circle (center 243.463 121.743) (end 244.963 121.743) (layer Edge.Cuts) (width 0.15) (tstamp 5C70FFFD))
-  (gr_circle (center 53.463 121.743) (end 54.963 121.743) (layer Edge.Cuts) (width 0.15) (tstamp 5C70FFFB))
-  (gr_circle (center 53.463 83.743) (end 54.963 83.743) (layer Edge.Cuts) (width 0.15) (tstamp 5C70FFE4))
   (gr_arc (start 33.720426 64.000682) (end 33.720426 62.219426) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5C7107A3))
   (gr_line (start 31.93917 64.000682) (end 31.93917 141.485318) (layer Edge.Cuts) (width 0.15) (tstamp 5C7107A2))
   (gr_arc (start 33.720426 141.485318) (end 31.93917 141.485318) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5C7107A1))
@@ -960,5 +955,12 @@
   (gr_arc (start 263.205574 64.000682) (end 264.98683 64.000682) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 33.720426 143.266574) (end 263.205574 143.266574) (layer Edge.Cuts) (width 0.15) (tstamp 5C710181))
   (gr_line (start 33.720426 62.219426) (end 263.205574 62.219426) (layer Edge.Cuts) (width 0.15))
+
+  (via (at 243.4646 83.74268) (size 4) (drill 3) (layers F.Cu B.Cu) (net 0))
+  (via (at 243.4646 121.74332) (size 4) (drill 3) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFD4D))
+  (via (at 53.4614 121.74332) (size 4) (drill 3) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFD55))
+  (via (at 53.4614 83.74268) (size 4) (drill 3) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFD56))
+  (via (at 148.463 102.743) (size 4) (drill 3) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFD5F))
+  (via (at 205.46396 102.743) (size 5) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFD63))
 
 )
