@@ -4,7 +4,7 @@ This is a project to make a freely available, open-source 40% keyboard Printed C
 
 The gerber files also contain plate files, from which plates can be made of FR4 (the same material as the circuit board) in the same factory as the PCB itself.
 
-# Board preview (version 3.0.6)
+# Board preview (version 3.1)
 
 ![Alt text](./renders/frontRender.png)
 
