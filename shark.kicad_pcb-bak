@@ -12,8 +12,8 @@
   (page A4)
   (title_block
     (title SharkPCB)
-    (date 2019-02-13)
-    (rev V3.0.7)
+    (date 2019-02-20)
+    (rev V3.1)
     (company "Gondolin Electronics")
   )
 
@@ -13297,7 +13297,7 @@
   (gr_line (start 35.6505 133.321125) (end 35.6505 72.164875) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 255.338 139.258625) (end 41.588 139.258625) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 261.2755 72.164875) (end 261.2755 133.321125) (layer Edge.Cuts) (width 0.15))
-  (gr_text "GondolinElectronics UndecidedSharkPCB v3.0.7\n\"I like the nick 'Shark', but I'm so undecided\"\nShark illustration by Yohan Plantec at vectorportal.com" (at 109.2755 102.743) (layer F.SilkS)
+  (gr_text "GondolinElectronics UndecidedSharkPCB v3.1\n\"I like the nick 'Shark', but I'm so undecided\"\nShark illustration by Yohan Plantec at vectorportal.com" (at 109.2755 102.743) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.0762)))
   )
   (gr_line (start 230.103623 66.227375) (end 255.338 66.227375) (layer Edge.Cuts) (width 0.15))

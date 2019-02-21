@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/"))
+      (outputdirectory "../../gerbers/2Space/"))
   )
 
   (net 0 "")

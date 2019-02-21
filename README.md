@@ -71,7 +71,7 @@ If you don't want to order them from LCSC, the table below can be used.
 | (Poly)Fuse | 1.5A trip | 0805 | 1 | 
 | R5 and R6 | 1MOhm | 1206 | 2 | 
 | Q1 | AO4406AL | SOIC8 | 1 | 
-| CSin1, CSout1, CVBus1-3 | 100nF | 0805 | 5 | 
+| CSin1, CSout1, CVBus1-3, CA1, CB1 | 100nF | 0805 | 7 | 
 | CVBus4 | 1uF | 0805 | 1 | 
 | CVBus5 | 4.7uF | 0805 | 1 | 
 | DF1 | RB060M-60TR Schottky Diode | SOD-123 | 1 | 
@@ -79,7 +79,7 @@ If you don't want to order them from LCSC, the table below can be used.
 | RCC | 5.1kOhm | 1206 | 1 | 
 | RD+ and RD- | 22ROhm | 1206 | 2 | 
 | RD+Up | 1.5kOhm | 1206 |  1 | 
-| RPGate | 10kOhm | 1206 | 1 | 
+| RPGate, RB1/2, RA1/2 | 10kOhm | 1206 | 5 | 
 | RRST | 100kOhm|  1206	| 1 | 
 | RSGate1 | 1kOhm | 1206 | 1 | 
 | SWRST1 |SMD Push Button | - | 1 | 
