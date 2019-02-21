@@ -50,6 +50,10 @@ Rounded corners to fit the Planck Low-Pro case (as suggestged by garbo from Geek
 
 Adjusted 3D models of crystal and Push Button.
 
+## **2019/02/20 (V3.1)**
+
+Added rotary encoder support.
+
 *This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.* 
 
 

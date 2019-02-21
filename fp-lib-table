@@ -5,4 +5,5 @@
   (lib (name switchSlots)(type KiCad)(uri /home/alvaro/Desktop/MX/switchSlots.pretty)(options "")(descr ""))
   (lib (name smdPushBtn)(type KiCad)(uri /home/alvaro/Desktop/MX/smdPushBtn.pretty)(options "")(descr ""))
   (lib (name crystal)(type KiCad)(uri /home/alvaro/Desktop/MX/crystal.pretty)(options "")(descr ""))
+  (lib (name encoders)(type KiCad)(uri /home/alvaro/Desktop/MX/encoders.pretty)(options "")(descr ""))
 )
