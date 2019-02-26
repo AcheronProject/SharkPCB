@@ -88,7 +88,10 @@ If you don't want to order them from LCSC, the table below can be used.
 | Y1 | 8MHz 4 pin SMD Crystal | 5032 | 1 | 
 | RGB | WS2812B | - | 8 | 
 | RL1-RL | 360 Ohm | 1206 | 50 | 
-| D1-48, DS1 and DRST | 1N4148W | SOD123 | 52 | 
+| D1-48, DS1 and DRST | 1N4148W | SOD123 | 52 |
+| ROT1 | ALPS EC11Ex (see note 1) | - | 1 |
+
+(1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
 
 
 # To-do list
