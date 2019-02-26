@@ -1,8 +1,92 @@
-# SharkPCB project
+# SharkPCB project overview
 
-This is a project to make a freely available, open-source 40% keyboard Printed Circuit Board (PCB). The board is compatible with Planck plates and cases and supports three layouts: full grid, 1x2U spacebar and 2x2U spacebar.
+The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB), designed to be compatible with Planck plates and cases. and supports three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
-The gerber files also contain plate files, from which plates can be made of FR4 (the same material as the circuit board) in the same factory as the PCB itself.
+Here's a list of the board's features:
+
+- ARM Cortex M4-based STM32F303 processor;
+
+- QMK firmware compatible;
+
+- USBC type connector;
+
+- RGB underglow through intelligent integrated controller WS2812B LEDs;
+
+- Three layout support: full-grid (FG), 1 centered spacebar (1S) and double spacebar (2S);
+
+- Rotary encoder support;
+
+- Hardware reset through a push button and reset network;
+
+- Overcurrent and overvoltage input protection through a fuse and schottky diode;
+
+- Electrical Static Discharge (ESD) protection through a discharge net.
+
+Additionally, plate gerber files are also available so that the user can order them made from the same manufacturer as the PCBs and out of the same material (FR4, a fiberglass enhanced resin laminate). This makes production cheaper and faster.
+
+There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
+
+# FAQ 
+
+*(1) Is this design functional and tested?*
+
+> The prototypes are on their way, so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 25 of 2019) the first prototypes of version 3.1 are on their way.
+
+*(2) How can I obtain this PCB? Is there an IC or a GB thread?*
+
+> There is an ![IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. As for a GB, there still are no plans (and therefore no thread) since the prototypes were not validated. The idea is to make a Group Buy. For updated information please always check the GeekHack IC thread or this project's page.
+
+> Additionally, you can order the PCBs from a manufacturer like JLCPCB (for instructions see ![this link](https://www.youtube.com/watch?v=0u9Io4pw-b0) starting at 1:02:00) and the components from LCSC (how to do that in ![this link](https://www.youtube.com/watch?v=eFgOC5_1VYU&t=176s)) and build the board. This takes some expertise in electronics though, as the SMD parts require knowledge and specialized tools and supplied. This is why me and Steve hold Group Buys. Also manufacturers generally have a Minimum Order Quantity of 5 or 10 PCBs. Feel free to arranje a group buy with your circle of friends.
+
+*(3) Where are you planning to distribute this board?*
+
+> Steve from WoodCables is handling the GB in the US and I am handling it in Brazil. The UE is not out of the question, and I have some connections there should the european community show interest.
+
+*(4) How much will this board cost?*
+
+> We are aiming at a US$30,00 mark. The prototypes show that this is likely to be achieved.
+
+*(5) Will you (or Steve) profit from this project?*
+
+> I won't profit from it myself, although I retain a little portion of the gains to fund further projects, that is, to maintain prototyping, components and overall design costs. A famous brazilian writer, Millôr Fernandes, once said: "never trust an idealist that profits from his ideals".
+
+> Steve, on the other hand, has my permission to use the design commercially, so I'm not entitled to tell him if he should profit and how much, as he runs his own shop. Nevertheless we keep in close contact and it is, obviously, in the best interest of both us and the community that the prices are kept affordable and as low as possible.
+
+*(6) Who is funding this project?*
+
+> I and Steve are -- although mostly him as parts and equipment availability in Brazil is limited.
+
+*(7) Can anyone contribute to this project?*
+
+> Anyone is welcome to contribute, be it through feature requests, opinions or criticisms. This can be done through the GeekHack posts, issues and questions on GitHub or even through my Discord (#Gondolindrim#9738). If you want to actively contribute to the design, feel free to contact me and we'd be glad to have you. 
+
+*(8) Why open-source?*
+
+> As I don't intend to profit from this, there is no reason to keep the design closed. I also have the opportunity to contribute to the open-source way of thinking: many heads are better than one. Following these steps I use only open-source stuff to design the keyboards: the ECAD design is made with KiCad, the renders and animations in Blender, the logo design in Inkscape. All these software are run on Arch Linux, which is a Linux distro heavily based on the OSS and KISS principles.
+
+> By adopting free OSS tools any newbie makers can take a look and learn from these designs, that is, I also have an educational reason in mind. In this regard, I also have a transparency principle, that is, anyone in the community can contact me and ask questions about the project and the design decisions or the design process. Any maker can also check my designs and points its flaws.
+
+> Second, there is also the KISS (Keep It Simple, Stupid!) principle in mind. Since this project is completely un-ambicious, I try to keep it as simple as possible, so that the design and community processes are fluid.
+
+*(9) And why publish the design under a share-alike non-commercial license?*
+
+> The reason for the license is twofold: first, while I want the design to be open-source, that is, educational and freely available, I think it's not just that someone could just take it, make little adaptations (like changing the logos) and profitting from it when the idea of the project is to have the open-source ideas in mind. It's not about myself -- although of course I have some pride in my designs and like to have credit for them -- but about the project ideals.
+
+> Second, I don't condemn the idea of commercializing my designs, I'd just like to know who is selling it so that I can have a good quality control.
+
+*(10) What resources and software do you use?*
+
+> All the footprints and symbols are available wither on the KiCad libraries or my MX library, which contains footprints and symbols for some components not available on KiCad.
+
+> The design, footprints and symbols are made through KiCad. The 3D models are obtained in sites where the content is free and widely available like 3D Content Central and GrabCad Community, and to edit them I use FreeCAD.
+
+> The logos were designed in Inkscape. The base image was taken from ![this page](https://www.vectorportal.com/StockVectors/Animals/SHARK-ILLUSTRATION/15844.aspx) (last access: 26 feb, 2019). Although stated in the Vector Portal site that the designs are freely available to be used in commercially, I tried to contact the uploader, who goes by the name of "Yohan Plantec" with no success.
+
+> The renders and animations are made in Blender.
+
+*(11) How can I follow your design process and learn from this project?*
+
+> I try to stream the design process when I can. I generally do it at tuesdays and thursdays at 3PM PST (8PM BRT). In the streams I answer general electronics questions, and show how the board is designed. I stream at my ![Twitch channel](http://twitch.tv/gondolindrim_). The past streams can be seen in my Youtube channel.
 
 # Board preview (version 3.1)
 
@@ -56,7 +140,6 @@ Added rotary encoder support.
 
 *This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.* 
 
-
 # Bill of Materials
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
@@ -93,13 +176,12 @@ If you don't want to order them from LCSC, the table below can be used.
 
 (1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
 
-
 # To-do list
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
 
-- [ ] Constructed photorrealistic renders of latest version.
+- [x] Constructed photorrealistic renders of latest version. (v3.1)
 
 - [x] Finish SMD design
 - [x] Finished SMD plates (single spacebar, dual spacebar, full-grid and universal)
