@@ -9,6 +9,7 @@ Table of Contents
   * [Changelog](#changelog-and-version-control)
   * [Bill of Materials](#bill-of-Materials)
   * [Acknowledgements](#Acknowledgements)
+  * [License](#license)
 
 ## Project overview
 
@@ -149,8 +150,6 @@ There are four plate designs available: one for each supported layout and a univ
 ![Alt text](./renders/frontRender.png)
 
 ![Alt text](./renders/backRender.png)
-
-This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Changelog and version control
 
@@ -311,3 +310,9 @@ Although there is only me actively working on the project design, some acknowled
   * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions.
   * User garbo from GeekHack, who helped immensely in this design by giving me hints and information, always opinating and giving feedback with christian patience. Walkerstop also helped by recommendations like using the STM32 family of processors and a USBC connector.
   * Jack Humbert, from OLKB, and ishtob from the OLKB Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
+
+## License
+
+This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+To know more about why I published the project under this license, please look at the [FAQ section](#faq).
