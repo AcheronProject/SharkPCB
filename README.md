@@ -30,7 +30,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details> (1) Is this design functional and tested? </summary>
+<details><summary> (1) Is this design functional and tested? </summary>
 
 The prototypes are on their way, so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 25 of 2019) the first prototypes of version 3.1 are on their way.
 
