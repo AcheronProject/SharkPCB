@@ -146,83 +146,99 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
  <summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
  <p>
 
- <h6> Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor </h6>
+ <h6> Started porting the version 2 from the ATMEGA32U4 processor to a more modern ARM Cortex M4 STM32F303CCT6 processor </h6>
 
 </p></details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/13 (V3.0.2) </b></font></summary>
+<details>
+ <summary> <font size="+2"><b> 2019/01/13 (V3.0.2) </b></font></summary>
+ <p>
 
-Added USBC connector
+ <h6> Added USBC connector </h6>
+
+</p></details>
+
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/01/14 (V3.0.3) </b></font></summary>
+ <p>
+
+ <h6> Added RGB underglow with the WS2812B </h6>
+
+</p></details>
+
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/01/15 (V3.0.4) </b></font></summary>
+ <p>
+
+ <h6> Changed the grid used from the standard 19.05mm to the 19mm used in the Planck </h6>
+
+</p></details>
+
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/01/21 (V3.0.5) </b></font></summary>
+ <p>
+
+ <h6> Solved a problem with connector wiring and added a nice render to the README </h6>
 
 </details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/14 (V3.0.3) </b></font></summary>
+<details>
+ <summary> <font size="+2"><b> 2019/01/26 (V3.0.6) </b></font></summary>
+ <p>
 
-Added RGB underglow with the WS2812B
+ <h6> Changed components to SMD. </h6>
 
-</details>
+ <h6> Added Blender renders. </h6>
 
-<!-------------------------------------------------------------------->
+ <h6> Updated preview. </h6>
 
-<details><summary> <font size="+2"><b> 2019/01/15 (V3.0.4) </b></font></summary>
-
-Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
-
-</details>
+</p></details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/21 (V3.0.5) </b></font></summary>
+<details>
+ <summary> <font size="+2"><b> 2019/02/13 (V3.0.7) </b></font></summary>
+ <p>
 
-Solved a problem with connector wiring and added a nice render to the README
+ <h6> Added US and BR flags to the design. </h6>
 
-</details>
+ <h6> Rounded corners to fit the Planck Low-Pro case (as suggestged by garbo from Geekhack) </h6>
 
-<!-------------------------------------------------------------------->
+ <h6> Adjusted 3D models of crystal and Push Button. </h6>
 
-<details><summary> <font size="+2"><b> 2019/01/26 (V3.0.6) </b></font></summary>
-
-Changed components to SMD.
-
-Added Blender renders.
-
-Updated preview.
-
-</details>
+</p></details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/02/13 (V3.0.7) </b></font></summary>
+<details>
+ <summary> <font size="+2"><b> 2019/02/20 (V3.1) </b></font></summary>
+ <p>
 
-Added US and BR flags to the design.
+ <h6> Added rotary encoder support. </h6>
 
-Rounded corners to fit the Planck Low-Pro case (as suggestged by garbo from Geekhack)
+ <h6> *This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.* </h6>
 
-Adjusted 3D models of crystal and Push Button.
-
-</details>
-
-<!-------------------------------------------------------------------->
-
-<details><summary> <font size="+2"><b> 2019/02/20 (V3.1) </b></font></summary>
-
-Added rotary encoder support.
-
-*This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.*
-
-</details>
+</p></details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/02/27 (V3.1.1) </b></font></summary>
+<details>
+ <summary> <font size="+2"><b> 2019/02/27 (V3.1.1) </b></font></summary>
+ <p>
 
-Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (< 5 mil) modifications were made on the edges of the PCB.
+ <h6> Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (< 5 mil) modifications were made on the edges of the PCB. </h6>
 
-</details>
+</p></details>
 
 # Bill of Materials
 
