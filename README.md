@@ -140,6 +140,10 @@ Added rotary encoder support.
 
 *This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.* 
 
+## **2019/02/27 (V3.1.1)**
+
+Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (< 5 mil) modifications were made on the edges of the PCB.
+
 # Bill of Materials
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
@@ -185,7 +189,7 @@ If you don't want to order them from LCSC, the table below can be used.
 
 - [x] Finish SMD design
 - [x] Finished SMD plates (single spacebar, dual spacebar, full-grid and universal)
-- [ ] Prototyped SMD design
+- [x] Prototyped SMD design (*waiting for prototypes to arrive*)
 
 - [ ] Finish THT design
 - [ ] Finish THT plates
