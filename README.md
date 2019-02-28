@@ -142,29 +142,47 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
 
 # Changelog and version control
 
-<details><summary> <font size="+2"><b> 2019/01/12 (V3.0.1): </b></font> </summary>
+<details><summary> <font size="+2"><b> 2019/01/12 (V3.0.1): </b></font></summary>
 
 Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor
 
 </details>
 
-## **2019/01/13 (V3.0.2)**:
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/01/13 (V3.0.2): </b></font></summary>
 
 Added USBC connector
 
-## **2019/01/14 (V3.0.3)**:
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/01/14 (V3.0.3): </b></font></summary>
 
 Added RGB underglow with the WS2812B
 
-## **2019/01/15 (V3.0.4)**:
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/01/15 (V3.0.4): </b></font></summary>
 
 Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
 
-## **2019/01/21 (V3.0.5)**:
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/01/21 (V3.0.5): </b></font></summary>
 
 Solved a problem with connector wiring and added a nice render to the README
 
-## **2019/01/26 (V3.0.6)**
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/01/26 (V3.0.6): </b></font></summary>
 
 Changed components to SMD.
 
@@ -172,7 +190,11 @@ Added Blender renders.
 
 Updated preview.
 
-## **2019/02/13 (V3.0.7)**
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/02/13 (V3.0.7): </b></font></summary>
 
 Added US and BR flags to the design.
 
@@ -180,15 +202,25 @@ Rounded corners to fit the Planck Low-Pro case (as suggestged by garbo from Geek
 
 Adjusted 3D models of crystal and Push Button.
 
-## **2019/02/20 (V3.1)**
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/02/20 (V3.1): </b></font></summary>
 
 Added rotary encoder support.
 
-*This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.* 
+*This is supposed to be the final version of the V3 series. It will be prototyped in the next weeks.*
 
-## **2019/02/27 (V3.1.1)**
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> <font size="+2"><b> 2019/02/27 (V3.1.1): </b></font></summary>
 
 Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (< 5 mil) modifications were made on the edges of the PCB.
+
+</details>
 
 # Bill of Materials
 
