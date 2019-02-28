@@ -1,4 +1,4 @@
-# SharkPCB project
+# Acheron 40-SM-O-MX-TH-WI (Codename "SharkPCB")
 
 Table of Contents
 =================
