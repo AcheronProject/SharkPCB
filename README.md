@@ -148,7 +148,7 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
 
 ### Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor.
 
-</p</details>
+</p></details>
 
 <!-------------------------------------------------------------------->
 
