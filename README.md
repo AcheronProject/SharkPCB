@@ -1,4 +1,16 @@
-# SharkPCB project overview
+# SharkPCB project
+
+Table of Contents
+=================
+
+  * [Project overview](#Project overview)
+  * [Frequently Asked Questions (FAQ)](#FAQ)
+  * [Board preview](#Board preview (version 3.1))
+  * [Changelog](# Changelog and version control)
+  * [Bill of Materials](# Bill of Materials)
+  * [Acknowledgements](# Acknowledgements)
+
+# Project overview
 
 The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB), designed to be compatible with Planck plates and cases. and supports three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
@@ -290,3 +302,12 @@ If you don't want to order them from LCSC, the table below can be used.
 - [ ] Finish THT design
 - [ ] Finish THT plates
 - [ ] Prototype THT design
+
+# Acknowledgements
+
+Although there is only me actively working on the project design, some acknowledgements are due:
+  * Steve from WoodCables. Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
+  * Gustavo "UndecidedShark" Reinert. As denoted in the PCB, this board was named after him. I take special pride in this as I gave him his nickname.
+  * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions.
+  * User garbo from GeekHack, who helped immensely in this design by giving me hints and information, always opinating and giving feedback with christian patience.
+  * Jack Humbert, from OLKB, and ishtob from the OLKB Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
