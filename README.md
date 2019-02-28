@@ -3,11 +3,11 @@
 Table of Contents
 =================
 
-  * [Project overview](#Project overview)
-  * [Frequently Asked Questions (FAQ)](#FAQ)
-  * [Board preview](#Board preview (version 3.1))
-  * [Changelog](#Changelog and version control)
-  * [Bill of Materials](#Bill of Materials)
+  * [Project overview](#project-overview)
+  * [Frequently Asked Questions (FAQ)](#faq)
+  * [Board preview](#board-preview-version-31)
+  * [Changelog](#changelog-and-version-control)
+  * [Bill of Materials](#bill-of-Materials)
   * [Acknowledgements](#Acknowledgements)
 
 # Project overview
