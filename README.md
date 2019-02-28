@@ -6,9 +6,9 @@ Table of Contents
   * [Project overview](#Project overview)
   * [Frequently Asked Questions (FAQ)](#FAQ)
   * [Board preview](#Board preview (version 3.1))
-  * [Changelog](# Changelog and version control)
-  * [Bill of Materials](# Bill of Materials)
-  * [Acknowledgements](# Acknowledgements)
+  * [Changelog](#Changelog and version control)
+  * [Bill of Materials](#Bill of Materials)
+  * [Acknowledgements](#Acknowledgements)
 
 # Project overview
 
