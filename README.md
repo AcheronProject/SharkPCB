@@ -142,15 +142,15 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
 
 # Changelog and version control
 
-<details><summary> <font size="+2"><b> 2019/01/12 (V3.0.1): </b></font></summary>
-
+<details><summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
+<font size="-1">
 Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor
-
+</font>
 </details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/13 (V3.0.2): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/01/13 (V3.0.2) </b></font></summary>
 
 Added USBC connector
 
@@ -158,7 +158,7 @@ Added USBC connector
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/14 (V3.0.3): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/01/14 (V3.0.3) </b></font></summary>
 
 Added RGB underglow with the WS2812B
 
@@ -166,7 +166,7 @@ Added RGB underglow with the WS2812B
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/15 (V3.0.4): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/01/15 (V3.0.4) </b></font></summary>
 
 Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
 
@@ -174,7 +174,7 @@ Changed the grid used from the standard 19.05mm to the 19mm used in the Planck
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/21 (V3.0.5): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/01/21 (V3.0.5) </b></font></summary>
 
 Solved a problem with connector wiring and added a nice render to the README
 
@@ -182,7 +182,7 @@ Solved a problem with connector wiring and added a nice render to the README
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/01/26 (V3.0.6): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/01/26 (V3.0.6) </b></font></summary>
 
 Changed components to SMD.
 
@@ -194,7 +194,7 @@ Updated preview.
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/02/13 (V3.0.7): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/02/13 (V3.0.7) </b></font></summary>
 
 Added US and BR flags to the design.
 
@@ -206,7 +206,7 @@ Adjusted 3D models of crystal and Push Button.
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/02/20 (V3.1): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/02/20 (V3.1) </b></font></summary>
 
 Added rotary encoder support.
 
@@ -216,7 +216,7 @@ Added rotary encoder support.
 
 <!-------------------------------------------------------------------->
 
-<details><summary> <font size="+2"><b> 2019/02/27 (V3.1.1): </b></font></summary>
+<details><summary> <font size="+2"><b> 2019/02/27 (V3.1.1) </b></font></summary>
 
 Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (< 5 mil) modifications were made on the edges of the PCB.
 
