@@ -248,7 +248,7 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
  <summary> <font size="+2"><b> 2019/02/27 (V3.1.1) </b></font></summary>
  <p>
 
- <h6> Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (< 5 mil) modifications were made on the edges of the PCB. </h6>
+ <h6> Fixed a little problem with the Edge Cuts. Somehow for a reason only God knows KiCad messed up the starting and finish point coordinates of the lines and arcs in this layer. This has now been fixed manually. Really small (less than 5 mil) modifications were made on the edges of the PCB. </h6>
 
 </p></details>
 
