@@ -48,7 +48,7 @@ Additionally, you can order the PCBs from a manufacturer like JLCPCB (for instru
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (3) Where are you planning to distribute this board?
+<details><summary> (3) Where are you planning to distribute this board? </summary>
 
 Steve from WoodCables is handling the GB in the US and I am handling it in Brazil. The UE is not out of the question, and I have some connections there should the european community show interest.
 
