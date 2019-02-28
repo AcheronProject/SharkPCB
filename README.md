@@ -142,9 +142,13 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
 
 # Changelog and version control
 
-<details><summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
-<p> <small> Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor. </small></p>
-</details>
+<details>
+ <summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
+ <p>
+
+### Started porting the version 2 from the ATMEGA32U4 processor to a more modern Cortex M4 STM32F303CCT6 processor.
+
+</p</details>
 
 <!-------------------------------------------------------------------->
 
