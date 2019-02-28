@@ -90,7 +90,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (8) Why open-source? </summary>
+<details><summary> Why open-source? </summary>
 
 > As I don't intend to profit from this, there is no reason to keep the design closed. I also have the opportunity to contribute to the open-source way of thinking: many heads are better than one. Following these steps I use only open-source stuff to design the keyboards: the ECAD design is made with KiCad, the renders and animations in Blender, the logo design in Inkscape. All these software are run on Arch Linux, which is a Linux distro heavily based on the OSS and KISS principles.
 
@@ -102,9 +102,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (9) And why publish the design under a share-alike non-commercial license? </summary>
-
-
+<details><summary> And why publish the design under a share-alike non-commercial license? </summary>
 
 > The reason for the license is twofold: first, while I want the design to be open-source, that is, educational and freely available, I think it's not just that someone could just take it, make little adaptations (like changing the logos) and profitting from it when the idea of the project is to have the open-source ideas in mind. It's not about myself -- although of course I have some pride in my designs and like to have credit for them -- but about the project ideals.
 
@@ -114,7 +112,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (10) What resources and software do you use? </summary>
+<details><summary> What resources and software do you use? </summary>
 
 > All the footprints and symbols are available wither on the KiCad libraries or my MX library, which contains footprints and symbols for some components not available on KiCad.
 
@@ -128,7 +126,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (11) How can I follow your design process and learn from this project? </summary>
+<details><summary> How can I follow your design process and learn from this project? </summary>
 
 > I try to stream the design process when I can. I generally do it at tuesdays and thursdays at 3PM PST (8PM BRT). In the streams I answer general electronics questions, and show how the board is designed. I stream at my [Twitch channel](http://twitch.tv/gondolindrim_). The past streams can be seen in my Youtube channel.
 
