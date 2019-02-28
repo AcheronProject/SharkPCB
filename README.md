@@ -10,7 +10,7 @@ Table of Contents
   * [Bill of Materials](#bill-of-Materials)
   * [Acknowledgements](#Acknowledgements)
 
-# Project overview
+## Project overview
 
 The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB), designed to be compatible with Planck plates and cases. and supports three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
@@ -38,7 +38,7 @@ Additionally, plate gerber files are also available so that the user can order t
 
 There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
 
-# FAQ 
+## FAQ 
 
 <!-------------------------------------------------------------------->
 
@@ -144,7 +144,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-# Board preview (version 3.1)
+## Board preview (version 3.1)
 
 ![Alt text](./renders/frontRender.png)
 
@@ -152,7 +152,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-# Changelog and version control
+## Changelog and version control
 
 <details>
  <summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
@@ -252,7 +252,7 @@ This project is licensed under the Creative Commons Non-Commercial Share-Alike 4
 
 </p></details>
 
-# Bill of Materials
+## Bill of Materials
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
 
@@ -288,7 +288,7 @@ If you don't want to order them from LCSC, the table below can be used.
 
 (1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
 
-# To-do list
+## To-do list
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
@@ -303,7 +303,7 @@ If you don't want to order them from LCSC, the table below can be used.
 - [ ] Finish THT plates
 - [ ] Prototype THT design
 
-# Acknowledgements
+## Acknowledgements
 
 Although there is only me actively working on the project design, some acknowledgements are due:
   * Steve from WoodCables. Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
