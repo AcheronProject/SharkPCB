@@ -30,59 +30,59 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (1) Is this design functional and tested? </summary>
+<details><summary> Is this design functional and tested? </summary>
 
-The prototypes are on their way, so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 25 of 2019) the first prototypes of version 3.1 are on their way.
-
-</details>
-
-<!-------------------------------------------------------------------->
-
-<details><summary> (2) How can I obtain this PCB? Is there an IC or a GB thread? </summary>
-
-There is an ![IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. As for a GB, there still are no plans (and therefore no thread) since the prototypes were not validated. The idea is to make a Group Buy. For updated information please always check the GeekHack IC thread or this project's page.
-
-Additionally, you can order the PCBs from a manufacturer like JLCPCB (for instructions see ![this link](https://www.youtube.com/watch?v=0u9Io4pw-b0) starting at 1:02:00) and the components from LCSC (how to do that in ![this link](https://www.youtube.com/watch?v=eFgOC5_1VYU&t=176s)) and build the board. This takes some expertise in electronics though, as the SMD parts require knowledge and specialized tools and supplied. This is why me and Steve hold Group Buys. Also manufacturers generally have a Minimum Order Quantity of 5 or 10 PCBs. Feel free to arranje a group buy with your circle of friends.
+> The prototypes are on their way, so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 25 of 2019) the first prototypes of version 3.1 are on their way.
 
 </details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (3) Where are you planning to distribute this board? </summary>
+<details><summary> How can I obtain this PCB? Is there an IC or a GB thread? </summary>
 
-Steve from WoodCables is handling the GB in the US and I am handling it in Brazil. The UE is not out of the question, and I have some connections there should the european community show interest.
+> There is an ![IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. As for a GB, there still are no plans (and therefore no thread) since the prototypes were not validated. The idea is to make a Group Buy. For updated information please always check the GeekHack IC thread or this project's page.
 
-</details>
-
-<!-------------------------------------------------------------------->
-
-<details><summary> (4) How much will this board cost? </summary>
-
-We are aiming at a US$30,00 mark. The prototypes show that this is likely to be achieved.
+> Additionally, you can order the PCBs from a manufacturer like JLCPCB (for instructions see ![this link](https://www.youtube.com/watch?v=0u9Io4pw-b0) starting at 1:02:00) and the components from LCSC (how to do that in ![this link](https://www.youtube.com/watch?v=eFgOC5_1VYU&t=176s)) and build the board. This takes some expertise in electronics though, as the SMD parts require knowledge and specialized tools and supplied. This is why me and Steve hold Group Buys. Also manufacturers generally have a Minimum Order Quantity of 5 or 10 PCBs. Feel free to arranje a group buy with your circle of friends.
 
 </details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (5) Will you (or Steve) profit from this project? </summary>
+<details><summary> Where are you planning to distribute this board? </summary>
 
-I won't profit from it myself, although I retain a little portion of the gains to fund further projects, that is, to maintain prototyping, components and overall design costs. A famous brazilian writer, Millôr Fernandes, once said: "never trust an idealist that profits from his ideals".
-
-Steve, on the other hand, has my permission to use the design commercially, so I'm not entitled to tell him if he should profit and how much, as he runs his own shop. Nevertheless we keep in close contact and it is, obviously, in the best interest of both us and the community that the prices are kept affordable and as low as possible.
+> Steve from WoodCables is handling the GB in the US and I am handling it in Brazil. The UE is not out of the question, and I have some connections there should the european community show interest.
 
 </details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (6) Who is funding this project? </summary>
+<details><summary> How much will this board cost? </summary>
 
-I and Steve are -- although mostly him as parts and equipment availability in Brazil is limited.
+> We are aiming at a US$30,00 mark. The prototypes show that this is likely to be achieved.
 
 </details>
 
 <!-------------------------------------------------------------------->
 
-<details><summary> (7) Can anyone contribute to this project? </summary>
+<details><summary> Will you (or Steve) profit from this project? </summary>
+
+> I won't profit from it myself, although I retain a little portion of the gains to fund further projects, that is, to maintain prototyping, components and overall design costs. A famous brazilian writer, Millôr Fernandes, once said: "never trust an idealist that profits from his ideals".
+
+> Steve, on the other hand, has my permission to use the design commercially, so I'm not entitled to tell him if he should profit and how much, as he runs his own shop. Nevertheless we keep in close contact and it is, obviously, in the best interest of both us and the community that the prices are kept affordable and as low as possible.
+
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> Who is funding this project? </summary>
+
+> I and Steve are -- although mostly him as parts and equipment availability in Brazil is limited. Also anyone that obtains this board either through one of the Group Buys or throw Wood Cables (Steve's shop) will be supporting the project as all gains from the sales and GBs are reserved to be used only with the project.
+
+</details>
+
+<!-------------------------------------------------------------------->
+
+<details><summary> Can anyone contribute to this project? </summary>
 
 > Anyone is welcome to contribute, be it through feature requests, opinions or criticisms. This can be done through the GeekHack posts, issues and questions on GitHub or even through my Discord (#Gondolindrim#9738). If you want to actively contribute to the design, feel free to contact me and we'd be glad to have you. 
 
@@ -104,6 +104,8 @@ I and Steve are -- although mostly him as parts and equipment availability in Br
 
 <details><summary> (9) And why publish the design under a share-alike non-commercial license? </summary>
 
+
+
 > The reason for the license is twofold: first, while I want the design to be open-source, that is, educational and freely available, I think it's not just that someone could just take it, make little adaptations (like changing the logos) and profitting from it when the idea of the project is to have the open-source ideas in mind. It's not about myself -- although of course I have some pride in my designs and like to have credit for them -- but about the project ideals.
 
 > Second, I don't condemn the idea of commercializing my designs, I'd just like to know who is selling it so that I can have a good quality control.
@@ -118,7 +120,7 @@ I and Steve are -- although mostly him as parts and equipment availability in Br
 
 > The design, footprints and symbols are made through KiCad. The 3D models are obtained in sites where the content is free and widely available like 3D Content Central and GrabCad Community, and to edit them I use FreeCAD.
 
-> The logos were designed in Inkscape. The base image was taken from ![this page](https://www.vectorportal.com/StockVectors/Animals/SHARK-ILLUSTRATION/15844.aspx) (last access: 26 feb, 2019). Although stated in the Vector Portal site that the designs are freely available to be used in commercially, I tried to contact the uploader, who goes by the name of "Yohan Plantec" with no success.
+> The logos were designed in Inkscape. The base image was taken from [this page](https://www.vectorportal.com/StockVectors/Animals/SHARK-ILLUSTRATION/15844.aspx) (last access: 26 feb, 2019). Although stated in the Vector Portal site that the designs are freely available to be used in commercially, I tried to contact the uploader, who goes by the name of "Yohan Plantec" with no success.
 
 > The renders and animations are made in Blender.
 
@@ -128,7 +130,7 @@ I and Steve are -- although mostly him as parts and equipment availability in Br
 
 <details><summary> (11) How can I follow your design process and learn from this project? </summary>
 
-> I try to stream the design process when I can. I generally do it at tuesdays and thursdays at 3PM PST (8PM BRT). In the streams I answer general electronics questions, and show how the board is designed. I stream at my ![Twitch channel](http://twitch.tv/gondolindrim_). The past streams can be seen in my Youtube channel.
+> I try to stream the design process when I can. I generally do it at tuesdays and thursdays at 3PM PST (8PM BRT). In the streams I answer general electronics questions, and show how the board is designed. I stream at my [Twitch channel](http://twitch.tv/gondolindrim_). The past streams can be seen in my Youtube channel.
 
 </details>
 
