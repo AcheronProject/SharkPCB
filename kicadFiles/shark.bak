@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-02-20"
-Rev "Rev 3.1"
+Date "2019-03-11"
+Rev "Rev 3.1.2"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C_Small C1
+L Device:C_Small C3
 U 1 1 5BEDBE98
 P 14350 5150
-F 0 "C1" H 14442 5196 50  0000 L CNN
+F 0 "C3" H 14442 5196 50  0000 L CNN
 F 1 "22p" H 14442 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14350 5150 50  0001 C CNN
 F 3 "~" H 14350 5150 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 14350 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small C4
 U 1 1 5BEDBF42
 P 15050 5150
-F 0 "C2" H 15142 5196 50  0000 L CNN
+F 0 "C4" H 15142 5196 50  0000 L CNN
 F 1 "22p" H 15142 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15050 5150 50  0001 C CNN
 F 3 "~" H 15050 5150 50  0001 C CNN
@@ -47,10 +47,10 @@ Wire Wire Line
 Connection ~ 14350 4950
 Connection ~ 15050 4950
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR021
 U 1 1 5BEDC68E
 P 14700 5300
-F 0 "#PWR0101" H 14700 5050 50  0001 C CNN
+F 0 "#PWR021" H 14700 5050 50  0001 C CNN
 F 1 "GND" V 14705 5172 50  0000 R CNN
 F 2 "" H 14700 5300 50  0001 C CNN
 F 3 "" H 14700 5300 50  0001 C CNN
@@ -63,10 +63,10 @@ Connection ~ 14700 5300
 Wire Wire Line
 	14700 5300 15050 5300
 $Comp
-L power:GND #PWR0108
+L power:GND #PWR014
 U 1 1 5BEE3841
 P 8425 10025
-F 0 "#PWR0108" H 8425 9775 50  0001 C CNN
+F 0 "#PWR014" H 8425 9775 50  0001 C CNN
 F 1 "GND" V 8450 10075 31  0000 R CNN
 F 2 "" H 8425 10025 50  0001 C CNN
 F 3 "" H 8425 10025 50  0001 C CNN
@@ -74,10 +74,10 @@ F 3 "" H 8425 10025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H4
 U 1 1 5BF27058
 P 14625 1700
-F 0 "H3" H 14725 1746 50  0000 L CNN
+F 0 "H4" H 14725 1746 50  0000 L CNN
 F 1 "MountingHole" H 14725 1655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1700 50  0001 C CNN
 F 3 "~" H 14625 1700 50  0001 C CNN
@@ -85,10 +85,10 @@ F 3 "~" H 14625 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole H5
 U 1 1 5BF2790A
 P 14625 1900
-F 0 "H4" H 14725 1946 50  0000 L CNN
+F 0 "H5" H 14725 1946 50  0000 L CNN
 F 1 "MountingHole" H 14725 1855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1900 50  0001 C CNN
 F 3 "~" H 14625 1900 50  0001 C CNN
@@ -96,10 +96,10 @@ F 3 "~" H 14625 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole H2
 U 1 1 5BF463E3
 P 14625 1300
-F 0 "H1" H 14725 1346 50  0000 L CNN
+F 0 "H2" H 14725 1346 50  0000 L CNN
 F 1 "MountingHole" H 14725 1255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1300 50  0001 C CNN
 F 3 "~" H 14625 1300 50  0001 C CNN
@@ -107,10 +107,10 @@ F 3 "~" H 14625 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H3
 U 1 1 5BF463E9
 P 14625 1500
-F 0 "H2" H 14725 1546 50  0000 L CNN
+F 0 "H3" H 14725 1546 50  0000 L CNN
 F 1 "MountingHole" H 14725 1455 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1500 50  0001 C CNN
 F 3 "~" H 14625 1500 50  0001 C CNN
@@ -118,10 +118,10 @@ F 3 "~" H 14625 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L Mechanical:MountingHole H6
 U 1 1 5BF64E7F
 P 14625 2100
-F 0 "H5" H 14725 2146 50  0000 L CNN
+F 0 "H6" H 14725 2146 50  0000 L CNN
 F 1 "MountingHole" H 14725 2055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2100 50  0001 C CNN
 F 3 "~" H 14625 2100 50  0001 C CNN
@@ -129,10 +129,10 @@ F 3 "~" H 14625 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L Mechanical:MountingHole H7
 U 1 1 5BF64E85
 P 14625 2300
-F 0 "H6" H 14725 2346 50  0000 L CNN
+F 0 "H7" H 14725 2346 50  0000 L CNN
 F 1 "MountingHole" H 14725 2255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2300 50  0001 C CNN
 F 3 "~" H 14625 2300 50  0001 C CNN
@@ -140,12 +140,12 @@ F 3 "~" H 14625 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keyboard_switches:MXSwitch SW1
+L acheronSymbols:MXSwitch SW1
 U 1 1 5C015E05
 P 2400 1950
 F 0 "SW1" H 2325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 2275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 2400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 2400 1950 50  0001 C CNN
 F 3 "" H 2400 1950 50  0001 C CNN
 	1    2400 1950
 	1    0    0    -1  
@@ -156,7 +156,7 @@ U 1 1 5C0AF46E
 P 2400 1425
 F 0 "D1" V 2369 1504 31  0000 L CNN
 F 1 "1N4148" V 2431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 2400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 2400 1425 50  0001 C CNN
 F 3 "~" H 2400 1425 50  0001 C CNN
 	1    2400 1425
 	0    1    1    0   
@@ -168,23 +168,23 @@ Wire Wire Line
 Wire Wire Line
 	2400 1275 2400 1250
 $Comp
-L Keyboard_switches:MXSwitch SW2
+L acheronSymbols:MXSwitch SW5
 U 1 1 5C0D3AD9
 P 3400 1950
-F 0 "SW2" H 3325 2000 50  0000 L CNN
+F 0 "SW5" H 3325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 3275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 3400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 3400 1950 50  0001 C CNN
 F 3 "" H 3400 1950 50  0001 C CNN
 	1    3400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2
+L Device:D D5
 U 1 1 5C0D3AE0
 P 3400 1425
-F 0 "D2" V 3369 1504 31  0000 L CNN
+F 0 "D5" V 3369 1504 31  0000 L CNN
 F 1 "1N4148" V 3431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 3400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 3400 1425 50  0001 C CNN
 F 3 "~" H 3400 1425 50  0001 C CNN
 	1    3400 1425
 	0    1    1    0   
@@ -203,23 +203,23 @@ Wire Wire Line
 Wire Wire Line
 	3050 1950 2900 1950
 $Comp
-L Keyboard_switches:MXSwitch SW3
+L acheronSymbols:MXSwitch SW9
 U 1 1 5C115BC6
 P 4400 1950
-F 0 "SW3" H 4325 2000 50  0000 L CNN
+F 0 "SW9" H 4325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 4275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 4400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 4400 1950 50  0001 C CNN
 F 3 "" H 4400 1950 50  0001 C CNN
 	1    4400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
+L Device:D D9
 U 1 1 5C115BCD
 P 4400 1425
-F 0 "D3" V 4369 1504 31  0000 L CNN
+F 0 "D9" V 4369 1504 31  0000 L CNN
 F 1 "1N4148" V 4431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 4400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 4400 1425 50  0001 C CNN
 F 3 "~" H 4400 1425 50  0001 C CNN
 	1    4400 1425
 	0    1    1    0   
@@ -229,23 +229,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 1275 4400 1250
 $Comp
-L Keyboard_switches:MXSwitch SW4
+L acheronSymbols:MXSwitch SW13
 U 1 1 5C115BD7
 P 5400 1950
-F 0 "SW4" H 5325 2000 50  0000 L CNN
+F 0 "SW13" H 5325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 5275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 5400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 5400 1950 50  0001 C CNN
 F 3 "" H 5400 1950 50  0001 C CNN
 	1    5400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L Device:D D13
 U 1 1 5C115BDE
 P 5400 1425
-F 0 "D4" V 5369 1504 31  0000 L CNN
+F 0 "D13" V 5369 1504 31  0000 L CNN
 F 1 "1N4148" V 5431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 5400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 5400 1425 50  0001 C CNN
 F 3 "~" H 5400 1425 50  0001 C CNN
 	1    5400 1425
 	0    1    1    0   
@@ -262,23 +262,23 @@ Wire Wire Line
 Wire Wire Line
 	5050 1950 4900 1950
 $Comp
-L Keyboard_switches:MXSwitch SW5
+L acheronSymbols:MXSwitch SW17
 U 1 1 5C12DA31
 P 6400 1950
-F 0 "SW5" H 6325 2000 50  0000 L CNN
+F 0 "SW17" H 6325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 6275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 6400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 6400 1950 50  0001 C CNN
 F 3 "" H 6400 1950 50  0001 C CNN
 	1    6400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D5
+L Device:D D17
 U 1 1 5C12DA38
 P 6400 1425
-F 0 "D5" V 6369 1504 31  0000 L CNN
+F 0 "D17" V 6369 1504 31  0000 L CNN
 F 1 "1N4148" V 6431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 6400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 6400 1425 50  0001 C CNN
 F 3 "~" H 6400 1425 50  0001 C CNN
 	1    6400 1425
 	0    1    1    0   
@@ -288,23 +288,23 @@ Wire Wire Line
 Wire Wire Line
 	6400 1275 6400 1250
 $Comp
-L Keyboard_switches:MXSwitch SW6
+L acheronSymbols:MXSwitch SW22
 U 1 1 5C12DA42
 P 7400 1950
-F 0 "SW6" H 7325 2000 50  0000 L CNN
+F 0 "SW22" H 7325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 7275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 7400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 7400 1950 50  0001 C CNN
 F 3 "" H 7400 1950 50  0001 C CNN
 	1    7400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D6
+L Device:D D21
 U 1 1 5C12DA49
 P 7400 1425
-F 0 "D6" V 7369 1504 31  0000 L CNN
+F 0 "D21" V 7369 1504 31  0000 L CNN
 F 1 "1N4148" V 7431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 7400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 7400 1425 50  0001 C CNN
 F 3 "~" H 7400 1425 50  0001 C CNN
 	1    7400 1425
 	0    1    1    0   
@@ -324,23 +324,23 @@ Wire Wire Line
 Wire Wire Line
 	7050 1950 6900 1950
 $Comp
-L Keyboard_switches:MXSwitch SW7
+L acheronSymbols:MXSwitch SW27
 U 1 1 5C12DA5E
 P 8400 1950
-F 0 "SW7" H 8325 2000 50  0000 L CNN
+F 0 "SW27" H 8325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 8275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 8400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 8400 1950 50  0001 C CNN
 F 3 "" H 8400 1950 50  0001 C CNN
 	1    8400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L Device:D D25
 U 1 1 5C12DA65
 P 8400 1425
-F 0 "D7" V 8369 1504 31  0000 L CNN
+F 0 "D25" V 8369 1504 31  0000 L CNN
 F 1 "1N4148" V 8431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 8400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 8400 1425 50  0001 C CNN
 F 3 "~" H 8400 1425 50  0001 C CNN
 	1    8400 1425
 	0    1    1    0   
@@ -350,23 +350,23 @@ Wire Wire Line
 Wire Wire Line
 	8400 1275 8400 1250
 $Comp
-L Keyboard_switches:MXSwitch SW8
+L acheronSymbols:MXSwitch SW32
 U 1 1 5C12DA6F
 P 9400 1950
-F 0 "SW8" H 9325 2000 50  0000 L CNN
+F 0 "SW32" H 9325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 9275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 9400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 9400 1950 50  0001 C CNN
 F 3 "" H 9400 1950 50  0001 C CNN
 	1    9400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D8
+L Device:D D29
 U 1 1 5C12DA76
 P 9400 1425
-F 0 "D8" V 9369 1504 31  0000 L CNN
+F 0 "D29" V 9369 1504 31  0000 L CNN
 F 1 "1N4148" V 9431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 9400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 9400 1425 50  0001 C CNN
 F 3 "~" H 9400 1425 50  0001 C CNN
 	1    9400 1425
 	0    1    1    0   
@@ -383,23 +383,23 @@ Wire Wire Line
 Wire Wire Line
 	9050 1950 8900 1950
 $Comp
-L Keyboard_switches:MXSwitch SW9
+L acheronSymbols:MXSwitch SW36
 U 1 1 5C15A34B
 P 10400 1950
-F 0 "SW9" H 10325 2000 50  0000 L CNN
+F 0 "SW36" H 10325 2000 50  0000 L CNN
 F 1 "MXSwitch" H 10275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 10400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 10400 1950 50  0001 C CNN
 F 3 "" H 10400 1950 50  0001 C CNN
 	1    10400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D9
+L Device:D D33
 U 1 1 5C15A352
 P 10400 1425
-F 0 "D9" V 10369 1504 31  0000 L CNN
+F 0 "D33" V 10369 1504 31  0000 L CNN
 F 1 "1N4148" V 10431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 10400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 10400 1425 50  0001 C CNN
 F 3 "~" H 10400 1425 50  0001 C CNN
 	1    10400 1425
 	0    1    1    0   
@@ -409,23 +409,23 @@ Wire Wire Line
 Wire Wire Line
 	10400 1275 10400 1250
 $Comp
-L Keyboard_switches:MXSwitch SW10
+L acheronSymbols:MXSwitch SW40
 U 1 1 5C15A35C
 P 11400 1950
-F 0 "SW10" H 11300 2000 50  0000 L CNN
+F 0 "SW40" H 11300 2000 50  0000 L CNN
 F 1 "MXSwitch" H 11275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 11400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 11400 1950 50  0001 C CNN
 F 3 "" H 11400 1950 50  0001 C CNN
 	1    11400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D10
+L Device:D D37
 U 1 1 5C15A363
 P 11400 1425
-F 0 "D10" V 11369 1504 31  0000 L CNN
+F 0 "D37" V 11369 1504 31  0000 L CNN
 F 1 "1N4148" V 11431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 11400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 11400 1425 50  0001 C CNN
 F 3 "~" H 11400 1425 50  0001 C CNN
 	1    11400 1425
 	0    1    1    0   
@@ -443,23 +443,23 @@ Wire Wire Line
 Wire Wire Line
 	11050 1950 10900 1950
 $Comp
-L Keyboard_switches:MXSwitch SW11
+L acheronSymbols:MXSwitch SW44
 U 1 1 5C15A378
 P 12400 1950
-F 0 "SW11" H 12300 2000 50  0000 L CNN
+F 0 "SW44" H 12300 2000 50  0000 L CNN
 F 1 "MXSwitch" H 12275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 12400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 12400 1950 50  0001 C CNN
 F 3 "" H 12400 1950 50  0001 C CNN
 	1    12400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
+L Device:D D41
 U 1 1 5C15A37F
 P 12400 1425
-F 0 "D11" V 12369 1504 31  0000 L CNN
+F 0 "D41" V 12369 1504 31  0000 L CNN
 F 1 "1N4148" V 12431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 12400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 12400 1425 50  0001 C CNN
 F 3 "~" H 12400 1425 50  0001 C CNN
 	1    12400 1425
 	0    1    1    0   
@@ -469,23 +469,23 @@ Wire Wire Line
 Wire Wire Line
 	12400 1275 12400 1250
 $Comp
-L Keyboard_switches:MXSwitch SW12
+L acheronSymbols:MXSwitch SW48
 U 1 1 5C15A389
 P 13400 1950
-F 0 "SW12" H 13300 2000 50  0000 L CNN
+F 0 "SW48" H 13300 2000 50  0000 L CNN
 F 1 "MXSwitch" H 13275 1775 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 13400 1950 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 13400 1950 50  0001 C CNN
 F 3 "" H 13400 1950 50  0001 C CNN
 	1    13400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L Device:D D45
 U 1 1 5C15A390
 P 13400 1425
-F 0 "D12" V 13369 1504 31  0000 L CNN
+F 0 "D45" V 13369 1504 31  0000 L CNN
 F 1 "1N4148" V 13431 1504 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 13400 1425 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 13400 1425 50  0001 C CNN
 F 3 "~" H 13400 1425 50  0001 C CNN
 	1    13400 1425
 	0    1    1    0   
@@ -512,23 +512,23 @@ Connection ~ 12400 1250
 Wire Wire Line
 	1550 2275 2400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW13
+L acheronSymbols:MXSwitch SW2
 U 1 1 5C1B87E3
 P 2400 2975
-F 0 "SW13" H 2300 3025 50  0000 L CNN
+F 0 "SW2" H 2300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 2275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 2400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 2400 2975 50  0001 C CNN
 F 3 "" H 2400 2975 50  0001 C CNN
 	1    2400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D13
+L Device:D D2
 U 1 1 5C1B87EA
 P 2400 2450
-F 0 "D13" V 2369 2529 31  0000 L CNN
+F 0 "D2" V 2369 2529 31  0000 L CNN
 F 1 "1N4148" V 2431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 2400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 2400 2450 50  0001 C CNN
 F 3 "~" H 2400 2450 50  0001 C CNN
 	1    2400 2450
 	0    1    1    0   
@@ -538,23 +538,23 @@ Wire Wire Line
 Wire Wire Line
 	2400 2300 2400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW14
+L acheronSymbols:MXSwitch SW6
 U 1 1 5C1B87F4
 P 3400 2975
-F 0 "SW14" H 3300 3025 50  0000 L CNN
+F 0 "SW6" H 3300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 3275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 3400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 3400 2975 50  0001 C CNN
 F 3 "" H 3400 2975 50  0001 C CNN
 	1    3400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D14
+L Device:D D6
 U 1 1 5C1B87FB
 P 3400 2450
-F 0 "D14" V 3369 2529 31  0000 L CNN
+F 0 "D6" V 3369 2529 31  0000 L CNN
 F 1 "1N4148" V 3431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 3400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 3400 2450 50  0001 C CNN
 F 3 "~" H 3400 2450 50  0001 C CNN
 	1    3400 2450
 	0    1    1    0   
@@ -572,49 +572,47 @@ Wire Wire Line
 Wire Wire Line
 	3050 2975 2900 2975
 $Comp
-L Keyboard_switches:MXSwitch SW15
+L acheronSymbols:MXSwitch SW10
 U 1 1 5C1B880C
 P 4400 2975
-F 0 "SW15" H 4300 3025 50  0000 L CNN
+F 0 "SW10" H 4300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 4275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 4400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 4400 2975 50  0001 C CNN
 F 3 "" H 4400 2975 50  0001 C CNN
 	1    4400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
+L Device:D D10
 U 1 1 5C1B8813
 P 4400 2450
-F 0 "D15" V 4369 2529 31  0000 L CNN
+F 0 "D10" V 4369 2529 31  0000 L CNN
 F 1 "1N4148" V 4431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 4400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 4400 2450 50  0001 C CNN
 F 3 "~" H 4400 2450 50  0001 C CNN
 	1    4400 2450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4400 2625 4400 2600
-Wire Wire Line
 	4400 2300 4400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW16
+L acheronSymbols:MXSwitch SW14
 U 1 1 5C1B881C
 P 5400 2975
-F 0 "SW16" H 5300 3025 50  0000 L CNN
+F 0 "SW14" H 5300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 5275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 5400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 5400 2975 50  0001 C CNN
 F 3 "" H 5400 2975 50  0001 C CNN
 	1    5400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D16
+L Device:D D14
 U 1 1 5C1B8823
 P 5400 2450
-F 0 "D16" V 5369 2529 31  0000 L CNN
+F 0 "D14" V 5369 2529 31  0000 L CNN
 F 1 "1N4148" V 5431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 5400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 5400 2450 50  0001 C CNN
 F 3 "~" H 5400 2450 50  0001 C CNN
 	1    5400 2450
 	0    1    1    0   
@@ -631,23 +629,23 @@ Wire Wire Line
 Wire Wire Line
 	5050 2975 4900 2975
 $Comp
-L Keyboard_switches:MXSwitch SW17
+L acheronSymbols:MXSwitch SW18
 U 1 1 5C1B8832
 P 6400 2975
-F 0 "SW17" H 6300 3025 50  0000 L CNN
+F 0 "SW18" H 6300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 6275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 6400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 6400 2975 50  0001 C CNN
 F 3 "" H 6400 2975 50  0001 C CNN
 	1    6400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D17
+L Device:D D18
 U 1 1 5C1B8839
 P 6400 2450
-F 0 "D17" V 6369 2529 31  0000 L CNN
+F 0 "D18" V 6369 2529 31  0000 L CNN
 F 1 "1N4148" V 6431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 6400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 6400 2450 50  0001 C CNN
 F 3 "~" H 6400 2450 50  0001 C CNN
 	1    6400 2450
 	0    1    1    0   
@@ -657,23 +655,23 @@ Wire Wire Line
 Wire Wire Line
 	6400 2300 6400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW18
+L acheronSymbols:MXSwitch SW23
 U 1 1 5C1B8842
 P 7400 2975
-F 0 "SW18" H 7300 3025 50  0000 L CNN
+F 0 "SW23" H 7300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 7275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 7400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 7400 2975 50  0001 C CNN
 F 3 "" H 7400 2975 50  0001 C CNN
 	1    7400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D18
+L Device:D D22
 U 1 1 5C1B8849
 P 7400 2450
-F 0 "D18" V 7369 2529 31  0000 L CNN
+F 0 "D22" V 7369 2529 31  0000 L CNN
 F 1 "1N4148" V 7431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 7400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 7400 2450 50  0001 C CNN
 F 3 "~" H 7400 2450 50  0001 C CNN
 	1    7400 2450
 	0    1    1    0   
@@ -693,23 +691,23 @@ Wire Wire Line
 Wire Wire Line
 	7050 2975 6900 2975
 $Comp
-L Keyboard_switches:MXSwitch SW19
+L acheronSymbols:MXSwitch SW28
 U 1 1 5C1B885A
 P 8400 2975
-F 0 "SW19" H 8300 3025 50  0000 L CNN
+F 0 "SW28" H 8300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 8275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 8400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 8400 2975 50  0001 C CNN
 F 3 "" H 8400 2975 50  0001 C CNN
 	1    8400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D19
+L Device:D D26
 U 1 1 5C1B8861
 P 8400 2450
-F 0 "D19" V 8369 2529 31  0000 L CNN
+F 0 "D26" V 8369 2529 31  0000 L CNN
 F 1 "1N4148" V 8431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 8400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 8400 2450 50  0001 C CNN
 F 3 "~" H 8400 2450 50  0001 C CNN
 	1    8400 2450
 	0    1    1    0   
@@ -719,23 +717,23 @@ Wire Wire Line
 Wire Wire Line
 	8400 2300 8400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW20
+L acheronSymbols:MXSwitch SW33
 U 1 1 5C1B886A
 P 9400 2975
-F 0 "SW20" H 9300 3025 50  0000 L CNN
+F 0 "SW33" H 9300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 9275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 9400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 9400 2975 50  0001 C CNN
 F 3 "" H 9400 2975 50  0001 C CNN
 	1    9400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
+L Device:D D30
 U 1 1 5C1B8871
 P 9400 2450
-F 0 "D20" V 9369 2529 31  0000 L CNN
+F 0 "D30" V 9369 2529 31  0000 L CNN
 F 1 "1N4148" V 9431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 9400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 9400 2450 50  0001 C CNN
 F 3 "~" H 9400 2450 50  0001 C CNN
 	1    9400 2450
 	0    1    1    0   
@@ -752,23 +750,23 @@ Wire Wire Line
 Wire Wire Line
 	9050 2975 8900 2975
 $Comp
-L Keyboard_switches:MXSwitch SW21
+L acheronSymbols:MXSwitch SW37
 U 1 1 5C1B8880
 P 10400 2975
-F 0 "SW21" H 10300 3025 50  0000 L CNN
+F 0 "SW37" H 10300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 10275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 10400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 10400 2975 50  0001 C CNN
 F 3 "" H 10400 2975 50  0001 C CNN
 	1    10400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D21
+L Device:D D34
 U 1 1 5C1B8887
 P 10400 2450
-F 0 "D21" V 10369 2529 31  0000 L CNN
+F 0 "D34" V 10369 2529 31  0000 L CNN
 F 1 "1N4148" V 10431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 10400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 10400 2450 50  0001 C CNN
 F 3 "~" H 10400 2450 50  0001 C CNN
 	1    10400 2450
 	0    1    1    0   
@@ -778,23 +776,23 @@ Wire Wire Line
 Wire Wire Line
 	10400 2300 10400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW22
+L acheronSymbols:MXSwitch SW41
 U 1 1 5C1B8890
 P 11400 2975
-F 0 "SW22" H 11300 3025 50  0000 L CNN
+F 0 "SW41" H 11300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 11275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 11400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 11400 2975 50  0001 C CNN
 F 3 "" H 11400 2975 50  0001 C CNN
 	1    11400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D22
+L Device:D D38
 U 1 1 5C1B8897
 P 11400 2450
-F 0 "D22" V 11369 2529 31  0000 L CNN
+F 0 "D38" V 11369 2529 31  0000 L CNN
 F 1 "1N4148" V 11431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 11400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 11400 2450 50  0001 C CNN
 F 3 "~" H 11400 2450 50  0001 C CNN
 	1    11400 2450
 	0    1    1    0   
@@ -812,23 +810,23 @@ Wire Wire Line
 Wire Wire Line
 	11050 2975 10900 2975
 $Comp
-L Keyboard_switches:MXSwitch SW23
+L acheronSymbols:MXSwitch SW45
 U 1 1 5C1B88A7
 P 12400 2975
-F 0 "SW23" H 12325 3025 50  0000 L CNN
+F 0 "SW45" H 12325 3025 50  0000 L CNN
 F 1 "MXSwitch" H 12275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 12400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 12400 2975 50  0001 C CNN
 F 3 "" H 12400 2975 50  0001 C CNN
 	1    12400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
+L Device:D D42
 U 1 1 5C1B88AE
 P 12400 2450
-F 0 "D23" V 12369 2529 31  0000 L CNN
+F 0 "D42" V 12369 2529 31  0000 L CNN
 F 1 "1N4148" V 12431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 12400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 12400 2450 50  0001 C CNN
 F 3 "~" H 12400 2450 50  0001 C CNN
 	1    12400 2450
 	0    1    1    0   
@@ -838,23 +836,23 @@ Wire Wire Line
 Wire Wire Line
 	12400 2300 12400 2275
 $Comp
-L Keyboard_switches:MXSwitch SW24
+L acheronSymbols:MXSwitch SW49
 U 1 1 5C1B88B7
 P 13400 2975
-F 0 "SW24" H 13300 3025 50  0000 L CNN
+F 0 "SW49" H 13300 3025 50  0000 L CNN
 F 1 "MXSwitch" H 13275 2800 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 13400 2975 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 13400 2975 50  0001 C CNN
 F 3 "" H 13400 2975 50  0001 C CNN
 	1    13400 2975
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D24
+L Device:D D46
 U 1 1 5C1B88BE
 P 13400 2450
-F 0 "D24" V 13369 2529 31  0000 L CNN
+F 0 "D46" V 13369 2529 31  0000 L CNN
 F 1 "1N4148" V 13431 2529 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 13400 2450 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 13400 2450 50  0001 C CNN
 F 3 "~" H 13400 2450 50  0001 C CNN
 	1    13400 2450
 	0    1    1    0   
@@ -881,23 +879,23 @@ Connection ~ 12400 2275
 Wire Wire Line
 	1550 3300 2400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW25
+L acheronSymbols:MXSwitch SW3
 U 1 1 5C1D740D
 P 2400 4000
-F 0 "SW25" H 2300 4050 50  0000 L CNN
+F 0 "SW3" H 2300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 2275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 2400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 2400 4000 50  0001 C CNN
 F 3 "" H 2400 4000 50  0001 C CNN
 	1    2400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D25
+L Device:D D3
 U 1 1 5C1D7414
 P 2400 3475
-F 0 "D25" V 2369 3554 31  0000 L CNN
+F 0 "D3" V 2369 3554 31  0000 L CNN
 F 1 "1N4148" V 2431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 2400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 2400 3475 50  0001 C CNN
 F 3 "~" H 2400 3475 50  0001 C CNN
 	1    2400 3475
 	0    1    1    0   
@@ -907,23 +905,23 @@ Wire Wire Line
 Wire Wire Line
 	2400 3325 2400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW26
+L acheronSymbols:MXSwitch SW7
 U 1 1 5C1D741D
 P 3400 4000
-F 0 "SW26" H 3300 4050 50  0000 L CNN
+F 0 "SW7" H 3300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 3275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 3400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 3400 4000 50  0001 C CNN
 F 3 "" H 3400 4000 50  0001 C CNN
 	1    3400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D26
+L Device:D D7
 U 1 1 5C1D7424
 P 3400 3475
-F 0 "D26" V 3369 3554 31  0000 L CNN
+F 0 "D7" V 3369 3554 31  0000 L CNN
 F 1 "1N4148" V 3431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 3400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 3400 3475 50  0001 C CNN
 F 3 "~" H 3400 3475 50  0001 C CNN
 	1    3400 3475
 	0    1    1    0   
@@ -943,23 +941,23 @@ Wire Wire Line
 Wire Wire Line
 	3050 4000 2900 4000
 $Comp
-L Keyboard_switches:MXSwitch SW27
+L acheronSymbols:MXSwitch SW11
 U 1 1 5C1D7433
 P 4400 4000
-F 0 "SW27" H 4300 4050 50  0000 L CNN
+F 0 "SW11" H 4300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 4275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 4400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 4400 4000 50  0001 C CNN
 F 3 "" H 4400 4000 50  0001 C CNN
 	1    4400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D27
+L Device:D D11
 U 1 1 5C1D743A
 P 4400 3475
-F 0 "D27" V 4369 3554 31  0000 L CNN
+F 0 "D11" V 4369 3554 31  0000 L CNN
 F 1 "1N4148" V 4431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 4400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 4400 3475 50  0001 C CNN
 F 3 "~" H 4400 3475 50  0001 C CNN
 	1    4400 3475
 	0    1    1    0   
@@ -969,23 +967,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 3325 4400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW28
+L acheronSymbols:MXSwitch SW15
 U 1 1 5C1D7443
 P 5400 4000
-F 0 "SW28" H 5300 4050 50  0000 L CNN
+F 0 "SW15" H 5300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 5275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 5400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 5400 4000 50  0001 C CNN
 F 3 "" H 5400 4000 50  0001 C CNN
 	1    5400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D28
+L Device:D D15
 U 1 1 5C1D744A
 P 5400 3475
-F 0 "D28" V 5369 3554 31  0000 L CNN
+F 0 "D15" V 5369 3554 31  0000 L CNN
 F 1 "1N4148" V 5431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 5400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 5400 3475 50  0001 C CNN
 F 3 "~" H 5400 3475 50  0001 C CNN
 	1    5400 3475
 	0    1    1    0   
@@ -1002,23 +1000,23 @@ Wire Wire Line
 Wire Wire Line
 	5050 4000 4900 4000
 $Comp
-L Keyboard_switches:MXSwitch SW29
+L acheronSymbols:MXSwitch SW19
 U 1 1 5C1D7457
 P 6400 4000
-F 0 "SW29" H 6300 4050 50  0000 L CNN
+F 0 "SW19" H 6300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 6275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 6400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 6400 4000 50  0001 C CNN
 F 3 "" H 6400 4000 50  0001 C CNN
 	1    6400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D29
+L Device:D D19
 U 1 1 5C1D745E
 P 6400 3475
-F 0 "D29" V 6369 3554 31  0000 L CNN
+F 0 "D19" V 6369 3554 31  0000 L CNN
 F 1 "1N4148" V 6431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 6400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 6400 3475 50  0001 C CNN
 F 3 "~" H 6400 3475 50  0001 C CNN
 	1    6400 3475
 	0    1    1    0   
@@ -1028,23 +1026,23 @@ Wire Wire Line
 Wire Wire Line
 	6400 3325 6400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW30
+L acheronSymbols:MXSwitch SW24
 U 1 1 5C1D7467
 P 7400 4000
-F 0 "SW30" H 7300 4050 50  0000 L CNN
+F 0 "SW24" H 7300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 7275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 7400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 7400 4000 50  0001 C CNN
 F 3 "" H 7400 4000 50  0001 C CNN
 	1    7400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D30
+L Device:D D23
 U 1 1 5C1D746E
 P 7400 3475
-F 0 "D30" V 7369 3554 31  0000 L CNN
+F 0 "D23" V 7369 3554 31  0000 L CNN
 F 1 "1N4148" V 7431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 7400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 7400 3475 50  0001 C CNN
 F 3 "~" H 7400 3475 50  0001 C CNN
 	1    7400 3475
 	0    1    1    0   
@@ -1064,23 +1062,23 @@ Wire Wire Line
 Wire Wire Line
 	7050 4000 6900 4000
 $Comp
-L Keyboard_switches:MXSwitch SW31
+L acheronSymbols:MXSwitch SW29
 U 1 1 5C1D747D
 P 8400 4000
-F 0 "SW31" H 8300 4050 50  0000 L CNN
+F 0 "SW29" H 8300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 8275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 8400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 8400 4000 50  0001 C CNN
 F 3 "" H 8400 4000 50  0001 C CNN
 	1    8400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D31
+L Device:D D27
 U 1 1 5C1D7484
 P 8400 3475
-F 0 "D31" V 8369 3554 31  0000 L CNN
+F 0 "D27" V 8369 3554 31  0000 L CNN
 F 1 "1N4148" V 8431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 8400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 8400 3475 50  0001 C CNN
 F 3 "~" H 8400 3475 50  0001 C CNN
 	1    8400 3475
 	0    1    1    0   
@@ -1090,23 +1088,23 @@ Wire Wire Line
 Wire Wire Line
 	8400 3325 8400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW32
+L acheronSymbols:MXSwitch SW34
 U 1 1 5C1D748D
 P 9400 4000
-F 0 "SW32" H 9300 4050 50  0000 L CNN
+F 0 "SW34" H 9300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 9275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 9400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 9400 4000 50  0001 C CNN
 F 3 "" H 9400 4000 50  0001 C CNN
 	1    9400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D32
+L Device:D D31
 U 1 1 5C1D7494
 P 9400 3475
-F 0 "D32" V 9369 3554 31  0000 L CNN
+F 0 "D31" V 9369 3554 31  0000 L CNN
 F 1 "1N4148" V 9431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 9400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 9400 3475 50  0001 C CNN
 F 3 "~" H 9400 3475 50  0001 C CNN
 	1    9400 3475
 	0    1    1    0   
@@ -1123,23 +1121,23 @@ Wire Wire Line
 Wire Wire Line
 	9050 4000 8900 4000
 $Comp
-L Keyboard_switches:MXSwitch SW33
+L acheronSymbols:MXSwitch SW38
 U 1 1 5C1D74A1
 P 10400 4000
-F 0 "SW33" H 10300 4050 50  0000 L CNN
+F 0 "SW38" H 10300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 10275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 10400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 10400 4000 50  0001 C CNN
 F 3 "" H 10400 4000 50  0001 C CNN
 	1    10400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D33
+L Device:D D35
 U 1 1 5C1D74A8
 P 10400 3475
-F 0 "D33" V 10369 3554 31  0000 L CNN
+F 0 "D35" V 10369 3554 31  0000 L CNN
 F 1 "1N4148" V 10431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 10400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 10400 3475 50  0001 C CNN
 F 3 "~" H 10400 3475 50  0001 C CNN
 	1    10400 3475
 	0    1    1    0   
@@ -1149,23 +1147,23 @@ Wire Wire Line
 Wire Wire Line
 	10400 3325 10400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW34
+L acheronSymbols:MXSwitch SW42
 U 1 1 5C1D74B1
 P 11400 4000
-F 0 "SW34" H 11300 4050 50  0000 L CNN
+F 0 "SW42" H 11300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 11275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 11400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 11400 4000 50  0001 C CNN
 F 3 "" H 11400 4000 50  0001 C CNN
 	1    11400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L Device:D D39
 U 1 1 5C1D74B8
 P 11400 3475
-F 0 "D34" V 11369 3554 31  0000 L CNN
+F 0 "D39" V 11369 3554 31  0000 L CNN
 F 1 "1N4148" V 11431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 11400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 11400 3475 50  0001 C CNN
 F 3 "~" H 11400 3475 50  0001 C CNN
 	1    11400 3475
 	0    1    1    0   
@@ -1183,23 +1181,23 @@ Wire Wire Line
 Wire Wire Line
 	11050 4000 10900 4000
 $Comp
-L Keyboard_switches:MXSwitch SW35
+L acheronSymbols:MXSwitch SW46
 U 1 1 5C1D74C6
 P 12400 4000
-F 0 "SW35" H 12325 4050 50  0000 L CNN
+F 0 "SW46" H 12325 4050 50  0000 L CNN
 F 1 "MXSwitch" H 12275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 12400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 12400 4000 50  0001 C CNN
 F 3 "" H 12400 4000 50  0001 C CNN
 	1    12400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D35
+L Device:D D43
 U 1 1 5C1D74CD
 P 12400 3475
-F 0 "D35" V 12369 3554 31  0000 L CNN
+F 0 "D43" V 12369 3554 31  0000 L CNN
 F 1 "1N4148" V 12431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 12400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 12400 3475 50  0001 C CNN
 F 3 "~" H 12400 3475 50  0001 C CNN
 	1    12400 3475
 	0    1    1    0   
@@ -1209,23 +1207,23 @@ Wire Wire Line
 Wire Wire Line
 	12400 3325 12400 3300
 $Comp
-L Keyboard_switches:MXSwitch SW36
+L acheronSymbols:MXSwitch SW50
 U 1 1 5C1D74D6
 P 13400 4000
-F 0 "SW36" H 13300 4050 50  0000 L CNN
+F 0 "SW50" H 13300 4050 50  0000 L CNN
 F 1 "MXSwitch" H 13275 3825 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 13400 4000 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 13400 4000 50  0001 C CNN
 F 3 "" H 13400 4000 50  0001 C CNN
 	1    13400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D36
+L Device:D D47
 U 1 1 5C1D74DD
 P 13400 3475
-F 0 "D36" V 13369 3554 31  0000 L CNN
+F 0 "D47" V 13369 3554 31  0000 L CNN
 F 1 "1N4148" V 13431 3554 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 13400 3475 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 13400 3475 50  0001 C CNN
 F 3 "~" H 13400 3475 50  0001 C CNN
 	1    13400 3475
 	0    1    1    0   
@@ -1318,23 +1316,23 @@ Wire Wire Line
 Wire Wire Line
 	1550 4325 2400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW37
+L acheronSymbols:MXSwitch SW4
 U 1 1 5C277799
 P 2400 5025
-F 0 "SW37" H 2300 5075 50  0000 L CNN
+F 0 "SW4" H 2300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 2275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 2400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 2400 5025 50  0001 C CNN
 F 3 "" H 2400 5025 50  0001 C CNN
 	1    2400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D37
+L Device:D D4
 U 1 1 5C2777A0
 P 2400 4500
-F 0 "D37" V 2369 4579 31  0000 L CNN
+F 0 "D4" V 2369 4579 31  0000 L CNN
 F 1 "1N4148" V 2431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 2400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 2400 4500 50  0001 C CNN
 F 3 "~" H 2400 4500 50  0001 C CNN
 	1    2400 4500
 	0    1    1    0   
@@ -1344,23 +1342,23 @@ Wire Wire Line
 Wire Wire Line
 	2400 4350 2400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW38
+L acheronSymbols:MXSwitch SW8
 U 1 1 5C2777A9
 P 3400 5025
-F 0 "SW38" H 3300 5075 50  0000 L CNN
+F 0 "SW8" H 3300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 3275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 3400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 3400 5025 50  0001 C CNN
 F 3 "" H 3400 5025 50  0001 C CNN
 	1    3400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D38
+L Device:D D8
 U 1 1 5C2777B0
 P 3400 4500
-F 0 "D38" V 3369 4579 31  0000 L CNN
+F 0 "D8" V 3369 4579 31  0000 L CNN
 F 1 "1N4148" V 3431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 3400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 3400 4500 50  0001 C CNN
 F 3 "~" H 3400 4500 50  0001 C CNN
 	1    3400 4500
 	0    1    1    0   
@@ -1380,23 +1378,23 @@ Wire Wire Line
 Wire Wire Line
 	3050 5025 2900 5025
 $Comp
-L Keyboard_switches:MXSwitch SW39
+L acheronSymbols:MXSwitch SW12
 U 1 1 5C2777BF
 P 4400 5025
-F 0 "SW39" H 4300 5075 50  0000 L CNN
+F 0 "SW12" H 4300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 4275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 4400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 4400 5025 50  0001 C CNN
 F 3 "" H 4400 5025 50  0001 C CNN
 	1    4400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D39
+L Device:D D12
 U 1 1 5C2777C6
 P 4400 4500
-F 0 "D39" V 4369 4579 31  0000 L CNN
+F 0 "D12" V 4369 4579 31  0000 L CNN
 F 1 "1N4148" V 4431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 4400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 4400 4500 50  0001 C CNN
 F 3 "~" H 4400 4500 50  0001 C CNN
 	1    4400 4500
 	0    1    1    0   
@@ -1406,23 +1404,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 4350 4400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW40
+L acheronSymbols:MXSwitch SW16
 U 1 1 5C2777CF
 P 5400 5025
-F 0 "SW40" H 5300 5075 50  0000 L CNN
+F 0 "SW16" H 5300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 5275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 5400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 5400 5025 50  0001 C CNN
 F 3 "" H 5400 5025 50  0001 C CNN
 	1    5400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D40
+L Device:D D16
 U 1 1 5C2777D6
 P 5400 4500
-F 0 "D40" V 5369 4579 31  0000 L CNN
+F 0 "D16" V 5369 4579 31  0000 L CNN
 F 1 "1N4148" V 5431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 5400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 5400 4500 50  0001 C CNN
 F 3 "~" H 5400 4500 50  0001 C CNN
 	1    5400 4500
 	0    1    1    0   
@@ -1439,23 +1437,23 @@ Wire Wire Line
 Wire Wire Line
 	5050 5025 4900 5025
 $Comp
-L Keyboard_switches:MXSwitch SW41
+L acheronSymbols:MXSwitch SW20
 U 1 1 5C2777E3
 P 6400 5025
-F 0 "SW41" H 6300 5075 50  0000 L CNN
+F 0 "SW20" H 6300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 6275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 6400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 6400 5025 50  0001 C CNN
 F 3 "" H 6400 5025 50  0001 C CNN
 	1    6400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D41
+L Device:D D20
 U 1 1 5C2777EA
 P 6400 4500
-F 0 "D41" V 6369 4579 31  0000 L CNN
+F 0 "D20" V 6369 4579 31  0000 L CNN
 F 1 "1N4148" V 6431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 6400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 6400 4500 50  0001 C CNN
 F 3 "~" H 6400 4500 50  0001 C CNN
 	1    6400 4500
 	0    1    1    0   
@@ -1465,23 +1463,23 @@ Wire Wire Line
 Wire Wire Line
 	6400 4350 6400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW42
+L acheronSymbols:MXSwitch SW25
 U 1 1 5C2777F3
 P 7400 5025
-F 0 "SW42" H 7300 5075 50  0000 L CNN
+F 0 "SW25" H 7300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 7275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 7400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 7400 5025 50  0001 C CNN
 F 3 "" H 7400 5025 50  0001 C CNN
 	1    7400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D42
+L Device:D D24
 U 1 1 5C2777FA
 P 7400 4500
-F 0 "D42" V 7369 4579 31  0000 L CNN
+F 0 "D24" V 7369 4579 31  0000 L CNN
 F 1 "1N4148" V 7431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 7400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 7400 4500 50  0001 C CNN
 F 3 "~" H 7400 4500 50  0001 C CNN
 	1    7400 4500
 	0    1    1    0   
@@ -1499,23 +1497,23 @@ Wire Wire Line
 Wire Wire Line
 	7050 5025 6900 5025
 $Comp
-L Keyboard_switches:MXSwitch SW43
+L acheronSymbols:MXSwitch SW30
 U 1 1 5C277809
 P 8400 5025
-F 0 "SW43" H 8300 5075 50  0000 L CNN
+F 0 "SW30" H 8300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 8275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 8400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 8400 5025 50  0001 C CNN
 F 3 "" H 8400 5025 50  0001 C CNN
 	1    8400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D43
+L Device:D D28
 U 1 1 5C277810
 P 8400 4500
-F 0 "D43" V 8369 4579 31  0000 L CNN
+F 0 "D28" V 8369 4579 31  0000 L CNN
 F 1 "1N4148" V 8431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 8400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 8400 4500 50  0001 C CNN
 F 3 "~" H 8400 4500 50  0001 C CNN
 	1    8400 4500
 	0    1    1    0   
@@ -1525,23 +1523,23 @@ Wire Wire Line
 Wire Wire Line
 	8400 4350 8400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW44
+L acheronSymbols:MXSwitch SW35
 U 1 1 5C277819
 P 9400 5025
-F 0 "SW44" H 9300 5075 50  0000 L CNN
+F 0 "SW35" H 9300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 9275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 9400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 9400 5025 50  0001 C CNN
 F 3 "" H 9400 5025 50  0001 C CNN
 	1    9400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D44
+L Device:D D32
 U 1 1 5C277820
 P 9400 4500
-F 0 "D44" V 9369 4579 31  0000 L CNN
+F 0 "D32" V 9369 4579 31  0000 L CNN
 F 1 "1N4148" V 9431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 9400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 9400 4500 50  0001 C CNN
 F 3 "~" H 9400 4500 50  0001 C CNN
 	1    9400 4500
 	0    1    1    0   
@@ -1558,23 +1556,23 @@ Wire Wire Line
 Wire Wire Line
 	9050 5025 8900 5025
 $Comp
-L Keyboard_switches:MXSwitch SW45
+L acheronSymbols:MXSwitch SW39
 U 1 1 5C27782D
 P 10400 5025
-F 0 "SW45" H 10300 5075 50  0000 L CNN
+F 0 "SW39" H 10300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 10275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 10400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 10400 5025 50  0001 C CNN
 F 3 "" H 10400 5025 50  0001 C CNN
 	1    10400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D45
+L Device:D D36
 U 1 1 5C277834
 P 10400 4500
-F 0 "D45" V 10369 4579 31  0000 L CNN
+F 0 "D36" V 10369 4579 31  0000 L CNN
 F 1 "1N4148" V 10431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 10400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 10400 4500 50  0001 C CNN
 F 3 "~" H 10400 4500 50  0001 C CNN
 	1    10400 4500
 	0    1    1    0   
@@ -1584,23 +1582,23 @@ Wire Wire Line
 Wire Wire Line
 	10400 4350 10400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW46
+L acheronSymbols:MXSwitch SW43
 U 1 1 5C27783D
 P 11400 5025
-F 0 "SW46" H 11300 5075 50  0000 L CNN
+F 0 "SW43" H 11300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 11275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 11400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 11400 5025 50  0001 C CNN
 F 3 "" H 11400 5025 50  0001 C CNN
 	1    11400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D46
+L Device:D D40
 U 1 1 5C277844
 P 11400 4500
-F 0 "D46" V 11369 4579 31  0000 L CNN
+F 0 "D40" V 11369 4579 31  0000 L CNN
 F 1 "1N4148" V 11431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 11400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 11400 4500 50  0001 C CNN
 F 3 "~" H 11400 4500 50  0001 C CNN
 	1    11400 4500
 	0    1    1    0   
@@ -1618,23 +1616,23 @@ Wire Wire Line
 Wire Wire Line
 	11050 5025 10900 5025
 $Comp
-L Keyboard_switches:MXSwitch SW47
+L acheronSymbols:MXSwitch SW47
 U 1 1 5C277852
 P 12400 5025
 F 0 "SW47" H 12325 5075 50  0000 L CNN
 F 1 "MXSwitch" H 12275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 12400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 12400 5025 50  0001 C CNN
 F 3 "" H 12400 5025 50  0001 C CNN
 	1    12400 5025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D47
+L Device:D D44
 U 1 1 5C277859
 P 12400 4500
-F 0 "D47" V 12369 4579 31  0000 L CNN
+F 0 "D44" V 12369 4579 31  0000 L CNN
 F 1 "1N4148" V 12431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 12400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 12400 4500 50  0001 C CNN
 F 3 "~" H 12400 4500 50  0001 C CNN
 	1    12400 4500
 	0    1    1    0   
@@ -1644,12 +1642,12 @@ Wire Wire Line
 Wire Wire Line
 	12400 4350 12400 4325
 $Comp
-L Keyboard_switches:MXSwitch SW48
+L acheronSymbols:MXSwitch SW51
 U 1 1 5C277862
 P 13400 5025
-F 0 "SW48" H 13300 5075 50  0000 L CNN
+F 0 "SW51" H 13300 5075 50  0000 L CNN
 F 1 "MXSwitch" H 13275 4850 39  0000 L CNN
-F 2 "Keyboard_switches:MX100" H 13400 5025 50  0001 C CNN
+F 2 "acheronSymbols:MX100" H 13400 5025 50  0001 C CNN
 F 3 "" H 13400 5025 50  0001 C CNN
 	1    13400 5025
 	1    0    0    -1  
@@ -1660,7 +1658,7 @@ U 1 1 5C277869
 P 13400 4500
 F 0 "D48" V 13369 4579 31  0000 L CNN
 F 1 "1N4148" V 13431 4579 31  0000 L CNN
-F 2 "Keyboard_switches:D_SOD-123" H 13400 4500 50  0001 C CNN
+F 2 "acheronSymbols:D_SOD-123" H 13400 4500 50  0001 C CNN
 F 3 "~" H 13400 4500 50  0001 C CNN
 	1    13400 4500
 	0    1    1    0   
@@ -1693,34 +1691,34 @@ Wire Wire Line
 Wire Wire Line
 	7900 5775 7900 5025
 $Comp
-L Keyboard_switches:MXSwitch SW50
+L acheronSymbols:MXSwitch SW26
 U 1 1 5C2D3025
 P 7400 5775
-F 0 "SW50" H 7300 5825 50  0000 L CNN
+F 0 "SW26" H 7300 5825 50  0000 L CNN
 F 1 "MXSwitch" H 7275 5600 39  0000 L CNN
-F 2 "Keyboard_switches:MX200R" H 7400 5775 50  0001 C CNN
+F 2 "acheronSymbols:MX200R" H 7400 5775 50  0001 C CNN
 F 3 "" H 7400 5775 50  0001 C CNN
 	1    7400 5775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keyboard_switches:MXSwitch SW51
+L acheronSymbols:MXSwitch SW31
 U 1 1 5C358C0D
 P 8400 5775
-F 0 "SW51" H 8300 5825 50  0000 L CNN
+F 0 "SW31" H 8300 5825 50  0000 L CNN
 F 1 "MXSwitch" H 8275 5600 39  0000 L CNN
-F 2 "Keyboard_switches:MX200R" H 8400 5775 50  0001 C CNN
+F 2 "acheronSymbols:MX200R" H 8400 5775 50  0001 C CNN
 F 3 "" H 8400 5775 50  0001 C CNN
 	1    8400 5775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keyboard_switches:MXSwitch SW49
+L acheronSymbols:MXSwitch SW21
 U 1 1 5C4B27E7
 P 6400 5775
-F 0 "SW49" H 6300 5825 50  0000 L CNN
+F 0 "SW21" H 6300 5825 50  0000 L CNN
 F 1 "MXSwitch" H 6275 5600 39  0000 L CNN
-F 2 "Keyboard_switches:MX200R" H 6400 5775 50  0001 C CNN
+F 2 "acheronSymbols:MX200R" H 6400 5775 50  0001 C CNN
 F 3 "" H 6400 5775 50  0001 C CNN
 	1    6400 5775
 	1    0    0    -1  
@@ -1805,10 +1803,10 @@ Connection ~ 1900 4000
 Wire Wire Line
 	8125 10025 8125 10075
 $Comp
-L Device:C_Small C7
+L Device:C_Small C2
 U 1 1 5C192852
 P 8125 10225
-F 0 "C7" H 8200 10150 31  0000 R CNN
+F 0 "C2" H 8200 10150 31  0000 R CNN
 F 1 "4.7n" H 8250 10300 31  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8125 10225 50  0001 C CNN
 F 3 "~" H 8125 10225 50  0001 C CNN
@@ -1816,10 +1814,10 @@ F 3 "~" H 8125 10225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R2
 U 1 1 5C1953C2
 P 7925 10225
-F 0 "R5" V 7825 10225 50  0000 C CNN
+F 0 "R2" V 7825 10225 50  0000 C CNN
 F 1 "1M" V 7925 10225 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7855 10225 50  0001 C CNN
 F 3 "~" H 7925 10225 50  0001 C CNN
@@ -1839,10 +1837,10 @@ Wire Wire Line
 	7925 10375 7925 10425
 Connection ~ 7925 10375
 $Comp
-L power:GND #PWR0107
+L power:GND #PWR013
 U 1 1 5C237223
 P 7925 10425
-F 0 "#PWR0107" H 7925 10175 50  0001 C CNN
+F 0 "#PWR013" H 7925 10175 50  0001 C CNN
 F 1 "GND" V 7930 10297 50  0000 R CNN
 F 2 "" H 7925 10425 50  0001 C CNN
 F 3 "" H 7925 10425 50  0001 C CNN
@@ -1881,10 +1879,10 @@ Connection ~ 10850 7125
 Wire Wire Line
 	10850 7375 10850 7425
 $Comp
-L power:GND #PWR0112
+L power:GND #PWR016
 U 1 1 5C363806
 P 10850 7425
-F 0 "#PWR0112" H 10850 7175 50  0001 C CNN
+F 0 "#PWR016" H 10850 7175 50  0001 C CNN
 F 1 "GND" V 10855 7297 50  0000 R CNN
 F 2 "" H 10850 7425 50  0001 C CNN
 F 3 "" H 10850 7425 50  0001 C CNN
@@ -1894,10 +1892,10 @@ $EndComp
 Wire Wire Line
 	6700 8525 6700 8575
 $Comp
-L Device:C_Small C9
+L Device:C_Small C1
 U 1 1 5C391EB2
 P 6700 8725
-F 0 "C9" H 6775 8650 31  0000 R CNN
+F 0 "C1" H 6775 8650 31  0000 R CNN
 F 1 "4.7n" H 6825 8800 31  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 8725 50  0001 C CNN
 F 3 "~" H 6700 8725 50  0001 C CNN
@@ -1905,10 +1903,10 @@ F 3 "~" H 6700 8725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R1
 U 1 1 5C391EB9
 P 6500 8725
-F 0 "R6" V 6400 8725 50  0000 C CNN
+F 0 "R1" V 6400 8725 50  0000 C CNN
 F 1 "1M" V 6500 8725 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6430 8725 50  0001 C CNN
 F 3 "~" H 6500 8725 50  0001 C CNN
@@ -1928,10 +1926,10 @@ Wire Wire Line
 	6500 8875 6500 8925
 Connection ~ 6500 8875
 $Comp
-L power:GND #PWR0113
+L power:GND #PWR08
 U 1 1 5C391EC7
 P 6500 8925
-F 0 "#PWR0113" H 6500 8675 50  0001 C CNN
+F 0 "#PWR08" H 6500 8675 50  0001 C CNN
 F 1 "GND" V 6505 8797 50  0000 R CNN
 F 2 "" H 6500 8925 50  0001 C CNN
 F 3 "" H 6500 8925 50  0001 C CNN
@@ -1939,10 +1937,10 @@ F 3 "" H 6500 8925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H12
+L Mechanical:MountingHole_Pad H1
 U 1 1 5C3B52F4
 P 6700 8425
-F 0 "H12" H 6800 8476 50  0000 L CNN
+F 0 "H1" H 6800 8476 50  0000 L CNN
 F 1 "CASE" H 6800 8385 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6700 8425 50  0001 C CNN
 F 3 "~" H 6700 8425 50  0001 C CNN
@@ -2028,10 +2026,10 @@ F 3 "~" H 1625 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL2
+L Device:R_Small RL5
 U 1 1 5C1A4AA9
 P 1900 6575
-F 0 "RL2" H 1959 6606 31  0000 L CNN
+F 0 "RL5" H 1959 6606 31  0000 L CNN
 F 1 "360" H 1959 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1900 6575 50  0001 C CNN
 F 3 "~" H 1900 6575 50  0001 C CNN
@@ -2039,10 +2037,10 @@ F 3 "~" H 1900 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL3
+L Device:R_Small RL9
 U 1 1 5C1C47E2
 P 2175 6575
-F 0 "RL3" H 2234 6606 31  0000 L CNN
+F 0 "RL9" H 2234 6606 31  0000 L CNN
 F 1 "360" H 2234 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2175 6575 50  0001 C CNN
 F 3 "~" H 2175 6575 50  0001 C CNN
@@ -2050,10 +2048,10 @@ F 3 "~" H 2175 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL4
+L Device:R_Small RL13
 U 1 1 5C1C47F0
 P 2450 6575
-F 0 "RL4" H 2509 6606 31  0000 L CNN
+F 0 "RL13" H 2509 6606 31  0000 L CNN
 F 1 "R_LED" H 2509 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2450 6575 50  0001 C CNN
 F 3 "~" H 2450 6575 50  0001 C CNN
@@ -2061,10 +2059,10 @@ F 3 "~" H 2450 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL5
+L Device:R_Small RL17
 U 1 1 5C1E4B19
 P 2725 6575
-F 0 "RL5" H 2784 6606 31  0000 L CNN
+F 0 "RL17" H 2784 6606 31  0000 L CNN
 F 1 "360" H 2784 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2725 6575 50  0001 C CNN
 F 3 "~" H 2725 6575 50  0001 C CNN
@@ -2072,10 +2070,10 @@ F 3 "~" H 2725 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL6
+L Device:R_Small RL21
 U 1 1 5C1E4B27
 P 3000 6575
-F 0 "RL6" H 3059 6606 31  0000 L CNN
+F 0 "RL21" H 3059 6606 31  0000 L CNN
 F 1 "360" H 3059 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3000 6575 50  0001 C CNN
 F 3 "~" H 3000 6575 50  0001 C CNN
@@ -2083,10 +2081,10 @@ F 3 "~" H 3000 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL7
+L Device:R_Small RL25
 U 1 1 5C1E4B35
 P 3275 6575
-F 0 "RL7" H 3334 6606 31  0000 L CNN
+F 0 "RL25" H 3334 6606 31  0000 L CNN
 F 1 "360" H 3334 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3275 6575 50  0001 C CNN
 F 3 "~" H 3275 6575 50  0001 C CNN
@@ -2094,10 +2092,10 @@ F 3 "~" H 3275 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL8
+L Device:R_Small RL29
 U 1 1 5C1E4B43
 P 3550 6575
-F 0 "RL8" H 3609 6606 31  0000 L CNN
+F 0 "RL29" H 3609 6606 31  0000 L CNN
 F 1 "360" H 3609 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3550 6575 50  0001 C CNN
 F 3 "~" H 3550 6575 50  0001 C CNN
@@ -2105,10 +2103,10 @@ F 3 "~" H 3550 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL9
+L Device:R_Small RL33
 U 1 1 5C204AA0
 P 3825 6575
-F 0 "RL9" H 3884 6606 31  0000 L CNN
+F 0 "RL33" H 3884 6606 31  0000 L CNN
 F 1 "360" H 3884 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3825 6575 50  0001 C CNN
 F 3 "~" H 3825 6575 50  0001 C CNN
@@ -2116,10 +2114,10 @@ F 3 "~" H 3825 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL10
+L Device:R_Small RL37
 U 1 1 5C204AAE
 P 4100 6575
-F 0 "RL10" H 4159 6606 31  0000 L CNN
+F 0 "RL37" H 4159 6606 31  0000 L CNN
 F 1 "360" H 4159 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4100 6575 50  0001 C CNN
 F 3 "~" H 4100 6575 50  0001 C CNN
@@ -2127,10 +2125,10 @@ F 3 "~" H 4100 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL11
+L Device:R_Small RL41
 U 1 1 5C204ABC
 P 4375 6575
-F 0 "RL11" H 4434 6606 31  0000 L CNN
+F 0 "RL41" H 4434 6606 31  0000 L CNN
 F 1 "360" H 4434 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4375 6575 50  0001 C CNN
 F 3 "~" H 4375 6575 50  0001 C CNN
@@ -2138,10 +2136,10 @@ F 3 "~" H 4375 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL12
+L Device:R_Small RL45
 U 1 1 5C204ACA
 P 4650 6575
-F 0 "RL12" H 4709 6606 31  0000 L CNN
+F 0 "RL45" H 4709 6606 31  0000 L CNN
 F 1 "360" H 4709 6544 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4650 6575 50  0001 C CNN
 F 3 "~" H 4650 6575 50  0001 C CNN
@@ -2149,10 +2147,10 @@ F 3 "~" H 4650 6575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL13
+L Device:R_Small RL2
 U 1 1 5C228515
 P 1625 7250
-F 0 "RL13" H 1684 7281 31  0000 L CNN
+F 0 "RL2" H 1684 7281 31  0000 L CNN
 F 1 "360" H 1684 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1625 7250 50  0001 C CNN
 F 3 "~" H 1625 7250 50  0001 C CNN
@@ -2160,10 +2158,10 @@ F 3 "~" H 1625 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL14
+L Device:R_Small RL6
 U 1 1 5C228523
 P 1900 7250
-F 0 "RL14" H 1959 7281 31  0000 L CNN
+F 0 "RL6" H 1959 7281 31  0000 L CNN
 F 1 "360" H 1959 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1900 7250 50  0001 C CNN
 F 3 "~" H 1900 7250 50  0001 C CNN
@@ -2171,10 +2169,10 @@ F 3 "~" H 1900 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL15
+L Device:R_Small RL10
 U 1 1 5C228531
 P 2175 7250
-F 0 "RL15" H 2234 7281 31  0000 L CNN
+F 0 "RL10" H 2234 7281 31  0000 L CNN
 F 1 "360" H 2234 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2175 7250 50  0001 C CNN
 F 3 "~" H 2175 7250 50  0001 C CNN
@@ -2182,10 +2180,10 @@ F 3 "~" H 2175 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL16
+L Device:R_Small RL14
 U 1 1 5C22853F
 P 2450 7250
-F 0 "RL16" H 2509 7281 31  0000 L CNN
+F 0 "RL14" H 2509 7281 31  0000 L CNN
 F 1 "360" H 2509 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2450 7250 50  0001 C CNN
 F 3 "~" H 2450 7250 50  0001 C CNN
@@ -2193,10 +2191,10 @@ F 3 "~" H 2450 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL17
+L Device:R_Small RL18
 U 1 1 5C22854D
 P 2725 7250
-F 0 "RL17" H 2784 7281 31  0000 L CNN
+F 0 "RL18" H 2784 7281 31  0000 L CNN
 F 1 "360" H 2784 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2725 7250 50  0001 C CNN
 F 3 "~" H 2725 7250 50  0001 C CNN
@@ -2204,10 +2202,10 @@ F 3 "~" H 2725 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL18
+L Device:R_Small RL22
 U 1 1 5C22855B
 P 3000 7250
-F 0 "RL18" H 3059 7281 31  0000 L CNN
+F 0 "RL22" H 3059 7281 31  0000 L CNN
 F 1 "360" H 3059 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3000 7250 50  0001 C CNN
 F 3 "~" H 3000 7250 50  0001 C CNN
@@ -2215,10 +2213,10 @@ F 3 "~" H 3000 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL19
+L Device:R_Small RL26
 U 1 1 5C228569
 P 3275 7250
-F 0 "RL19" H 3334 7281 31  0000 L CNN
+F 0 "RL26" H 3334 7281 31  0000 L CNN
 F 1 "360" H 3334 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3275 7250 50  0001 C CNN
 F 3 "~" H 3275 7250 50  0001 C CNN
@@ -2226,10 +2224,10 @@ F 3 "~" H 3275 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL20
+L Device:R_Small RL30
 U 1 1 5C228577
 P 3550 7250
-F 0 "RL20" H 3609 7281 31  0000 L CNN
+F 0 "RL30" H 3609 7281 31  0000 L CNN
 F 1 "360" H 3609 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3550 7250 50  0001 C CNN
 F 3 "~" H 3550 7250 50  0001 C CNN
@@ -2237,10 +2235,10 @@ F 3 "~" H 3550 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL21
+L Device:R_Small RL34
 U 1 1 5C228585
 P 3825 7250
-F 0 "RL21" H 3884 7281 31  0000 L CNN
+F 0 "RL34" H 3884 7281 31  0000 L CNN
 F 1 "360" H 3884 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3825 7250 50  0001 C CNN
 F 3 "~" H 3825 7250 50  0001 C CNN
@@ -2248,10 +2246,10 @@ F 3 "~" H 3825 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL22
+L Device:R_Small RL38
 U 1 1 5C228593
 P 4100 7250
-F 0 "RL22" H 4159 7281 31  0000 L CNN
+F 0 "RL38" H 4159 7281 31  0000 L CNN
 F 1 "360" H 4159 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4100 7250 50  0001 C CNN
 F 3 "~" H 4100 7250 50  0001 C CNN
@@ -2259,10 +2257,10 @@ F 3 "~" H 4100 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL23
+L Device:R_Small RL42
 U 1 1 5C2285A1
 P 4375 7250
-F 0 "RL23" H 4434 7281 31  0000 L CNN
+F 0 "RL42" H 4434 7281 31  0000 L CNN
 F 1 "360" H 4434 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4375 7250 50  0001 C CNN
 F 3 "~" H 4375 7250 50  0001 C CNN
@@ -2270,10 +2268,10 @@ F 3 "~" H 4375 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL24
+L Device:R_Small RL46
 U 1 1 5C2285AF
 P 4650 7250
-F 0 "RL24" H 4709 7281 31  0000 L CNN
+F 0 "RL46" H 4709 7281 31  0000 L CNN
 F 1 "360" H 4709 7219 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4650 7250 50  0001 C CNN
 F 3 "~" H 4650 7250 50  0001 C CNN
@@ -2281,10 +2279,10 @@ F 3 "~" H 4650 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL25
+L Device:R_Small RL3
 U 1 1 5C26C143
 P 1625 7950
-F 0 "RL25" H 1684 7981 31  0000 L CNN
+F 0 "RL3" H 1684 7981 31  0000 L CNN
 F 1 "360" H 1684 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1625 7950 50  0001 C CNN
 F 3 "~" H 1625 7950 50  0001 C CNN
@@ -2292,10 +2290,10 @@ F 3 "~" H 1625 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL26
+L Device:R_Small RL7
 U 1 1 5C26C151
 P 1900 7950
-F 0 "RL26" H 1959 7981 31  0000 L CNN
+F 0 "RL7" H 1959 7981 31  0000 L CNN
 F 1 "360" H 1959 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1900 7950 50  0001 C CNN
 F 3 "~" H 1900 7950 50  0001 C CNN
@@ -2303,10 +2301,10 @@ F 3 "~" H 1900 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL27
+L Device:R_Small RL11
 U 1 1 5C26C15F
 P 2175 7950
-F 0 "RL27" H 2234 7981 31  0000 L CNN
+F 0 "RL11" H 2234 7981 31  0000 L CNN
 F 1 "360" H 2234 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2175 7950 50  0001 C CNN
 F 3 "~" H 2175 7950 50  0001 C CNN
@@ -2314,10 +2312,10 @@ F 3 "~" H 2175 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL28
+L Device:R_Small RL15
 U 1 1 5C26C16D
 P 2450 7950
-F 0 "RL28" H 2509 7981 31  0000 L CNN
+F 0 "RL15" H 2509 7981 31  0000 L CNN
 F 1 "360" H 2509 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2450 7950 50  0001 C CNN
 F 3 "~" H 2450 7950 50  0001 C CNN
@@ -2325,10 +2323,10 @@ F 3 "~" H 2450 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL29
+L Device:R_Small RL19
 U 1 1 5C26C17B
 P 2725 7950
-F 0 "RL29" H 2784 7981 31  0000 L CNN
+F 0 "RL19" H 2784 7981 31  0000 L CNN
 F 1 "360" H 2784 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2725 7950 50  0001 C CNN
 F 3 "~" H 2725 7950 50  0001 C CNN
@@ -2336,10 +2334,10 @@ F 3 "~" H 2725 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL30
+L Device:R_Small RL23
 U 1 1 5C26C189
 P 3000 7950
-F 0 "RL30" H 3059 7981 31  0000 L CNN
+F 0 "RL23" H 3059 7981 31  0000 L CNN
 F 1 "360" H 3059 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3000 7950 50  0001 C CNN
 F 3 "~" H 3000 7950 50  0001 C CNN
@@ -2347,10 +2345,10 @@ F 3 "~" H 3000 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL31
+L Device:R_Small RL27
 U 1 1 5C26C197
 P 3275 7950
-F 0 "RL31" H 3334 7981 31  0000 L CNN
+F 0 "RL27" H 3334 7981 31  0000 L CNN
 F 1 "360" H 3334 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3275 7950 50  0001 C CNN
 F 3 "~" H 3275 7950 50  0001 C CNN
@@ -2358,10 +2356,10 @@ F 3 "~" H 3275 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL32
+L Device:R_Small RL31
 U 1 1 5C26C1A5
 P 3550 7950
-F 0 "RL32" H 3609 7981 31  0000 L CNN
+F 0 "RL31" H 3609 7981 31  0000 L CNN
 F 1 "360" H 3609 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3550 7950 50  0001 C CNN
 F 3 "~" H 3550 7950 50  0001 C CNN
@@ -2369,10 +2367,10 @@ F 3 "~" H 3550 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL33
+L Device:R_Small RL35
 U 1 1 5C26C1B3
 P 3825 7950
-F 0 "RL33" H 3884 7981 31  0000 L CNN
+F 0 "RL35" H 3884 7981 31  0000 L CNN
 F 1 "360" H 3884 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3825 7950 50  0001 C CNN
 F 3 "~" H 3825 7950 50  0001 C CNN
@@ -2380,10 +2378,10 @@ F 3 "~" H 3825 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL34
+L Device:R_Small RL39
 U 1 1 5C26C1C1
 P 4100 7950
-F 0 "RL34" H 4159 7981 31  0000 L CNN
+F 0 "RL39" H 4159 7981 31  0000 L CNN
 F 1 "360" H 4159 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4100 7950 50  0001 C CNN
 F 3 "~" H 4100 7950 50  0001 C CNN
@@ -2391,10 +2389,10 @@ F 3 "~" H 4100 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL35
+L Device:R_Small RL43
 U 1 1 5C26C1CF
 P 4375 7950
-F 0 "RL35" H 4434 7981 31  0000 L CNN
+F 0 "RL43" H 4434 7981 31  0000 L CNN
 F 1 "360" H 4434 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4375 7950 50  0001 C CNN
 F 3 "~" H 4375 7950 50  0001 C CNN
@@ -2402,10 +2400,10 @@ F 3 "~" H 4375 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL36
+L Device:R_Small RL47
 U 1 1 5C26C1DD
 P 4650 7950
-F 0 "RL36" H 4709 7981 31  0000 L CNN
+F 0 "RL47" H 4709 7981 31  0000 L CNN
 F 1 "360" H 4709 7919 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4650 7950 50  0001 C CNN
 F 3 "~" H 4650 7950 50  0001 C CNN
@@ -2413,10 +2411,10 @@ F 3 "~" H 4650 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL37
+L Device:R_Small RL4
 U 1 1 5C26C1EB
 P 1625 8625
-F 0 "RL37" H 1684 8656 31  0000 L CNN
+F 0 "RL4" H 1684 8656 31  0000 L CNN
 F 1 "360" H 1684 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1625 8625 50  0001 C CNN
 F 3 "~" H 1625 8625 50  0001 C CNN
@@ -2424,10 +2422,10 @@ F 3 "~" H 1625 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL38
+L Device:R_Small RL8
 U 1 1 5C26C1F9
 P 1900 8625
-F 0 "RL38" H 1959 8656 31  0000 L CNN
+F 0 "RL8" H 1959 8656 31  0000 L CNN
 F 1 "360" H 1959 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1900 8625 50  0001 C CNN
 F 3 "~" H 1900 8625 50  0001 C CNN
@@ -2435,10 +2433,10 @@ F 3 "~" H 1900 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL39
+L Device:R_Small RL12
 U 1 1 5C26C207
 P 2175 8625
-F 0 "RL39" H 2234 8656 31  0000 L CNN
+F 0 "RL12" H 2234 8656 31  0000 L CNN
 F 1 "360" H 2234 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2175 8625 50  0001 C CNN
 F 3 "~" H 2175 8625 50  0001 C CNN
@@ -2446,10 +2444,10 @@ F 3 "~" H 2175 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL40
+L Device:R_Small RL16
 U 1 1 5C26C215
 P 2450 8625
-F 0 "RL40" H 2509 8656 31  0000 L CNN
+F 0 "RL16" H 2509 8656 31  0000 L CNN
 F 1 "360" H 2509 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2450 8625 50  0001 C CNN
 F 3 "~" H 2450 8625 50  0001 C CNN
@@ -2457,10 +2455,10 @@ F 3 "~" H 2450 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL41
+L Device:R_Small RL20
 U 1 1 5C26C223
 P 2725 8625
-F 0 "RL41" H 2784 8656 31  0000 L CNN
+F 0 "RL20" H 2784 8656 31  0000 L CNN
 F 1 "360" H 2784 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2725 8625 50  0001 C CNN
 F 3 "~" H 2725 8625 50  0001 C CNN
@@ -2468,10 +2466,10 @@ F 3 "~" H 2725 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL42
+L Device:R_Small RL24
 U 1 1 5C26C231
 P 3000 8625
-F 0 "RL42" H 3059 8656 31  0000 L CNN
+F 0 "RL24" H 3059 8656 31  0000 L CNN
 F 1 "360" H 3059 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3000 8625 50  0001 C CNN
 F 3 "~" H 3000 8625 50  0001 C CNN
@@ -2479,10 +2477,10 @@ F 3 "~" H 3000 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL43
+L Device:R_Small RL28
 U 1 1 5C26C23F
 P 3275 8625
-F 0 "RL43" H 3334 8656 31  0000 L CNN
+F 0 "RL28" H 3334 8656 31  0000 L CNN
 F 1 "360" H 3334 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3275 8625 50  0001 C CNN
 F 3 "~" H 3275 8625 50  0001 C CNN
@@ -2490,10 +2488,10 @@ F 3 "~" H 3275 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL44
+L Device:R_Small RL32
 U 1 1 5C26C24D
 P 3550 8625
-F 0 "RL44" H 3609 8656 31  0000 L CNN
+F 0 "RL32" H 3609 8656 31  0000 L CNN
 F 1 "360" H 3609 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3550 8625 50  0001 C CNN
 F 3 "~" H 3550 8625 50  0001 C CNN
@@ -2501,10 +2499,10 @@ F 3 "~" H 3550 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL45
+L Device:R_Small RL36
 U 1 1 5C26C25B
 P 3825 8625
-F 0 "RL45" H 3884 8656 31  0000 L CNN
+F 0 "RL36" H 3884 8656 31  0000 L CNN
 F 1 "360" H 3884 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3825 8625 50  0001 C CNN
 F 3 "~" H 3825 8625 50  0001 C CNN
@@ -2512,10 +2510,10 @@ F 3 "~" H 3825 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL46
+L Device:R_Small RL40
 U 1 1 5C26C269
 P 4100 8625
-F 0 "RL46" H 4159 8656 31  0000 L CNN
+F 0 "RL40" H 4159 8656 31  0000 L CNN
 F 1 "360" H 4159 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4100 8625 50  0001 C CNN
 F 3 "~" H 4100 8625 50  0001 C CNN
@@ -2523,10 +2521,10 @@ F 3 "~" H 4100 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL47
+L Device:R_Small RL44
 U 1 1 5C26C277
 P 4375 8625
-F 0 "RL47" H 4434 8656 31  0000 L CNN
+F 0 "RL44" H 4434 8656 31  0000 L CNN
 F 1 "360" H 4434 8594 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 4375 8625 50  0001 C CNN
 F 3 "~" H 4375 8625 50  0001 C CNN
@@ -2573,10 +2571,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 9275 1325 9275
 $Comp
-L power:GND #PWR0114
+L power:GND #PWR02
 U 1 1 5C3CE56B
 P 1625 9750
-F 0 "#PWR0114" H 1625 9500 50  0001 C CNN
+F 0 "#PWR02" H 1625 9500 50  0001 C CNN
 F 1 "GND" H 1630 9577 50  0000 C CNN
 F 2 "" H 1625 9750 50  0001 C CNN
 F 3 "" H 1625 9750 50  0001 C CNN
@@ -2840,735 +2838,585 @@ Connection ~ 1625 9650
 Wire Wire Line
 	1625 9650 1625 9750
 $Comp
-L Keyboard_switches:LED LED1
+L acheronSymbols:LED LED1
 U 1 1 5D1EBF5B
 P 1625 6825
 F 0 "LED1" V 1500 6850 20  0000 L CNN
 F 1 "LED" V 1475 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1625 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1625 6825 50  0001 C CNN
 F 3 "" H 1625 6825 50  0001 C CNN
 	1    1625 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED2
+L acheronSymbols:LED LED5
 U 1 1 5D4ECDE0
 P 1900 6825
-F 0 "LED2" V 1775 6850 20  0000 L CNN
+F 0 "LED5" V 1775 6850 20  0000 L CNN
 F 1 "LED" V 1750 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1900 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1900 6825 50  0001 C CNN
 F 3 "" H 1900 6825 50  0001 C CNN
 	1    1900 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED3
+L acheronSymbols:LED LED9
 U 1 1 5D4ED356
 P 2175 6825
-F 0 "LED3" V 2050 6850 20  0000 L CNN
+F 0 "LED9" V 2050 6850 20  0000 L CNN
 F 1 "LED" V 2025 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2175 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2175 6825 50  0001 C CNN
 F 3 "" H 2175 6825 50  0001 C CNN
 	1    2175 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED4
+L acheronSymbols:LED LED13
 U 1 1 5D4ED9B7
 P 2450 6825
-F 0 "LED4" V 2325 6850 20  0000 L CNN
+F 0 "LED13" V 2325 6850 20  0000 L CNN
 F 1 "LED" V 2300 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2450 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2450 6825 50  0001 C CNN
 F 3 "" H 2450 6825 50  0001 C CNN
 	1    2450 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED5
+L acheronSymbols:LED LED17
 U 1 1 5D4EE32F
 P 2725 6825
-F 0 "LED5" V 2600 6850 20  0000 L CNN
+F 0 "LED17" V 2600 6850 20  0000 L CNN
 F 1 "LED" V 2575 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2725 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2725 6825 50  0001 C CNN
 F 3 "" H 2725 6825 50  0001 C CNN
 	1    2725 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED6
+L acheronSymbols:LED LED22
 U 1 1 5D4EE336
 P 3000 6825
-F 0 "LED6" V 2875 6850 20  0000 L CNN
+F 0 "LED22" V 2875 6850 20  0000 L CNN
 F 1 "LED" V 2850 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3000 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3000 6825 50  0001 C CNN
 F 3 "" H 3000 6825 50  0001 C CNN
 	1    3000 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED7
+L acheronSymbols:LED LED27
 U 1 1 5D4EE33D
 P 3275 6825
-F 0 "LED7" V 3150 6850 20  0000 L CNN
+F 0 "LED27" V 3150 6850 20  0000 L CNN
 F 1 "LED" V 3125 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3275 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3275 6825 50  0001 C CNN
 F 3 "" H 3275 6825 50  0001 C CNN
 	1    3275 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED8
+L acheronSymbols:LED LED32
 U 1 1 5D4EE344
 P 3550 6825
-F 0 "LED8" V 3425 6850 20  0000 L CNN
+F 0 "LED32" V 3425 6850 20  0000 L CNN
 F 1 "LED" V 3400 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3550 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3550 6825 50  0001 C CNN
 F 3 "" H 3550 6825 50  0001 C CNN
 	1    3550 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED9
+L acheronSymbols:LED LED36
 U 1 1 5D533C76
 P 3825 6825
-F 0 "LED9" V 3700 6850 20  0000 L CNN
+F 0 "LED36" V 3700 6850 20  0000 L CNN
 F 1 "LED" V 3675 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3825 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3825 6825 50  0001 C CNN
 F 3 "" H 3825 6825 50  0001 C CNN
 	1    3825 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED10
+L acheronSymbols:LED LED40
 U 1 1 5D533C7D
 P 4100 6825
-F 0 "LED10" V 3975 6850 20  0000 L CNN
+F 0 "LED40" V 3975 6850 20  0000 L CNN
 F 1 "LED" V 3950 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4100 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4100 6825 50  0001 C CNN
 F 3 "" H 4100 6825 50  0001 C CNN
 	1    4100 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED11
+L acheronSymbols:LED LED44
 U 1 1 5D533C84
 P 4375 6825
-F 0 "LED11" V 4250 6850 20  0000 L CNN
+F 0 "LED44" V 4250 6850 20  0000 L CNN
 F 1 "LED" V 4225 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4375 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4375 6825 50  0001 C CNN
 F 3 "" H 4375 6825 50  0001 C CNN
 	1    4375 6825
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED12
+L acheronSymbols:LED LED48
 U 1 1 5D533C8B
 P 4650 6825
-F 0 "LED12" V 4525 6850 20  0000 L CNN
+F 0 "LED48" V 4525 6850 20  0000 L CNN
 F 1 "LED" V 4500 6850 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4650 6825 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4650 6825 50  0001 C CNN
 F 3 "" H 4650 6825 50  0001 C CNN
 	1    4650 6825
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1625 6975 1900 6975
-Connection ~ 1900 6975
-Wire Wire Line
-	1900 6975 2175 6975
-Connection ~ 2175 6975
-Wire Wire Line
-	2175 6975 2450 6975
-Connection ~ 2450 6975
-Wire Wire Line
-	2450 6975 2725 6975
-Connection ~ 2725 6975
-Wire Wire Line
-	2725 6975 3000 6975
-Connection ~ 3000 6975
-Wire Wire Line
-	3000 6975 3275 6975
-Connection ~ 3275 6975
-Wire Wire Line
-	3275 6975 3550 6975
-Connection ~ 3550 6975
-Wire Wire Line
-	3550 6975 3825 6975
-Connection ~ 3825 6975
-Wire Wire Line
-	3825 6975 4100 6975
-Connection ~ 4100 6975
-Wire Wire Line
-	4100 6975 4375 6975
-Connection ~ 4375 6975
-Wire Wire Line
-	4375 6975 4650 6975
-Connection ~ 4650 6975
-Wire Wire Line
-	4650 6975 4925 6975
 $Comp
-L Keyboard_switches:LED LED13
+L acheronSymbols:LED LED2
 U 1 1 5D93FD83
 P 1625 7550
-F 0 "LED13" V 1500 7575 20  0000 L CNN
+F 0 "LED2" V 1500 7575 20  0000 L CNN
 F 1 "LED" V 1475 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1625 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1625 7550 50  0001 C CNN
 F 3 "" H 1625 7550 50  0001 C CNN
 	1    1625 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED14
+L acheronSymbols:LED LED6
 U 1 1 5D93FD8A
 P 1900 7550
-F 0 "LED14" V 1775 7575 20  0000 L CNN
+F 0 "LED6" V 1775 7575 20  0000 L CNN
 F 1 "LED" V 1750 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1900 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1900 7550 50  0001 C CNN
 F 3 "" H 1900 7550 50  0001 C CNN
 	1    1900 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED15
+L acheronSymbols:LED LED10
 U 1 1 5D93FD91
 P 2175 7550
-F 0 "LED15" V 2050 7575 20  0000 L CNN
+F 0 "LED10" V 2050 7575 20  0000 L CNN
 F 1 "LED" V 2025 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2175 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2175 7550 50  0001 C CNN
 F 3 "" H 2175 7550 50  0001 C CNN
 	1    2175 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED16
+L acheronSymbols:LED LED14
 U 1 1 5D93FD98
 P 2450 7550
-F 0 "LED16" V 2325 7575 20  0000 L CNN
+F 0 "LED14" V 2325 7575 20  0000 L CNN
 F 1 "LED" V 2300 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2450 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2450 7550 50  0001 C CNN
 F 3 "" H 2450 7550 50  0001 C CNN
 	1    2450 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED17
+L acheronSymbols:LED LED18
 U 1 1 5D93FD9F
 P 2725 7550
-F 0 "LED17" V 2600 7575 20  0000 L CNN
+F 0 "LED18" V 2600 7575 20  0000 L CNN
 F 1 "LED" V 2575 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2725 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2725 7550 50  0001 C CNN
 F 3 "" H 2725 7550 50  0001 C CNN
 	1    2725 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED18
+L acheronSymbols:LED LED23
 U 1 1 5D93FDA6
 P 3000 7550
-F 0 "LED18" V 2875 7575 20  0000 L CNN
+F 0 "LED23" V 2875 7575 20  0000 L CNN
 F 1 "LED" V 2850 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3000 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3000 7550 50  0001 C CNN
 F 3 "" H 3000 7550 50  0001 C CNN
 	1    3000 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED19
+L acheronSymbols:LED LED28
 U 1 1 5D93FDAD
 P 3275 7550
-F 0 "LED19" V 3150 7575 20  0000 L CNN
+F 0 "LED28" V 3150 7575 20  0000 L CNN
 F 1 "LED" V 3125 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3275 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3275 7550 50  0001 C CNN
 F 3 "" H 3275 7550 50  0001 C CNN
 	1    3275 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED20
+L acheronSymbols:LED LED33
 U 1 1 5D93FDB4
 P 3550 7550
-F 0 "LED20" V 3425 7575 20  0000 L CNN
+F 0 "LED33" V 3425 7575 20  0000 L CNN
 F 1 "LED" V 3400 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3550 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3550 7550 50  0001 C CNN
 F 3 "" H 3550 7550 50  0001 C CNN
 	1    3550 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED21
+L acheronSymbols:LED LED37
 U 1 1 5D93FDBB
 P 3825 7550
-F 0 "LED21" V 3700 7575 20  0000 L CNN
+F 0 "LED37" V 3700 7575 20  0000 L CNN
 F 1 "LED" V 3675 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3825 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3825 7550 50  0001 C CNN
 F 3 "" H 3825 7550 50  0001 C CNN
 	1    3825 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED22
+L acheronSymbols:LED LED41
 U 1 1 5D93FDC2
 P 4100 7550
-F 0 "LED22" V 3975 7575 20  0000 L CNN
+F 0 "LED41" V 3975 7575 20  0000 L CNN
 F 1 "LED" V 3950 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4100 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4100 7550 50  0001 C CNN
 F 3 "" H 4100 7550 50  0001 C CNN
 	1    4100 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED23
+L acheronSymbols:LED LED45
 U 1 1 5D93FDC9
 P 4375 7550
-F 0 "LED23" V 4250 7575 20  0000 L CNN
+F 0 "LED45" V 4250 7575 20  0000 L CNN
 F 1 "LED" V 4225 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4375 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4375 7550 50  0001 C CNN
 F 3 "" H 4375 7550 50  0001 C CNN
 	1    4375 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED24
+L acheronSymbols:LED LED49
 U 1 1 5D93FDD0
 P 4650 7550
-F 0 "LED24" V 4525 7575 20  0000 L CNN
+F 0 "LED49" V 4525 7575 20  0000 L CNN
 F 1 "LED" V 4500 7575 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4650 7550 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4650 7550 50  0001 C CNN
 F 3 "" H 4650 7550 50  0001 C CNN
 	1    4650 7550
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED25
+L acheronSymbols:LED LED3
 U 1 1 5DABCF34
 P 1625 8250
-F 0 "LED25" V 1500 8275 20  0000 L CNN
+F 0 "LED3" V 1500 8275 20  0000 L CNN
 F 1 "LED" V 1475 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1625 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1625 8250 50  0001 C CNN
 F 3 "" H 1625 8250 50  0001 C CNN
 	1    1625 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED26
+L acheronSymbols:LED LED7
 U 1 1 5DABCF3B
 P 1900 8250
-F 0 "LED26" V 1775 8275 20  0000 L CNN
+F 0 "LED7" V 1775 8275 20  0000 L CNN
 F 1 "LED" V 1750 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1900 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1900 8250 50  0001 C CNN
 F 3 "" H 1900 8250 50  0001 C CNN
 	1    1900 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED27
+L acheronSymbols:LED LED11
 U 1 1 5DABCF42
 P 2175 8250
-F 0 "LED27" V 2050 8275 20  0000 L CNN
+F 0 "LED11" V 2050 8275 20  0000 L CNN
 F 1 "LED" V 2025 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2175 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2175 8250 50  0001 C CNN
 F 3 "" H 2175 8250 50  0001 C CNN
 	1    2175 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED28
+L acheronSymbols:LED LED15
 U 1 1 5DABCF49
 P 2450 8250
-F 0 "LED28" V 2325 8275 20  0000 L CNN
+F 0 "LED15" V 2325 8275 20  0000 L CNN
 F 1 "LED" V 2300 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2450 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2450 8250 50  0001 C CNN
 F 3 "" H 2450 8250 50  0001 C CNN
 	1    2450 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED29
+L acheronSymbols:LED LED19
 U 1 1 5DABCF50
 P 2725 8250
-F 0 "LED29" V 2600 8275 20  0000 L CNN
+F 0 "LED19" V 2600 8275 20  0000 L CNN
 F 1 "LED" V 2575 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2725 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2725 8250 50  0001 C CNN
 F 3 "" H 2725 8250 50  0001 C CNN
 	1    2725 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED30
+L acheronSymbols:LED LED24
 U 1 1 5DABCF57
 P 3000 8250
-F 0 "LED30" V 2875 8275 20  0000 L CNN
+F 0 "LED24" V 2875 8275 20  0000 L CNN
 F 1 "LED" V 2850 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3000 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3000 8250 50  0001 C CNN
 F 3 "" H 3000 8250 50  0001 C CNN
 	1    3000 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED31
+L acheronSymbols:LED LED29
 U 1 1 5DABCF5E
 P 3275 8250
-F 0 "LED31" V 3150 8275 20  0000 L CNN
+F 0 "LED29" V 3150 8275 20  0000 L CNN
 F 1 "LED" V 3125 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3275 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3275 8250 50  0001 C CNN
 F 3 "" H 3275 8250 50  0001 C CNN
 	1    3275 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED32
+L acheronSymbols:LED LED34
 U 1 1 5DABCF65
 P 3550 8250
-F 0 "LED32" V 3425 8275 20  0000 L CNN
+F 0 "LED34" V 3425 8275 20  0000 L CNN
 F 1 "LED" V 3400 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3550 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3550 8250 50  0001 C CNN
 F 3 "" H 3550 8250 50  0001 C CNN
 	1    3550 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED33
+L acheronSymbols:LED LED38
 U 1 1 5DABCF6C
 P 3825 8250
-F 0 "LED33" V 3700 8275 20  0000 L CNN
+F 0 "LED38" V 3700 8275 20  0000 L CNN
 F 1 "LED" V 3675 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3825 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3825 8250 50  0001 C CNN
 F 3 "" H 3825 8250 50  0001 C CNN
 	1    3825 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED34
+L acheronSymbols:LED LED42
 U 1 1 5DABCF73
 P 4100 8250
-F 0 "LED34" V 3975 8275 20  0000 L CNN
+F 0 "LED42" V 3975 8275 20  0000 L CNN
 F 1 "LED" V 3950 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4100 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4100 8250 50  0001 C CNN
 F 3 "" H 4100 8250 50  0001 C CNN
 	1    4100 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED35
+L acheronSymbols:LED LED46
 U 1 1 5DABCF7A
 P 4375 8250
-F 0 "LED35" V 4250 8275 20  0000 L CNN
+F 0 "LED46" V 4250 8275 20  0000 L CNN
 F 1 "LED" V 4225 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4375 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4375 8250 50  0001 C CNN
 F 3 "" H 4375 8250 50  0001 C CNN
 	1    4375 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED36
+L acheronSymbols:LED LED50
 U 1 1 5DABCF81
 P 4650 8250
-F 0 "LED36" V 4525 8275 20  0000 L CNN
+F 0 "LED50" V 4525 8275 20  0000 L CNN
 F 1 "LED" V 4500 8275 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4650 8250 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4650 8250 50  0001 C CNN
 F 3 "" H 4650 8250 50  0001 C CNN
 	1    4650 8250
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED37
+L acheronSymbols:LED LED4
 U 1 1 5DAFB63A
 P 1625 8925
-F 0 "LED37" V 1500 8950 20  0000 L CNN
+F 0 "LED4" V 1500 8950 20  0000 L CNN
 F 1 "LED" V 1475 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1625 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1625 8925 50  0001 C CNN
 F 3 "" H 1625 8925 50  0001 C CNN
 	1    1625 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED38
+L acheronSymbols:LED LED8
 U 1 1 5DAFB641
 P 1900 8925
-F 0 "LED38" V 1775 8950 20  0000 L CNN
+F 0 "LED8" V 1775 8950 20  0000 L CNN
 F 1 "LED" V 1750 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 1900 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 1900 8925 50  0001 C CNN
 F 3 "" H 1900 8925 50  0001 C CNN
 	1    1900 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED39
+L acheronSymbols:LED LED12
 U 1 1 5DAFB648
 P 2175 8925
-F 0 "LED39" V 2050 8950 20  0000 L CNN
+F 0 "LED12" V 2050 8950 20  0000 L CNN
 F 1 "LED" V 2025 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2175 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2175 8925 50  0001 C CNN
 F 3 "" H 2175 8925 50  0001 C CNN
 	1    2175 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED40
+L acheronSymbols:LED LED16
 U 1 1 5DAFB64F
 P 2450 8925
-F 0 "LED40" V 2325 8950 20  0000 L CNN
+F 0 "LED16" V 2325 8950 20  0000 L CNN
 F 1 "LED" V 2300 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2450 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2450 8925 50  0001 C CNN
 F 3 "" H 2450 8925 50  0001 C CNN
 	1    2450 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED41
+L acheronSymbols:LED LED20
 U 1 1 5DAFB656
 P 2725 8925
-F 0 "LED41" V 2600 8950 20  0000 L CNN
+F 0 "LED20" V 2600 8950 20  0000 L CNN
 F 1 "LED" V 2575 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2725 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2725 8925 50  0001 C CNN
 F 3 "" H 2725 8925 50  0001 C CNN
 	1    2725 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED42
+L acheronSymbols:LED LED25
 U 1 1 5DAFB65D
 P 3000 8925
-F 0 "LED42" V 2875 8950 20  0000 L CNN
+F 0 "LED25" V 2875 8950 20  0000 L CNN
 F 1 "LED" V 2850 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3000 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3000 8925 50  0001 C CNN
 F 3 "" H 3000 8925 50  0001 C CNN
 	1    3000 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED43
+L acheronSymbols:LED LED30
 U 1 1 5DAFB664
 P 3275 8925
-F 0 "LED43" V 3150 8950 20  0000 L CNN
+F 0 "LED30" V 3150 8950 20  0000 L CNN
 F 1 "LED" V 3125 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3275 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3275 8925 50  0001 C CNN
 F 3 "" H 3275 8925 50  0001 C CNN
 	1    3275 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED44
+L acheronSymbols:LED LED35
 U 1 1 5DAFB66B
 P 3550 8925
-F 0 "LED44" V 3425 8950 20  0000 L CNN
+F 0 "LED35" V 3425 8950 20  0000 L CNN
 F 1 "LED" V 3400 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3550 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3550 8925 50  0001 C CNN
 F 3 "" H 3550 8925 50  0001 C CNN
 	1    3550 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED45
+L acheronSymbols:LED LED39
 U 1 1 5DAFB672
 P 3825 8925
-F 0 "LED45" V 3700 8950 20  0000 L CNN
+F 0 "LED39" V 3700 8950 20  0000 L CNN
 F 1 "LED" V 3675 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3825 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3825 8925 50  0001 C CNN
 F 3 "" H 3825 8925 50  0001 C CNN
 	1    3825 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED46
+L acheronSymbols:LED LED43
 U 1 1 5DAFB679
 P 4100 8925
-F 0 "LED46" V 3975 8950 20  0000 L CNN
+F 0 "LED43" V 3975 8950 20  0000 L CNN
 F 1 "LED" V 3950 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4100 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4100 8925 50  0001 C CNN
 F 3 "" H 4100 8925 50  0001 C CNN
 	1    4100 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED47
+L acheronSymbols:LED LED47
 U 1 1 5DAFB680
 P 4375 8925
 F 0 "LED47" V 4250 8950 20  0000 L CNN
 F 1 "LED" V 4225 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4375 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4375 8925 50  0001 C CNN
 F 3 "" H 4375 8925 50  0001 C CNN
 	1    4375 8925
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_switches:LED LED48
+L acheronSymbols:LED LED51
 U 1 1 5DAFB687
 P 4650 8925
-F 0 "LED48" V 4525 8950 20  0000 L CNN
+F 0 "LED51" V 4525 8950 20  0000 L CNN
 F 1 "LED" V 4500 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 4650 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 4650 8925 50  0001 C CNN
 F 3 "" H 4650 8925 50  0001 C CNN
 	1    4650 8925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4925 9075 4650 9075
-Wire Wire Line
 	4925 6975 4925 7700
-Connection ~ 1900 9075
-Wire Wire Line
-	1900 9075 1625 9075
-Connection ~ 2175 9075
-Wire Wire Line
-	2175 9075 1900 9075
-Connection ~ 2450 9075
-Wire Wire Line
-	2450 9075 2175 9075
-Connection ~ 2725 9075
-Wire Wire Line
-	2725 9075 2450 9075
-Connection ~ 3000 9075
-Wire Wire Line
-	3000 9075 2825 9075
-Connection ~ 3275 9075
-Wire Wire Line
-	3275 9075 3100 9075
-Connection ~ 3550 9075
-Wire Wire Line
-	3550 9075 3375 9075
-Connection ~ 3825 9075
-Wire Wire Line
-	3825 9075 3550 9075
-Connection ~ 4100 9075
-Wire Wire Line
-	4100 9075 3825 9075
-Connection ~ 4375 9075
-Wire Wire Line
-	4375 9075 4100 9075
-Connection ~ 4650 9075
-Wire Wire Line
-	4650 9075 4375 9075
-Wire Wire Line
-	4925 8400 4650 8400
 Connection ~ 4925 8400
 Wire Wire Line
 	4925 8400 4925 9075
-Connection ~ 1900 8400
-Wire Wire Line
-	1900 8400 1625 8400
-Connection ~ 2175 8400
-Wire Wire Line
-	2175 8400 1900 8400
-Connection ~ 2450 8400
-Wire Wire Line
-	2450 8400 2175 8400
-Connection ~ 2725 8400
-Wire Wire Line
-	2725 8400 2450 8400
-Connection ~ 3000 8400
-Wire Wire Line
-	3000 8400 2725 8400
-Connection ~ 3275 8400
-Wire Wire Line
-	3275 8400 3000 8400
-Connection ~ 3550 8400
-Wire Wire Line
-	3550 8400 3275 8400
-Connection ~ 3825 8400
-Wire Wire Line
-	3825 8400 3550 8400
-Connection ~ 4100 8400
-Wire Wire Line
-	4100 8400 3825 8400
-Connection ~ 4375 8400
-Wire Wire Line
-	4375 8400 4100 8400
-Connection ~ 4650 8400
-Wire Wire Line
-	4650 8400 4375 8400
-Wire Wire Line
-	1625 7700 1900 7700
 Connection ~ 4925 7700
 Wire Wire Line
 	4925 7700 4925 8400
-Connection ~ 1900 7700
-Wire Wire Line
-	1900 7700 2175 7700
-Connection ~ 2175 7700
-Wire Wire Line
-	2175 7700 2450 7700
-Connection ~ 2450 7700
-Wire Wire Line
-	2450 7700 2725 7700
-Connection ~ 2725 7700
-Wire Wire Line
-	2725 7700 3000 7700
-Connection ~ 3000 7700
-Wire Wire Line
-	3000 7700 3275 7700
-Connection ~ 3275 7700
-Wire Wire Line
-	3275 7700 3550 7700
-Connection ~ 3550 7700
-Wire Wire Line
-	3550 7700 3825 7700
-Connection ~ 3825 7700
-Wire Wire Line
-	3825 7700 4100 7700
-Connection ~ 4100 7700
-Wire Wire Line
-	4100 7700 4375 7700
-Connection ~ 4375 7700
-Wire Wire Line
-	4375 7700 4650 7700
-Connection ~ 4650 7700
-Wire Wire Line
-	4650 7700 4925 7700
 $Comp
-L Keyboard_switches:LED LED49
+L acheronSymbols:LED LED21
 U 1 1 5DD1C8D4
 P 2825 8925
-F 0 "LED49" V 2700 8950 20  0000 L CNN
+F 0 "LED21" V 2700 8950 20  0000 L CNN
 F 1 "LED" V 2675 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 2825 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 2825 8925 50  0001 C CNN
 F 3 "" H 2825 8925 50  0001 C CNN
 	1    2825 8925
 	0    1    1    0   
 $EndComp
-Connection ~ 2825 9075
-Wire Wire Line
-	2825 9075 2725 9075
 $Comp
-L Keyboard_switches:LED LED50
+L acheronSymbols:LED LED26
 U 1 1 5DD1CD7B
 P 3100 8925
-F 0 "LED50" V 2975 8950 20  0000 L CNN
+F 0 "LED26" V 2975 8950 20  0000 L CNN
 F 1 "LED" V 2950 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3100 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3100 8925 50  0001 C CNN
 F 3 "" H 3100 8925 50  0001 C CNN
 	1    3100 8925
 	0    1    1    0   
 $EndComp
-Connection ~ 3100 9075
-Wire Wire Line
-	3100 9075 3000 9075
 $Comp
-L Keyboard_switches:LED LED51
+L acheronSymbols:LED LED31
 U 1 1 5DD1D242
 P 3375 8925
-F 0 "LED51" V 3250 8950 20  0000 L CNN
+F 0 "LED31" V 3250 8950 20  0000 L CNN
 F 1 "LED" V 3225 8950 20  0001 L CNN
-F 2 "Keyboard_switches:thtLED" H 3375 8925 50  0001 C CNN
+F 2 "acheronSymbols:thtLED" H 3375 8925 50  0001 C CNN
 F 3 "" H 3375 8925 50  0001 C CNN
 	1    3375 8925
 	0    1    1    0   
 $EndComp
-Connection ~ 3375 9075
-Wire Wire Line
-	3375 9075 3275 9075
 $Comp
-L Keyboard_switches:AO4406AL Q1
+L acheronSymbols:AO4406AL Q1
 U 1 1 5DDB1E0B
 P 1625 9275
 F 0 "Q1" H 1731 9297 50  0000 L CNN
 F 1 "AO4406AL" H 1731 9230 20  0000 L CNN
-F 2 "Keyboard_switches:AO4406AL" H 1625 9275 50  0001 C CNN
+F 2 "acheronSymbols:AO4406AL" H 1625 9275 50  0001 C CNN
 F 3 "" H 1625 9275 50  0001 C CNN
 	1    1625 9275
 	1    0    0    -1  
 $EndComp
-Connection ~ 1625 9075
 Text Notes 5975 8500 0    50   ~ 0
 ESD Protection
 $Comp
@@ -3655,10 +3503,10 @@ Wire Wire Line
 	9100 7725 9100 7625
 Connection ~ 9100 7625
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR015
 U 1 1 5D13D9BC
 P 9500 7625
-F 0 "#PWR0102" H 9500 7375 50  0001 C CNN
+F 0 "#PWR015" H 9500 7375 50  0001 C CNN
 F 1 "GND" V 9525 7675 31  0000 R CNN
 F 2 "" H 9500 7625 50  0001 C CNN
 F 3 "" H 9500 7625 50  0001 C CNN
@@ -3692,10 +3540,10 @@ Wire Wire Line
 Wire Wire Line
 	13050 7175 13100 7175
 $Comp
-L Regulator_Linear:MCP1700-3302E_SOT23 U2
+L Regulator_Linear:MCP1700-3302E_SOT23 U1
 U 1 1 5D83639E
 P 11425 7125
-F 0 "U2" H 11425 7323 31  0000 C CNN
+F 0 "U1" H 11425 7323 31  0000 C CNN
 F 1 "MCP1700-3302E_SOT23" H 11425 7261 31  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11425 7350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf" H 11425 7125 50  0001 C CNN
@@ -3712,10 +3560,10 @@ Connection ~ 11425 7725
 Wire Wire Line
 	11725 7125 11775 7125
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR018
 U 1 1 5D9C16B4
 P 11425 7800
-F 0 "#PWR0103" H 11425 7550 50  0001 C CNN
+F 0 "#PWR018" H 11425 7550 50  0001 C CNN
 F 1 "GND" H 11430 7672 50  0000 R CNN
 F 2 "" H 11425 7800 50  0001 C CNN
 F 3 "" H 11425 7800 50  0001 C CNN
@@ -3744,10 +3592,10 @@ Wire Wire Line
 	13025 9275 13025 9425
 Connection ~ 13025 9275
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR019
 U 1 1 5DEE874F
 P 13025 9425
-F 0 "#PWR0104" H 13025 9175 50  0001 C CNN
+F 0 "#PWR019" H 13025 9175 50  0001 C CNN
 F 1 "GND" H 13030 9252 50  0000 C CNN
 F 2 "" H 13025 9425 50  0001 C CNN
 F 3 "" H 13025 9425 50  0001 C CNN
@@ -3824,10 +3672,10 @@ F 3 "~" H 6675 10600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CSRT2
+L Device:C_Small CSRT1
 U 1 1 5E0C1B45
 P 6675 9875
-F 0 "CSRT2" H 6875 9825 31  0000 R CNN
+F 0 "CSRT1" H 6875 9825 31  0000 R CNN
 F 1 "4.7n" H 6800 9950 31  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6675 9875 50  0001 C CNN
 F 3 "~" H 6675 9875 50  0001 C CNN
@@ -3861,10 +3709,10 @@ Wire Wire Line
 Wire Wire Line
 	9550 7925 9475 7925
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR05
 U 1 1 5E65AF3C
 P 5775 10025
-F 0 "#PWR0106" H 5775 9775 50  0001 C CNN
+F 0 "#PWR05" H 5775 9775 50  0001 C CNN
 F 1 "GND" V 5780 9898 31  0000 R CNN
 F 2 "" H 5775 10025 50  0001 C CNN
 F 3 "" H 5775 10025 50  0001 C CNN
@@ -3872,10 +3720,10 @@ F 3 "" H 5775 10025 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L power:GND #PWR09
 U 1 1 5E65C8C3
 P 6525 10750
-F 0 "#PWR0109" H 6525 10500 50  0001 C CNN
+F 0 "#PWR09" H 6525 10500 50  0001 C CNN
 F 1 "GND" H 6530 10591 31  0000 C CNN
 F 2 "" H 6525 10750 50  0001 C CNN
 F 3 "" H 6525 10750 50  0001 C CNN
@@ -3883,10 +3731,10 @@ F 3 "" H 6525 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L power:GND #PWR011
 U 1 1 5E65CDAB
 P 6675 10750
-F 0 "#PWR0110" H 6675 10500 50  0001 C CNN
+F 0 "#PWR011" H 6675 10500 50  0001 C CNN
 F 1 "GND" H 6680 10591 31  0000 C CNN
 F 2 "" H 6675 10750 50  0001 C CNN
 F 3 "" H 6675 10750 50  0001 C CNN
@@ -3926,10 +3774,10 @@ Wire Wire Line
 Wire Wire Line
 	6675 9775 6675 9725
 $Comp
-L power:GND #PWR0111
+L power:GND #PWR010
 U 1 1 5EA2B7B0
 P 6675 9725
-F 0 "#PWR0111" H 6675 9475 50  0001 C CNN
+F 0 "#PWR010" H 6675 9475 50  0001 C CNN
 F 1 "GND" H 6680 9566 31  0000 C CNN
 F 2 "" H 6675 9725 50  0001 C CNN
 F 3 "" H 6675 9725 50  0001 C CNN
@@ -4066,10 +3914,10 @@ Wire Wire Line
 Text GLabel 11200 8525 1    50   BiDi ~ 0
 3.3V
 $Comp
-L power:GND #PWR0115
+L power:GND #PWR017
 U 1 1 5EED5F47
 P 11200 9000
-F 0 "#PWR0115" H 11200 8750 50  0001 C CNN
+F 0 "#PWR017" H 11200 8750 50  0001 C CNN
 F 1 "GND" V 11205 8872 50  0000 R CNN
 F 2 "" H 11200 9000 50  0001 C CNN
 F 3 "" H 11200 9000 50  0001 C CNN
@@ -4083,10 +3931,10 @@ Wire Wire Line
 Wire Wire Line
 	14700 5150 14700 5300
 $Comp
-L power:GND #PWR0116
+L power:GND #PWR020
 U 1 1 5F0F4262
 P 14700 4650
-F 0 "#PWR0116" H 14700 4400 50  0001 C CNN
+F 0 "#PWR020" H 14700 4400 50  0001 C CNN
 F 1 "GND" V 14705 4522 50  0000 R CNN
 F 2 "" H 14700 4650 50  0001 C CNN
 F 3 "" H 14700 4650 50  0001 C CNN
@@ -4241,40 +4089,40 @@ U 1 1 5CBC7203
 P 2700 9775
 F 0 "RGB1" H 2775 10075 31  0000 L CNN
 F 1 "WS2812B" H 2775 10025 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 2750 9475 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 2750 9475 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2800 9400 50  0001 L TNN
 	1    2700 9775
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB2
+L LED:WS2812B RGB3
 U 1 1 5CBC9CDA
 P 3350 9775
-F 0 "RGB2" H 3425 10075 31  0000 L CNN
+F 0 "RGB3" H 3425 10075 31  0000 L CNN
 F 1 "WS2812B" H 3425 10025 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 3400 9475 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 3400 9475 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 9400 50  0001 L TNN
 	1    3350 9775
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB3
+L LED:WS2812B RGB5
 U 1 1 5CBC9F08
 P 4000 9775
-F 0 "RGB3" H 4075 10075 31  0000 L CNN
+F 0 "RGB5" H 4075 10075 31  0000 L CNN
 F 1 "WS2812B" H 4075 10025 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 4050 9475 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 4050 9475 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4100 9400 50  0001 L TNN
 	1    4000 9775
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB4
+L LED:WS2812B RGB7
 U 1 1 5CBCA148
 P 4650 9775
-F 0 "RGB4" H 4725 10075 31  0000 L CNN
+F 0 "RGB7" H 4725 10075 31  0000 L CNN
 F 1 "WS2812B" H 4725 10025 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 4700 9475 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 4700 9475 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4750 9400 50  0001 L TNN
 	1    4650 9775
 	1    0    0    -1  
@@ -4285,40 +4133,40 @@ U 1 1 5CBCA378
 P 4650 10700
 F 0 "RGB8" H 4725 11000 31  0000 L CNN
 F 1 "WS2812B" H 4725 10950 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 4700 10400 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 4700 10400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4750 10325 50  0001 L TNN
 	1    4650 10700
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB7
+L LED:WS2812B RGB6
 U 1 1 5CBCA5C2
 P 4000 10700
-F 0 "RGB7" H 4075 11000 31  0000 L CNN
+F 0 "RGB6" H 4075 11000 31  0000 L CNN
 F 1 "WS2812B" H 4075 10950 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 4050 10400 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 4050 10400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4100 10325 50  0001 L TNN
 	1    4000 10700
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB5
+L LED:WS2812B RGB2
 U 1 1 5CBCAA20
 P 2700 10700
-F 0 "RGB5" H 2775 11000 31  0000 L CNN
+F 0 "RGB2" H 2775 11000 31  0000 L CNN
 F 1 "WS2812B" H 2775 10950 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 2750 10400 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 2750 10400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2800 10325 50  0001 L TNN
 	1    2700 10700
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB6
+L LED:WS2812B RGB4
 U 1 1 5CBCA7EA
 P 3350 10700
-F 0 "RGB6" H 3425 11000 31  0000 L CNN
+F 0 "RGB4" H 3425 11000 31  0000 L CNN
 F 1 "WS2812B" H 3425 10950 31  0000 L CNN
-F 2 "Keyboard_switches:LED_WS2812B" H 3400 10400 50  0001 L TNN
+F 2 "acheronSymbols:LED_WS2812B" H 3400 10400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 10325 50  0001 L TNN
 	1    3350 10700
 	1    0    0    -1  
@@ -4379,10 +4227,10 @@ Text GLabel 2700 9350 1    50   Input ~ 0
 Wire Wire Line
 	2700 9350 2700 9425
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR04
 U 1 1 5CFFE512
 P 3350 11100
-F 0 "#PWR0117" H 3350 10850 50  0001 C CNN
+F 0 "#PWR04" H 3350 10850 50  0001 C CNN
 F 1 "GND" H 3300 11075 31  0000 C CNN
 F 2 "" H 3350 11100 50  0001 C CNN
 F 3 "" H 3350 11100 50  0001 C CNN
@@ -4392,10 +4240,10 @@ $EndComp
 Wire Wire Line
 	3350 11100 3350 11050
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR03
 U 1 1 5D0596AC
 P 3350 10175
-F 0 "#PWR0118" H 3350 9925 50  0001 C CNN
+F 0 "#PWR03" H 3350 9925 50  0001 C CNN
 F 1 "GND" H 3300 10150 31  0000 C CNN
 F 2 "" H 3350 10175 50  0001 C CNN
 F 3 "" H 3350 10175 50  0001 C CNN
@@ -4565,10 +4413,10 @@ $EndComp
 Wire Wire Line
 	7350 7375 7400 7375
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR01
 U 1 1 5CDCFD61
 P 1275 6000
-F 0 "#PWR0105" H 1275 5750 50  0001 C CNN
+F 0 "#PWR01" H 1275 5750 50  0001 C CNN
 F 1 "GND" H 1280 5827 50  0000 C CNN
 F 2 "" H 1275 6000 50  0001 C CNN
 F 3 "" H 1275 6000 50  0001 C CNN
@@ -4580,10 +4428,10 @@ EncA
 Text GLabel 6675 7375 0    50   Input ~ 0
 EncB
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR012
 U 1 1 5CE9DFE8
 P 6750 7275
-F 0 "#PWR0120" H 6750 7025 50  0001 C CNN
+F 0 "#PWR012" H 6750 7025 50  0001 C CNN
 F 1 "GND" V 6750 7100 50  0000 C CNN
 F 2 "" H 6750 7275 50  0001 C CNN
 F 3 "" H 6750 7275 50  0001 C CNN
@@ -4595,7 +4443,7 @@ L Device:C_Small CA1
 U 1 1 5CF05817
 P 5800 7375
 F 0 "CA1" V 5900 7375 39  0000 C CNN
-F 1 "10n" V 5700 7375 31  0000 C CNN
+F 1 "100n" V 5700 7375 31  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 7375 50  0001 C CNN
 F 3 "~" H 5800 7375 50  0001 C CNN
 	1    5800 7375
@@ -4606,17 +4454,17 @@ L Device:C_Small CB1
 U 1 1 5CF063CC
 P 6225 7375
 F 0 "CB1" V 6325 7375 39  0000 C CNN
-F 1 "10n" V 6125 7375 31  0000 C CNN
+F 1 "100n" V 6125 7375 31  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6225 7375 50  0001 C CNN
 F 3 "~" H 6225 7375 50  0001 C CNN
 	1    6225 7375
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L power:GND #PWR06
 U 1 1 5CF06B2F
 P 5800 7500
-F 0 "#PWR0121" H 5800 7250 50  0001 C CNN
+F 0 "#PWR06" H 5800 7250 50  0001 C CNN
 F 1 "GND" H 5805 7327 50  0000 C CNN
 F 2 "" H 5800 7500 50  0001 C CNN
 F 3 "" H 5800 7500 50  0001 C CNN
@@ -4624,10 +4472,10 @@ F 3 "" H 5800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L power:GND #PWR07
 U 1 1 5CF07233
 P 6225 7500
-F 0 "#PWR0122" H 6225 7250 50  0001 C CNN
+F 0 "#PWR07" H 6225 7250 50  0001 C CNN
 F 1 "GND" H 6230 7327 50  0000 C CNN
 F 2 "" H 6225 7500 50  0001 C CNN
 F 3 "" H 6225 7500 50  0001 C CNN
@@ -4635,10 +4483,10 @@ F 3 "" H 6225 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RA1
+L Device:R_Small RA2
 U 1 1 5CF07838
 P 6225 7100
-F 0 "RA1" V 6300 7050 31  0000 L CNN
+F 0 "RA2" V 6300 7050 31  0000 L CNN
 F 1 "10k" V 6225 7050 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6225 7100 50  0001 C CNN
 F 3 "~" H 6225 7100 50  0001 C CNN
@@ -4646,10 +4494,10 @@ F 3 "~" H 6225 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RB1
+L Device:R_Small RB2
 U 1 1 5CFD7290
 P 5800 7100
-F 0 "RB1" V 5725 7050 31  0000 L CNN
+F 0 "RB2" V 5725 7050 31  0000 L CNN
 F 1 "10k" V 5800 7050 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5800 7100 50  0001 C CNN
 F 3 "~" H 5800 7100 50  0001 C CNN
@@ -4665,10 +4513,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 7475 5800 7500
 $Comp
-L Device:R_Small RB2
+L Device:R_Small RB1
 U 1 1 5D1DE77E
 P 5800 6850
-F 0 "RB2" V 5725 6800 31  0000 L CNN
+F 0 "RB1" V 5725 6800 31  0000 L CNN
 F 1 "10k" V 5800 6800 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5800 6850 50  0001 C CNN
 F 3 "~" H 5800 6850 50  0001 C CNN
@@ -4676,10 +4524,10 @@ F 3 "~" H 5800 6850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RA2
+L Device:R_Small RA1
 U 1 1 5D1DF5E6
 P 6225 6850
-F 0 "RA2" V 6300 6800 31  0000 L CNN
+F 0 "RA1" V 6300 6800 31  0000 L CNN
 F 1 "10k" V 6225 6800 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6225 6850 50  0001 C CNN
 F 3 "~" H 6225 6850 50  0001 C CNN
@@ -4736,7 +4584,6 @@ Text GLabel 2300 4675 0    50   Input ~ 0
 EncS1
 Wire Wire Line
 	2300 4675 2400 4675
-Connection ~ 2400 4675
 Text GLabel 1825 5025 0    50   Input ~ 0
 EncS2
 Wire Wire Line
@@ -4761,14 +4608,24 @@ Wire Wire Line
 Wire Wire Line
 	15300 7975 15375 7975
 $Comp
-L stm32f303cct7:STM32F303CCT7 U1
+L acheronSymbols:STM32F303CCT6 U2
 U 1 1 5DA11389
 P 14250 7475
-F 0 "U1" H 14200 8972 60  0000 C CNN
-F 1 "STM32F303CCT7" H 14200 8866 60  0000 C CNN
+F 0 "U2" H 14200 8972 60  0000 C CNN
+F 1 "STM32F303CCT6" H 14200 8866 60  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 14250 7475 60  0001 C CNN
 F 3 "" H 14250 7475 60  0001 C CNN
 	1    14250 7475
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1625 6975 4925 6975
+Wire Wire Line
+	1625 9075 4925 9075
+Wire Wire Line
+	1625 8400 4925 8400
+Wire Wire Line
+	1625 7700 4925 7700
+Wire Wire Line
+	4400 2600 4400 2625
 $EndSCHEMATC
