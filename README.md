@@ -251,6 +251,22 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/12 (V3.1.2) </b></font></summary>
+ <p>
+
+ <h6> We incorporated some feedback we got from the IC and GB posts on GeekHack and Reddit. </h6>
+
+ <h6> First a second position for the Rotary Encoder was added; some users noted that the previous position, bottom left, was where the arrow keys were located and as such this was an important position. So an extra possible position was added, the bottom right. The problem is that this position is where the CTRL key is located, and is also an important position. I deemed it was not worthy to add encoder positions on the top left or right corners, as those are the ESC and BKSPC keys, which are of utmost importance. So this means that it is up to the user where the rotary encoder goes: either bottom left or bottom right. Note that although both positions are offered, *the user must choose only one of them, that is, do not use two rotary encoder positions at the same time* as this will probably not work because both positions share the same microprocessor pins.</h6>
+
+ <h6> Second, the reset push button was moved to match the reset hole in the back of Planck cases. I always thought that it was kind of wrong that in order to access the reset button the case should have a hole in it, which in my opinion kind of disrupted the case back look. To solve this I put the reset push button in the cross space between four neighboring keys, and a little hole in the plate, so that the user could access that button easily without needing a dedicated hole in the case. The problem with my design is that, by default, Planck cases have such dedicated hole and it is a nonsense to not use it as the majority of Planck users are used to it. So I moved the button to match the Planck hole. I'll maybe go with my design if I happen to make a custom case for the Shark. In the meantime, the default Planck position will do. </h6>
+
+<h6> *This is the version that will go into GB production.* </h6>
+
+</p></details>
+
 ## Bill of Materials
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
@@ -282,7 +298,7 @@ If you don't want to order them from LCSC, the table below can be used.
 | Y1 | 8MHz 4 pin SMD Crystal | 5032 | 1 | 
 | RGB | WS2812B | - | 8 | 
 | RL1-RL | 360 Ohm | 1206 | 50 | 
-| D1-48, DS1 and DRST | 1N4148W | SOD123 | 52 |
+| D1-48, DS1 and DRST | 1N4148W | SOD-123 | 52 |
 | ROT1 | ALPS EC11Ex (see note 1) | - | 1 |
 
 (1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
