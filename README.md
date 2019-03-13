@@ -199,7 +199,7 @@ There are four plate designs available: one for each supported layout and a univ
 
  <h6> Solved a problem with connector wiring and added a nice render to the README </h6>
 
-</details>
+</p></details>
 
 <!-------------------------------------------------------------------->
 
@@ -262,6 +262,8 @@ There are four plate designs available: one for each supported layout and a univ
  <h6> First a second position for the Rotary Encoder was added; some users noted that the previous position, bottom left, was where the arrow keys were located and as such this was an important position. So an extra possible position was added, the bottom right. The problem is that this position is where the CTRL key is located, and is also an important position. I deemed it was not worthy to add encoder positions on the top left or right corners, as those are the ESC and BKSPC keys, which are of utmost importance. So this means that it is up to the user where the rotary encoder goes: either bottom left or bottom right. Note that although both positions are offered, *the user must choose only one of them, that is, do not use two rotary encoder positions at the same time* as this will probably not work because both positions share the same microprocessor pins.</h6>
 
  <h6> Second, the reset push button was moved to match the reset hole in the back of Planck cases. I always thought that it was kind of wrong that in order to access the reset button the case should have a hole in it, which in my opinion kind of disrupted the case back look. To solve this I put the reset push button in the cross space between four neighboring keys, and a little hole in the plate, so that the user could access that button easily without needing a dedicated hole in the case. The problem with my design is that, by default, Planck cases have such dedicated hole and it is a nonsense to not use it as the majority of Planck users are used to it. So I moved the button to match the Planck hole. I'll maybe go with my design if I happen to make a custom case for the Shark. In the meantime, the default Planck position will do. </h6>
+
+</p></details>
 
 <!-------------------------------------------------------------------->
 
