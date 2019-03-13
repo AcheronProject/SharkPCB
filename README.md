@@ -328,7 +328,7 @@ If you don't want to order them from LCSC, the table below can be used.
 
 - [x] Finish SMD design
 - [x] Finished SMD plates (single spacebar, dual spacebar, full-grid and universal)
-- [x] Prototyped SMD design (*waiting for prototypes to arrive*)
+- [x] Prototyped SMD design
 
 - [ ] Finish THT design
 - [ ] Finish THT plates
