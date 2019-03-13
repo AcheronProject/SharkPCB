@@ -269,11 +269,11 @@ There are four plate designs available: one for each supported layout and a univ
  <summary> <font size="+2"><b> 2019/03/13 (V3.1.3) </b></font></summary>
  <p>
 
- <h6> The switch plate cutout was revamped to allow users to take the switch top while the switch was soldered. </h6>
+ <h6> The switch plate cutout was revamped to allow users to take the switch top while the switch is mounted on the plate. </h6>
 
  <h6> Hi-pro plates were added, as suggested by user sam278 from Geekhack..</h6>
 
- <h6> Added I2C communication pins, as suggested by user equalunique. The user can use the holes or solder a four-pin JST connector that is in the BOM. </h6>
+ <h6> Added I2C communication pins, as suggested by user equalunique. The user can use the holes or solder a four-pin JST BM04B-ASRS-TF connector that is in the BOM. If the user does not want to buy the connector, he or she can use the THT pads right next to the connector pads. </h6>
 
 <h6> *This is the version that will go into GB production.* </h6>
 
