@@ -279,6 +279,8 @@ There are four plate designs available: one for each supported layout and a univ
 
 <h6> *This is the version that will go into GB production.* </h6>
 
+</p></details>
+
 ## Bill of Materials
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
