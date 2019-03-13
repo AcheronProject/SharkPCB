@@ -4,4 +4,5 @@
   (lib (name acheronHardware)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronHardware.pretty)(options "")(descr ""))
   (lib (name acheronKeyboardSwitches)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronKeyboardSwitches.pretty)(options "")(descr ""))
   (lib (name sharkLogo)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/SharkPCB/sharkLogo/sharkLogo.pretty)(options "")(descr ""))
+  (lib (name acheronSwitchSlots)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronSwitchSlots.pretty)(options "")(descr ""))
 )

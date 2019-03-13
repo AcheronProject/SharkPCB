@@ -263,6 +263,18 @@ There are four plate designs available: one for each supported layout and a univ
 
  <h6> Second, the reset push button was moved to match the reset hole in the back of Planck cases. I always thought that it was kind of wrong that in order to access the reset button the case should have a hole in it, which in my opinion kind of disrupted the case back look. To solve this I put the reset push button in the cross space between four neighboring keys, and a little hole in the plate, so that the user could access that button easily without needing a dedicated hole in the case. The problem with my design is that, by default, Planck cases have such dedicated hole and it is a nonsense to not use it as the majority of Planck users are used to it. So I moved the button to match the Planck hole. I'll maybe go with my design if I happen to make a custom case for the Shark. In the meantime, the default Planck position will do. </h6>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/13 (V3.1.3) </b></font></summary>
+ <p>
+
+ <h6> The switch plate cutout was revamped to allow users to take the switch top while the switch was soldered. </h6>
+
+ <h6> Hi-pro plates were added, as suggested by user sam278 from Geekhack..</h6>
+
+ <h6> Added I2C communication pins, as suggested by user equalunique. The user can use the holes or solder a four-pin JST connector that is in the BOM. </h6>
+
 <h6> *This is the version that will go into GB production.* </h6>
 
 </p></details>
@@ -275,7 +287,9 @@ If you don't want to order them from LCSC, the table below can be used.
 
 | Description  | Value | Package | Quantity |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| USB Connector | - | TYPE-C-31-M-12  | 1 |
+| J1 | - | TYPE-C-31-M-12 USBC Connector | 1 |
+| J2 | - | JST BM04B-ASRS-TF connector | 1 | 
+| J2 | - | JST 04ASR-30S socket | 1 | 
 | C1 and C2 | 22pF | 0805  | 2 |
 | C7, C9, CRST1, CRST2 | 4.7nF | 0805| 4 | 
 | (Poly)Fuse | 1.5A trip | 0805 | 1 | 

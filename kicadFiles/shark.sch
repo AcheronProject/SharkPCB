@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-03-12"
-Rev "Rev 3.1.2"
+Date "2019-03-13"
+Rev "Rev 3.1.3"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -4290,10 +4290,8 @@ F 3 "~" H 17025 3425 50  0001 C CNN
 	1    17025 3425
 	1    0    0    -1  
 $EndComp
-Text GLabel 21450 4100 2    50   Input ~ 0
+Text GLabel 19100 4450 0    50   Input ~ 0
 Col12
-Wire Wire Line
-	21450 4100 21375 4100
 Text GLabel 19125 4800 0    50   Input ~ 0
 Col2
 Wire Wire Line
@@ -4878,4 +4876,60 @@ Wire Wire Line
 Connection ~ 4525 10700
 Wire Wire Line
 	4525 10700 4800 10700
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5C8FE384
+P 11875 9950
+F 0 "J2" H 11981 10228 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 11981 10137 50  0000 C CNN
+F 2 "acheronConnectors:JSTBM04B-ASRS" H 11875 9950 50  0001 C CNN
+F 3 "~" H 11875 9950 50  0001 C CNN
+	1    11875 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12075 9850 12150 9850
+Text GLabel 12150 9850 2    50   Input ~ 0
+5V
+Wire Wire Line
+	12075 10150 12150 10150
+$Comp
+L power:GND #PWR0102
+U 1 1 5C9D3CEB
+P 12150 10150
+F 0 "#PWR0102" H 12150 9900 50  0001 C CNN
+F 1 "GND" V 12155 10022 50  0000 R CNN
+F 2 "" H 12150 10150 50  0001 C CNN
+F 3 "" H 12150 10150 50  0001 C CNN
+	1    12150 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12075 9950 12150 9950
+Text GLabel 12150 9950 2    50   Input ~ 0
+SDA
+Text GLabel 12150 10050 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	12150 10050 12075 10050
+Wire Notes Line width 20
+	11500 9400 13375 9400
+Wire Notes Line width 20
+	13375 9400 13375 11050
+Wire Notes Line width 20
+	13375 11050 11500 11050
+Wire Notes Line width 20
+	11500 11050 11500 9400
+Text Notes 11625 10950 0    150  Italic 30
+I2C Connector
+Text GLabel 21450 4200 2    50   Input ~ 0
+SCL
+Text GLabel 21450 4100 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	21450 4200 21375 4200
+Wire Wire Line
+	21375 4100 21450 4100
+Wire Wire Line
+	19100 4450 19175 4450
 $EndSCHEMATC
