@@ -287,7 +287,7 @@ There are four plate designs available: one for each supported layout and a univ
  <summary> <font size="+2"><b> 2019/03/15 (V3.1.4) (not released) </b></font></summary>
  <p>
 
- <h6> The switch plate cutout was revamped to allow users to take the switch top while the switch is mounted on the plate. </h6>
+ <h6> The remaining MCU pins will be exposed so the user can expand the keyboard with new devices or off-board switches. </h6>
 
 </p></details>
 
