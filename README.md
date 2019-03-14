@@ -45,7 +45,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> Is this design functional and tested? </summary>
 
-> The prototypes are on their way, so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 25 of 2019) the first prototypes of version 3.1 are on their way.
+> The prototypes were received and are being built. As far as we have tested, it works, but I can only say it works once I have fully tested them -- so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 13, 2019) the first prototypes are being tested.
 
 </details>
 
@@ -53,7 +53,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> How can I obtain this PCB? Is there an IC or a GB thread? </summary>
 
-> There is an [IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. As for a GB, there still are no plans (and therefore no thread) since the prototypes were not validated. The idea is to make a Group Buy. For updated information please always check the GeekHack IC thread or this project's page.
+> There is an [IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. There is also a [GB thread](https://www.reddit.com/r/mechmarket/comments/b0sn8f/gb_shark_pcb_a_new_40_ortho_kit/) for V3.1.4. For updated information please always check the GeekHack IC thread or this project's page.
 
 > Additionally, you can order the PCBs from a manufacturer like JLCPCB (for instructions see [this link](https://www.youtube.com/watch?v=0u9Io4pw-b0) starting at 1:02:00) and the components from LCSC (how to do that in [this link](https://www.youtube.com/watch?v=eFgOC5_1VYU&t=176s)) and build the board. This takes some expertise in electronics though, as the SMD parts require knowledge and specialized tools and supplies. This is why me and Steve hold Group Buys. Also manufacturers generally have a Minimum Order Quantity of 5 or 10 PCBs. Feel free to arranje a group buy with your circle of friends.
 
@@ -280,6 +280,24 @@ There are four plate designs available: one for each supported layout and a univ
 <h6> *This is the version that will go into GB production.* </h6>
 
 </p></details>
+
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/15 (V3.1.4) (not released) </b></font></summary>
+ <p>
+
+ <h6> The switch plate cutout was revamped to allow users to take the switch top while the switch is mounted on the plate. </h6>
+
+</p></details>
+
+## The prototypes
+
+See [this album](https://imgur.com/a/ntc8N6Y) for the pictures of prototypes and plates.
+
+The prototyped version was V3.1. The plates were ptotoyped with plain square slots, and work perfectly. 
+
+The GB version of the PCB will be 3.1.4, and the plates will have openings on the switch slots so that the switches can be opened while mounted on the plate.
 
 ## Bill of Materials
 
