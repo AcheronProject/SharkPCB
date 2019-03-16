@@ -284,10 +284,12 @@ There are four plate designs available: one for each supported layout and a univ
 <!-------------------------------------------------------------------->
 
 <details>
- <summary> <font size="+2"><b> 2019/03/15 (V3.1.4) (not released) </b></font></summary>
+ <summary> <font size="+2"><b> 2019/03/16 (V3.1.4) </b></font></summary>
  <p>
 
- <h6> The remaining MCU pins will be exposed so the user can expand the keyboard with new devices or off-board switches. </h6>
+ <h6> The I2C connector was changed to a common 4-pin header. </h6>
+
+ <h6> To-do: add extra header pins for the remaininn not used pins of the microcontroller. With these pins the user will be able to expand the keyboard by adding off-board devices. </h6>
 
 </p></details>
 
@@ -308,8 +310,6 @@ If you don't want to order them from LCSC, the table below can be used.
 | Description  | Value | Package | Quantity |
 | ------------- | :-------------: | :-------------: | :-------------: |
 | J1 | - | TYPE-C-31-M-12 USBC Connector | 1 |
-| J2 | - | JST BM04B-ASRS-TF connector | 1 | 
-| J2 | - | JST 04ASR-30S socket | 1 | 
 | C1 and C2 | 22pF | 0805  | 2 |
 | C7, C9, CRST1, CRST2 | 4.7nF | 0805| 4 | 
 | (Poly)Fuse | 1.5A trip | 0805 | 1 | 
