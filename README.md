@@ -289,7 +289,7 @@ There are four plate designs available: one for each supported layout and a univ
 
  <h6> The I2C connector was changed to a common 4-pin header. </h6>
 
- <h6> To-do: add extra header pins for the remaininn not used pins of the microcontroller. With these pins the user will be able to expand the keyboard by adding off-board devices. </h6>
+ <h6> Added extra header pins for the remaininn not used pins of the microcontroller. With these pins the user will be able to expand the keyboard by adding off-board devices. </h6>
 
 </p></details>
 

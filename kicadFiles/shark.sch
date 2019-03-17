@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
 Date "2019-03-13"
-Rev "Rev 3.1.3"
+Rev "Rev 3.1.4"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -4879,48 +4879,44 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 5C8FE384
-P 11875 9950
-F 0 "J2" H 11981 10228 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 11981 10137 50  0000 C CNN
-F 2 "acheronConnectors:4pinHeader" H 11875 9950 50  0001 C CNN
-F 3 "~" H 11875 9950 50  0001 C CNN
-	1    11875 9950
+P 11150 9625
+F 0 "J2" H 11256 9903 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 11256 9812 50  0000 C CNN
+F 2 "acheronConnectors:4pinHeader" H 11150 9625 50  0001 C CNN
+F 3 "~" H 11150 9625 50  0001 C CNN
+	1    11150 9625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12075 9850 12150 9850
-Text GLabel 12150 9850 2    50   Input ~ 0
+	11350 9525 11425 9525
+Text GLabel 11425 9525 2    50   Input ~ 0
 5V
 Wire Wire Line
-	12075 10150 12150 10150
+	11350 9825 11425 9825
 $Comp
 L power:GND #PWR0102
 U 1 1 5C9D3CEB
-P 12150 10150
-F 0 "#PWR0102" H 12150 9900 50  0001 C CNN
-F 1 "GND" V 12155 10022 50  0000 R CNN
-F 2 "" H 12150 10150 50  0001 C CNN
-F 3 "" H 12150 10150 50  0001 C CNN
-	1    12150 10150
+P 11425 9825
+F 0 "#PWR0102" H 11425 9575 50  0001 C CNN
+F 1 "GND" V 11430 9697 50  0000 R CNN
+F 2 "" H 11425 9825 50  0001 C CNN
+F 3 "" H 11425 9825 50  0001 C CNN
+	1    11425 9825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12075 9950 12150 9950
-Text GLabel 12150 9950 2    50   Input ~ 0
+	11350 9625 11425 9625
+Text GLabel 11425 9625 2    50   Input ~ 0
 SDA
-Text GLabel 12150 10050 2    50   Input ~ 0
+Text GLabel 11425 9725 2    50   Input ~ 0
 SCL
 Wire Wire Line
-	12150 10050 12075 10050
+	11425 9725 11350 9725
 Wire Notes Line width 20
-	11500 9400 13375 9400
+	10700 9150 12575 9150
 Wire Notes Line width 20
-	13375 9400 13375 11050
-Wire Notes Line width 20
-	13375 11050 11500 11050
-Wire Notes Line width 20
-	11500 11050 11500 9400
-Text Notes 11625 10950 0    150  Italic 30
+	12575 10225 10700 10225
+Text Notes 10875 10150 0    150  Italic 30
 I2C Connector
 Text GLabel 21450 4200 2    50   Input ~ 0
 SCL
@@ -4932,4 +4928,114 @@ Wire Wire Line
 	21375 4100 21450 4100
 Wire Wire Line
 	19100 4450 19175 4450
+Text GLabel 21450 4300 2    50   Input ~ 0
+Extra1
+Text GLabel 21450 3100 2    50   Input ~ 0
+Extra2
+Text GLabel 21450 3200 2    50   Input ~ 0
+Extra3
+Text GLabel 21450 3300 2    50   Input ~ 0
+Extra4
+Wire Wire Line
+	21375 3300 21450 3300
+Wire Wire Line
+	21450 3200 21375 3200
+Wire Wire Line
+	21375 3100 21450 3100
+Wire Wire Line
+	21450 4300 21375 4300
+Wire Notes Line width 20
+	12575 10225 12575 9150
+Wire Notes Line width 20
+	10700 10225 10700 9150
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5D18EBC8
+P 11150 10750
+F 0 "J3" H 11256 11028 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 11256 10937 50  0000 C CNN
+F 2 "acheronConnectors:4pinHeader" H 11150 10750 50  0001 C CNN
+F 3 "~" H 11150 10750 50  0001 C CNN
+	1    11150 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 10650 11425 10650
+Text GLabel 11425 10650 2    50   Input ~ 0
+Extra1
+Wire Wire Line
+	11350 10950 11425 10950
+Wire Wire Line
+	11350 10750 11425 10750
+Text GLabel 11425 10750 2    50   Input ~ 0
+Extra2
+Text GLabel 11425 10850 2    50   Input ~ 0
+Extra3
+Wire Wire Line
+	11425 10850 11350 10850
+Wire Notes Line width 20
+	10700 10275 12575 10275
+Wire Notes Line width 20
+	12575 11350 10700 11350
+Text Notes 10750 11275 0    150  Italic 30
+Extra MCU pins
+Wire Notes Line width 20
+	12575 11350 12575 10275
+Wire Notes Line width 20
+	10700 11350 10700 10275
+Text GLabel 11425 10950 2    50   Input ~ 0
+Extra4
+Text GLabel 21450 3750 2    50   Input ~ 0
+Extra5
+Text GLabel 21450 3850 2    50   Input ~ 0
+Extra6
+Text GLabel 21450 4450 2    50   Input ~ 0
+Extra7
+Text GLabel 21450 4550 2    50   Input ~ 0
+Extra8
+Wire Wire Line
+	21450 4550 21375 4550
+Wire Wire Line
+	21375 4450 21450 4450
+Wire Wire Line
+	21450 3750 21375 3750
+Wire Wire Line
+	21375 3850 21450 3850
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5D3B4464
+P 13125 10750
+F 0 "J4" H 13231 11028 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 13231 10937 50  0000 C CNN
+F 2 "acheronConnectors:4pinHeader" H 13125 10750 50  0001 C CNN
+F 3 "~" H 13125 10750 50  0001 C CNN
+	1    13125 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13325 10650 13400 10650
+Text GLabel 13400 10650 2    50   Input ~ 0
+Extra5
+Wire Wire Line
+	13325 10950 13400 10950
+Wire Wire Line
+	13325 10750 13400 10750
+Text GLabel 13400 10750 2    50   Input ~ 0
+Extra6
+Text GLabel 13400 10850 2    50   Input ~ 0
+Extra7
+Wire Wire Line
+	13400 10850 13325 10850
+Wire Notes Line width 20
+	12675 10275 14550 10275
+Wire Notes Line width 20
+	14550 11350 12675 11350
+Text Notes 12725 11275 0    150  Italic 30
+Extra MCU pins
+Wire Notes Line width 20
+	14550 11350 14550 10275
+Wire Notes Line width 20
+	12675 11350 12675 10275
+Text GLabel 13400 10950 2    50   Input ~ 0
+Extra8
 $EndSCHEMATC
