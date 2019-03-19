@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../gerbers/1Space/"))
+      (outputdirectory "../../../gerbers/plates/loPro/1Space/"))
   )
 
   (net 0 "")
