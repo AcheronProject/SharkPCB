@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../gerbers/plates/loPro/fullGrid/"))
+      (outputdirectory "../../../gerbers/plates/loPro/fullGrid"))
   )
 
   (net 0 "")

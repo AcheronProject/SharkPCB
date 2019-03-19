@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 8)
-    (tracks 7)
+    (tracks 5)
     (zones 0)
     (modules 45)
     (nets 1)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../gerbers/plates/universal/"))
+      (outputdirectory "../../../gerbers/plates/loPro/universal/"))
   )
 
   (net 0 "")
@@ -2597,12 +2597,10 @@
   (gr_line (start 33.720426 143.266574) (end 263.205574 143.266574) (layer Edge.Cuts) (width 0.15) (tstamp 5C710181))
   (gr_line (start 33.720426 62.219426) (end 263.205574 62.219426) (layer Edge.Cuts) (width 0.15))
 
-  (via (at 205.4646 83.74268) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0))
-  (via (at 205.4646 121.74332) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFBEC))
+  (via (at 243.4646 83.74268) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0))
+  (via (at 243.4646 121.74332) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFBEC))
   (via (at 148.463 102.743) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFC02))
-  (via (at 91.4614 121.74332) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFC15))
-  (via (at 91.4614 83.74268) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFC1C))
-  (via (at 53.463 102.743) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C90D1AE))
-  (via (at 243.463 102.743) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C90D1B0))
+  (via (at 53.4614 121.74332) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFC15))
+  (via (at 53.4614 83.74268) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5C6DFC1C))
 
 )
