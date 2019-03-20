@@ -4275,10 +4275,10 @@ Text GLabel 21450 3400 2    50   Input ~ 0
 Col11
 Wire Wire Line
 	21450 3400 21375 3400
-Text GLabel 21450 6000 2    50   Input ~ 0
+Text GLabel 21450 5900 2    50   Input ~ 0
 Col10
 Wire Wire Line
-	21450 6000 21375 6000
+	21450 5900 21375 5900
 $Comp
 L Mechanical:MountingHole L2
 U 1 1 5C525928
@@ -4300,10 +4300,10 @@ Text GLabel 19125 4900 0    50   Input ~ 0
 Col3
 Wire Wire Line
 	19125 4900 19175 4900
-Text GLabel 21450 5900 2    50   Input ~ 0
+Text GLabel 21450 6000 2    50   Input ~ 0
 Col4
 Wire Wire Line
-	21450 5900 21375 5900
+	21450 6000 21375 6000
 Text GLabel 21450 5800 2    50   Input ~ 0
 Col5
 Wire Wire Line
