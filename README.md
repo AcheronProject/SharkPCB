@@ -293,6 +293,16 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/19 (V3.1.5) </b></font></summary>
+ <p>
+
+ <h6> Some components, like the LDO and its network, as well as the reset network, was moved to the bottom layer to ensure no component would get in the way of the switches when mounting them. </h6>
+
+</p></details>
+
 ## The prototypes
 
 See [this album](https://imgur.com/a/ntc8N6Y) for the pictures of prototypes and plates.
