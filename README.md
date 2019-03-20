@@ -45,7 +45,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> Is this design functional and tested? </summary>
 
-> The prototypes were received and are being built. As far as we have tested, it works, but I can only say it works once I have fully tested them -- so I can't say with full certainty that the design works and is problem-free. Although I have designed many boards and electronical circuits, it'd be bold of me to assert their efficiency without proper testing. As of today (march 13, 2019) the first prototypes are being tested.
+> Yes. Version 3.1 was prototyped and is proven to work. Version 3.1.5 will be prototyped and will be the GB version.
 
 </details>
 
