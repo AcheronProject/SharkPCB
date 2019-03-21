@@ -45,7 +45,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> Is this design functional and tested? </summary>
 
-> Yes. Version 3.1 was prototyped and is proven to work. Version 3.1.5 will still be prototyped.
+> Yes. Version 3.1 was prototyped and is proven to work.
 
 </details>
 
