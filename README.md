@@ -336,7 +336,7 @@ If you don't want to order them from LCSC, the table below can be used.
 | R5 and R6 | 1MOhm | 1206 | 2 | 
 | Q1 | AO4406AL | SOIC8 | 1 | 
 | CSin1, CSout1, CVBus1-3, CA1, CB1 | 100nF | 0805 | 7 | 
-| CVBus4 | 1uF | 0406 | 1 | 
+| CVBus4 | 1uF | 0805 | 1 | 
 | CVBus5 | 4.7uF | 0805 | 1 | 
 | DF1 | RB060M-60TR Schottky Diode | SOD-123 | 1 | 
 | QRST | BC846 NPN BJT | SOT-23 | 1 | 
