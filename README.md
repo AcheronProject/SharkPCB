@@ -375,11 +375,12 @@ If you don't want to order them from LCSC, the table below can be used.
 ## Acknowledgements
 
 Although there is only me actively working on the project design, some acknowledgements are due:
-  * Steve from WoodCables. Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
+  * Steve from [WoodCables](https://woodcables.com/). Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
   * Gustavo "UndecidedShark" Reinert. As denoted in the PCB, this board was named after him. I take special pride in this as I gave him his nickname.
   * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions.
-  * User garbo from GeekHack, who helped immensely in this design by giving me hints and information, always opinating and giving feedback with christian patience. Walkerstop also helped by recommendations like using the STM32 family of processors and a USBC connector.
-  * Jack Humbert (@jackhumbert), from OLKB, and @ishtob from the QMK Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
+  * User [garbo](https://geekhack.org/index.php?action=profile;u=63207) from GeekHack, who helped immensely in this design by giving me hints and information, always opinating and giving feedback with christian patience. [Walkerstop](https://geekhack.org/index.php?action=profile;u=68625) also helped by recommendations like using the STM32 family of processors and a USBC connector.
+  * User [u/ajp10204](https://www.reddit.com/user/ajp10304) from Reddit. Now this guy read the README and the documentation thoroughly and pointed inconsistencies and errors several times. He gave me good reasons to make a nice documentation and he helped me immensely by this;
+  * [Jack Humbert](https://github.com/jackhumbert), from OLKB, and [ishtob](https://github.com/ishtob) from the QMK Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
 
 ## License
 
