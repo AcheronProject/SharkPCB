@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-03-13"
-Rev "Rev 3.1.5"
+Date "2019-03-20"
+Rev "3.1.6"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -4762,11 +4762,9 @@ Wire Wire Line
 Connection ~ 5900 12800
 Wire Wire Line
 	5900 12800 6175 12800
-Text Notes 14925 4425 0    100  Italic 20
+Text Notes 14925 4675 0    100  Italic 20
 Mounting holes
-Wire Notes Line width 20
-	16475 4475 16475 3000
-Text Notes 16550 4425 0    100  Italic 20
+Text Notes 16550 4675 0    100  Italic 20
 Logos and flags
 Wire Notes Line width 20
 	1125 2600 14200 2600
@@ -4790,19 +4788,13 @@ Wire Notes Line width 20
 Text Notes 7975 13675 0    150  Italic 30
 USB Connector
 Wire Notes Line width 20
-	14850 3000 14850 4500
-Wire Notes Line width 20
-	16150 3000 16150 4500
-Wire Notes Line width 20
-	14850 4500 16150 4500
+	14850 4750 16150 4750
 Wire Notes Line width 20 style dash_dot
 	14850 3000 16150 3000
 Wire Notes Line width 20
 	16475 3000 17900 3000
 Wire Notes Line width 20
-	17900 2975 17900 4475
-Wire Notes Line width 20
-	16475 4475 17900 4475
+	16475 4725 17900 4725
 Wire Notes Line width 20
 	15025 7125 17425 7125
 Wire Notes Line width 20
@@ -5038,4 +5030,34 @@ Wire Notes Line width 20
 	12675 11350 12675 10275
 Text GLabel 13400 10950 2    50   Input ~ 0
 Extra8
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5C9AE010
+P 15225 4350
+F 0 "H7" H 15325 4396 50  0000 L CNN
+F 1 "MountingHole" H 15325 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 15225 4350 50  0001 C CNN
+F 3 "~" H 15225 4350 50  0001 C CNN
+	1    15225 4350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 20
+	14850 3000 14850 4750
+Wire Notes Line width 20
+	16150 3000 16150 4775
+$Comp
+L Mechanical:MountingHole L?
+U 1 1 5D02D130
+P 17025 4325
+F 0 "L?" H 17125 4371 50  0000 L CNN
+F 1 "usFlag" H 17125 4280 50  0000 L CNN
+F 2 "sharkLogo:usFlag" H 17025 4325 50  0001 C CNN
+F 3 "~" H 17025 4325 50  0001 C CNN
+	1    17025 4325
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 20
+	16475 3000 16475 4725
+Wire Notes Line width 20
+	17900 2975 17900 4725
 $EndSCHEMATC
