@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-03-13"
-Rev "Rev 3.1.5"
+Date "2019-03-20"
+Rev "3.1.6"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -3843,7 +3843,7 @@ U 1 1 5ED251CF
 P 20450 10200
 F 0 "CVBus4" H 20542 10231 31  0000 L CNN
 F 1 "1u" H 20542 10169 31  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 20450 10200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20450 10200 50  0001 C CNN
 F 3 "~" H 20450 10200 50  0001 C CNN
 	1    20450 10200
 	1    0    0    -1  
@@ -4986,13 +4986,13 @@ Wire Notes Line width 20
 Text GLabel 11425 10950 2    50   Input ~ 0
 Extra4
 Text GLabel 21450 3750 2    50   Input ~ 0
-Extra5
-Text GLabel 21450 3850 2    50   Input ~ 0
-Extra6
-Text GLabel 21450 4450 2    50   Input ~ 0
-Extra7
-Text GLabel 21450 4550 2    50   Input ~ 0
 Extra8
+Text GLabel 21450 3850 2    50   Input ~ 0
+Extra7
+Text GLabel 21450 4450 2    50   Input ~ 0
+Extra6
+Text GLabel 21450 4550 2    50   Input ~ 0
+Extra5
 Wire Wire Line
 	21450 4550 21375 4550
 Wire Wire Line

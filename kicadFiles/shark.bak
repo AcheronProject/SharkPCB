@@ -3843,7 +3843,7 @@ U 1 1 5ED251CF
 P 20450 10200
 F 0 "CVBus4" H 20542 10231 31  0000 L CNN
 F 1 "1u" H 20542 10169 31  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 20450 10200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20450 10200 50  0001 C CNN
 F 3 "~" H 20450 10200 50  0001 C CNN
 	1    20450 10200
 	1    0    0    -1  
@@ -4275,10 +4275,10 @@ Text GLabel 21450 3400 2    50   Input ~ 0
 Col11
 Wire Wire Line
 	21450 3400 21375 3400
-Text GLabel 21450 6000 2    50   Input ~ 0
+Text GLabel 21450 5900 2    50   Input ~ 0
 Col10
 Wire Wire Line
-	21450 6000 21375 6000
+	21450 5900 21375 5900
 $Comp
 L Mechanical:MountingHole L2
 U 1 1 5C525928
@@ -4300,10 +4300,10 @@ Text GLabel 19125 4900 0    50   Input ~ 0
 Col3
 Wire Wire Line
 	19125 4900 19175 4900
-Text GLabel 21450 5900 2    50   Input ~ 0
+Text GLabel 21450 6000 2    50   Input ~ 0
 Col4
 Wire Wire Line
-	21450 5900 21375 5900
+	21450 6000 21375 6000
 Text GLabel 21450 5800 2    50   Input ~ 0
 Col5
 Wire Wire Line
@@ -4986,13 +4986,13 @@ Wire Notes Line width 20
 Text GLabel 11425 10950 2    50   Input ~ 0
 Extra4
 Text GLabel 21450 3750 2    50   Input ~ 0
-Extra5
-Text GLabel 21450 3850 2    50   Input ~ 0
-Extra6
-Text GLabel 21450 4450 2    50   Input ~ 0
-Extra7
-Text GLabel 21450 4550 2    50   Input ~ 0
 Extra8
+Text GLabel 21450 3850 2    50   Input ~ 0
+Extra7
+Text GLabel 21450 4450 2    50   Input ~ 0
+Extra6
+Text GLabel 21450 4550 2    50   Input ~ 0
+Extra5
 Wire Wire Line
 	21450 4550 21375 4550
 Wire Wire Line

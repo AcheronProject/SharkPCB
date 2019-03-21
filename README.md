@@ -45,7 +45,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> Is this design functional and tested? </summary>
 
-> Yes. Version 3.1 was prototyped and is proven to work. Version 3.1.5 will be prototyped and will be the GB version.
+> Yes. Version 3.1 was prototyped and is proven to work. Version 3.1.5 will still be prototyped.
 
 </details>
 
@@ -53,7 +53,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> How can I obtain this PCB? Is there an IC or a GB thread? </summary>
 
-> There is an [IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. There is also a [GB thread](https://www.reddit.com/r/mechmarket/comments/b0sn8f/gb_shark_pcb_a_new_40_ortho_kit/) for V3.1.4. For updated information please always check the GeekHack IC thread or this project's page.
+> There is an [IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. There is also a [GB thread on Reddit](https://www.reddit.com/r/mechmarket/comments/b0sn8f/gb_shark_pcb_a_new_40_ortho_kit/) and a [GB thread on Geekhack](https://geekhack.org/index.php?topic=99753). For updated information please always check the GeekHack IC thread or this project's page.
 
 > Additionally, you can order the PCBs from a manufacturer like JLCPCB (for instructions see [this link](https://www.youtube.com/watch?v=0u9Io4pw-b0) starting at 1:02:00) and the components from LCSC (how to do that in [this link](https://www.youtube.com/watch?v=eFgOC5_1VYU&t=176s)) and build the board. This takes some expertise in electronics though, as the SMD parts require knowledge and specialized tools and supplies. This is why me and Steve hold Group Buys. Also manufacturers generally have a Minimum Order Quantity of 5 or 10 PCBs. Feel free to arranje a group buy with your circle of friends.
 
@@ -71,7 +71,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> How much will this board cost? </summary>
 
-> We are aiming at a US$30,00 mark. The prototypes show that this is likely to be achieved.
+> We are aiming at a US$40,00 mark. The prototypes show that this is likely to be achieved.
 
 </details>
 
@@ -277,8 +277,6 @@ There are four plate designs available: one for each supported layout and a univ
 
  <h6> Added I2C communication pins, as suggested by user equalunique from Geekhack. The user can use the holes or solder a four-pin JST BM04B-ASRS-TF connector that is in the BOM. If the user does not want to buy the connector, he or she can use the THT pads right next to the connector pads. </h6>
 
-<h6> *This is the version that will go into GB production.* </h6>
-
 </p></details>
 
 <!-------------------------------------------------------------------->
@@ -303,13 +301,25 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/21 (V3.1.6) </b></font></summary>
+ <p>
+
+ <h6> Capacitor CVBus1, which was a 1uF 0406, was changed to 1uF 0805 to match the other CVBus'es. </h6>
+
+ <h6> The BOM had minor problems like components out of stock and incongruent information (e.g., 0805 resistors when they should be 1206). This has all been fixed and checked. Double checked. I dare you to find a problem. I double dare you, MFer. </h6>
+
+</p></details>
+
 ## The prototypes
 
 See [this album](https://imgur.com/a/ntc8N6Y) for the pictures of prototypes and plates.
 
 The prototyped version was V3.1. The plates were ptotoyped with plain square slots, and work perfectly. 
 
-The GB version of the PCB will be 3.1.4, and the plates will have openings on the switch slots so that the switches can be opened while mounted on the plate.
+The GB version of the PCB will not be 3.1, so further prototypes for a later version will be made. Also the plates will have openings on the switch slots so that the switches can be opened while mounted on the plate.
 
 ## Bill of Materials
 
@@ -326,7 +336,7 @@ If you don't want to order them from LCSC, the table below can be used.
 | R5 and R6 | 1MOhm | 1206 | 2 | 
 | Q1 | AO4406AL | SOIC8 | 1 | 
 | CSin1, CSout1, CVBus1-3, CA1, CB1 | 100nF | 0805 | 7 | 
-| CVBus4 | 1uF | 0805 | 1 | 
+| CVBus4 | 1uF | 0406 | 1 | 
 | CVBus5 | 4.7uF | 0805 | 1 | 
 | DF1 | RB060M-60TR Schottky Diode | SOD-123 | 1 | 
 | QRST | BC846 NPN BJT | SOT-23 | 1 | 
@@ -335,13 +345,13 @@ If you don't want to order them from LCSC, the table below can be used.
 | RD+Up | 1.5kOhm | 1206 |  1 | 
 | RPGate, RB1/2, RA1/2 | 10kOhm | 1206 | 5 | 
 | RRST | 100kOhm|  1206	| 1 | 
-| RSGate1 | 1kOhm | 1206 | 1 | 
+| RSGate1 | 100 Ohm | 1206 | 1 | 
 | SWRST1 |SMD Push Button | - | 1 | 
 | U1 | STM32F303CCT6 | LQFP48 | 1 | 
 | U2 | MCP1700-330 LDO | SOT23 | 1 | 
 | Y1 | 8MHz 4 pin SMD Crystal | 5032 | 1 | 
 | RGB | WS2812B | - | 8 | 
-| RL1-RL | 360 Ohm | 1206 | 50 | 
+| RL1-RL48 | 360 Ohm | 1206 | 50 | 
 | D1-48, DS1 and DRST | 1N4148W | SOD-123 | 52 |
 | ROT1 | ALPS EC11Ex (see note 1) | - | 1 |
 
