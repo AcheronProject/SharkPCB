@@ -166,44 +166,52 @@ setlocal wrapmargin=0
 silent! normal! zE
 7,15fold
 17,43fold
-49,53fold
-57,63fold
-67,71fold
-75,79fold
-83,89fold
-93,97fold
-101,105fold
-109,117fold
-121,127fold
-131,141fold
-145,149fold
+47,53fold
+55,63fold
+65,71fold
+73,79fold
+81,89fold
+91,97fold
+99,105fold
+107,117fold
+119,127fold
+129,141fold
+143,149fold
 45,149fold
-151,159fold
-163,171fold
-173,181fold
-183,191fold
-193,201fold
-203,211fold
-213,225fold
-227,239fold
-241,251fold
-253,261fold
-263,275fold
-277,289fold
-291,301fold
-303,311fold
-313,323fold
-161,323fold
-325,365fold
-367,401fold
-403,416fold
-418,426fold
-428,434fold
-let s:l = 325 - ((324 * winheight(0) + 52) / 104)
+151,163fold
+167,175fold
+177,185fold
+187,195fold
+197,205fold
+207,215fold
+217,229fold
+231,243fold
+245,255fold
+257,265fold
+267,279fold
+281,293fold
+295,305fold
+307,315fold
+317,327fold
+165,327fold
+329,369fold
+371,405fold
+407,420fold
+422,430fold
+432,438fold
+45
+normal! zo
+45
+normal! zc
+165
+normal! zo
+165
+normal! zc
+let s:l = 432 - ((431 * winheight(0) + 52) / 104)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-325
+432
 normal! 0
 tabnext 1
 badd +0 README.md

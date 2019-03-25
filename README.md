@@ -151,11 +151,15 @@ There are four plate designs available: one for each supported layout and a univ
 ## Board preview (version 3.1)
 
 <details><summary> Front </summary>
+
 ![Render front](./renders/frontRender.png)
+
 </details>
 
 <details><summary> Front </summary>
+
 ![Render back](./renders/backRender.png)
+
 </details>
 
 ## Changelog and version control
