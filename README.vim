@@ -207,12 +207,12 @@ normal! zc
 normal! zo
 165
 normal! zc
-let s:l = 432 - ((431 * winheight(0) + 52) / 104)
+let s:l = 438 - ((437 * winheight(0) + 52) / 104)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-432
-normal! 0
+438
+normal! 01|
 tabnext 1
 badd +0 README.md
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
