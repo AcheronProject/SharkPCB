@@ -150,17 +150,17 @@ There are four plate designs available: one for each supported layout and a univ
 
 ## Board preview (version 3.1)
 
-<details><summary> Photo 1 </summary>
-
-![Alt text](./renders/frontRender.png)
-
+<details><summary> Front </summary>
+![Render front](./renders/frontRender.png)
 </details>
 
-
-
-![Alt text](./renders/backRender.png)
+<details><summary> Front </summary>
+![Render back](./renders/backRender.png)
+</details>
 
 ## Changelog and version control
+
+<!-------------------------- 3.0.1 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
@@ -170,7 +170,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.0.2 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/01/13 (V3.0.2) </b></font></summary>
@@ -180,7 +180,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.0.3 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/01/14 (V3.0.3) </b></font></summary>
@@ -190,7 +190,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.0.4 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/01/15 (V3.0.4) </b></font></summary>
@@ -200,7 +200,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.0.5 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/01/21 (V3.0.5) </b></font></summary>
@@ -210,7 +210,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.0.6 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/01/26 (V3.0.6) </b></font></summary>
@@ -224,7 +224,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.0.7 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/02/13 (V3.0.7) </b></font></summary>
@@ -238,10 +238,10 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.0 -------------------------------------->
 
 <details>
- <summary> <font size="+2"><b> 2019/02/20 (V3.1) </b></font></summary>
+ <summary> <font size="+2"><b> 2019/02/20 (V3.1.0) </b></font></summary>
  <p>
 
  <h6> Added rotary encoder support. </h6>
@@ -250,7 +250,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.1 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/02/27 (V3.1.1) </b></font></summary>
@@ -260,7 +260,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.2 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/03/12 (V3.1.2) </b></font></summary>
@@ -274,7 +274,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.3 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/03/13 (V3.1.3) </b></font></summary>
@@ -288,7 +288,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.4 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/03/16 (V3.1.4) </b></font></summary>
@@ -300,7 +300,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.5 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/03/19 (V3.1.5) </b></font></summary>
@@ -310,7 +310,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </p></details>
 
-<!-------------------------------------------------------------------->
+<!-------------------------- 3.1.6 -------------------------------------->
 
 <details>
  <summary> <font size="+2"><b> 2019/03/21 (V3.1.6) </b></font></summary>
@@ -324,11 +324,37 @@ There are four plate designs available: one for each supported layout and a univ
 
 ## The prototypes
 
-See [this album](https://imgur.com/a/ntc8N6Y) for the pictures of prototypes and plates.
+See the pictures below.
 
 The prototyped version was V3.1. The plates were ptotoyped with plain square slots, and work perfectly. 
 
-The GB version of the PCB will not be 3.1, so further prototypes for a later version will be made. Also the plates will have openings on the switch slots so that the switches can be opened while mounted on the plate.
+<details><summary> Front </summary>
+![Proto front 1](./protos/front1.jpg)
+
+![Proto front 2](./protos/front2.jpg)
+</details>
+
+<details><summary> Back </summary>
+![Proto back 1](./protos/back1.jpg)
+
+![Proto back 2](./protos/back2.jpg)
+</details>
+
+<details><summary> On a Planck lo-pro case </summary>
+![Mounted 1](./protos/mounted1.jpg)
+
+![Mounted 2](./protos/mounted2.jpg)
+
+![Mounted 3](./protos/mounted3.jpg)
+
+![Mounted 4](./protos/mounted4.jpg)
+</details>
+
+<details><summary> With mounted switches </summary>
+![Switches 1](./protos/switches1.jpg)
+
+![Switches 2](./protos/switches2.jpg)
+</details>
 
 ## Bill of Materials
 
