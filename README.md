@@ -1,7 +1,10 @@
-# Acheron 40-SM-O-MX-TH-WI (Codename "SharkPCB")
+# Acheron Aχξρων 40-SM-O-MX-TH-WI (Codename "SharkPCB")
 
-Table of Contents
-=================
+<p align="center">
+  <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLogo.png"  width="100"> 
+</p>
+
+## Table of Contents
 
   * [Project overview](#project-overview)
   * [Frequently Asked Questions (FAQ)](#faq)
