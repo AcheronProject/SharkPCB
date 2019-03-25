@@ -150,7 +150,13 @@ There are four plate designs available: one for each supported layout and a univ
 
 ## Board preview (version 3.1)
 
+<details><summary> Photo 1 </summary>
+
 ![Alt text](./renders/frontRender.png)
+
+</details>
+
+
 
 ![Alt text](./renders/backRender.png)
 
