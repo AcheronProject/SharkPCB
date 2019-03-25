@@ -194,24 +194,16 @@ silent! normal! zE
 303,311fold
 313,323fold
 161,323fold
-325,331fold
-333,367fold
-369,382fold
-384,392fold
-394,400fold
-45
-normal! zo
-45
-normal! zc
-161
-normal! zo
-161
-normal! zc
-let s:l = 394 - ((393 * winheight(0) + 52) / 104)
+325,365fold
+367,401fold
+403,416fold
+418,426fold
+428,434fold
+let s:l = 325 - ((324 * winheight(0) + 52) / 104)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-394
+325
 normal! 0
 tabnext 1
 badd +0 README.md

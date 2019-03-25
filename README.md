@@ -337,6 +337,7 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 </details>
 
 <details><summary> Back </summary>
+
 ![Proto back 1](./protos/back1.jpg)
 
 ![Proto back 2](./protos/back2.jpg)
@@ -344,6 +345,7 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 </details>
 
 <details><summary> On a Planck lo-pro case </summary>
+
 ![Mounted 1](./protos/mounted1.jpg)
 
 ![Mounted 2](./protos/mounted2.jpg)
@@ -355,6 +357,7 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 </details>
 
 <details><summary> With mounted switches </summary>
+
 ![Switches 1](./protos/switches1.jpg)
 
 ![Switches 2](./protos/switches2.jpg)
