@@ -13,7 +13,7 @@ Table of Contents
 
 ## Project overview
 
-The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB), designed to be compatible with Planck plates and cases. and supports three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
+The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB), supporting three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
 Here's a list of the board's features:
 
@@ -385,5 +385,7 @@ Although there is only me actively working on the project design, some acknowled
 ## License
 
 This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This license allows you to copy and redistribute this project, as long as you give the author credit and have non-commercial purposes. If you have commercial purposes, please feel free to contact me through the channels I disclosed in this README file.
 
 To know more about why I published the project under this license, please look at the [FAQ section](#faq).
