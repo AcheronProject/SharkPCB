@@ -329,15 +329,18 @@ See the pictures below.
 The prototyped version was V3.1. The plates were ptotoyped with plain square slots, and work perfectly. 
 
 <details><summary> Front </summary>
+
 ![Proto front 1](./protos/front1.jpg)
 
 ![Proto front 2](./protos/front2.jpg)
+
 </details>
 
 <details><summary> Back </summary>
 ![Proto back 1](./protos/back1.jpg)
 
 ![Proto back 2](./protos/back2.jpg)
+
 </details>
 
 <details><summary> On a Planck lo-pro case </summary>
@@ -348,12 +351,14 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 ![Mounted 3](./protos/mounted3.jpg)
 
 ![Mounted 4](./protos/mounted4.jpg)
+
 </details>
 
 <details><summary> With mounted switches </summary>
 ![Switches 1](./protos/switches1.jpg)
 
 ![Switches 2](./protos/switches2.jpg)
+
 </details>
 
 ## Bill of Materials
