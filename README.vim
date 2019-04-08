@@ -2,14 +2,11 @@ let SessionLoad = 1
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
-imap <F5> <Plug>ToggleBackground
 map! <S-Insert> <MiddleMouse>
 vmap gx <Plug>NetrwBrowseXVis
 nmap gx <Plug>NetrwBrowseX
 vnoremap <silent> <Plug>NetrwBrowseXVis :call netrw#BrowseXVis()
 nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())
-vmap <F5> <Plug>ToggleBackground
-nmap <F5> <Plug>ToggleBackground
 map <S-Insert> <MiddleMouse>
 let &cpo=s:cpo_save
 unlet s:cpo_save
@@ -22,7 +19,7 @@ set mouse=a
 set ruler
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc,.png,.jpg
 set termencoding=utf-8
-set window=104
+set window=164
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
@@ -164,54 +161,23 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-7,15fold
-17,43fold
-47,53fold
-55,63fold
-65,71fold
-73,79fold
-81,89fold
-91,97fold
-99,105fold
-107,117fold
-119,127fold
-129,141fold
-143,149fold
-45,149fold
-151,163fold
-167,175fold
-177,185fold
-187,195fold
-197,205fold
-207,215fold
-217,229fold
-231,243fold
-245,255fold
-257,265fold
-267,279fold
-281,293fold
-295,305fold
-307,315fold
-317,327fold
-165,327fold
-329,369fold
-371,405fold
-407,420fold
-422,430fold
-432,438fold
-45
-normal! zo
-45
-normal! zc
-165
-normal! zo
-165
-normal! zc
-let s:l = 438 - ((437 * winheight(0) + 52) / 104)
+1,5fold
+7,16fold
+18,44fold
+46,150fold
+152,164fold
+166,176fold
+178,340fold
+342,382fold
+384,418fold
+420,433fold
+435,443fold
+445,451fold
+let s:l = 176 - ((175 * winheight(0) + 82) / 164)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-438
+176
 normal! 01|
 tabnext 1
 badd +0 README.md
