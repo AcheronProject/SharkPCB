@@ -1,4 +1,4 @@
-# Acheron Aχξρων 40-SM-O-MX-TH-WI (Codename "SharkPCB")
+﻿# Acheron Aχξρων 40-SM-O-MX-TH-WI (Codename "SharkPCB")
 
 <p align="center">
   <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLogo.png"  width="100"> 
@@ -9,6 +9,7 @@
   * [Project overview](#project-overview)
   * [Frequently Asked Questions (FAQ)](#faq)
   * [Board preview](#board-preview-version-31)
+  * [The custom case](#the-custom-case)
   * [Changelog](#changelog-and-version-control)
   * [Bill of Materials](#bill-of-Materials)
   * [Acknowledgements](#Acknowledgements)
@@ -161,6 +162,10 @@ There are four plate designs available: one for each supported layout and a univ
 ![Render back](./renders/backRender.png)
 
 </details>
+
+## The custom case
+
+The folder ./case has the .stp and .stl files for the custom case being designed. The case is not ready and was not prototyped; also feedback from the community is still underway so we are still setting on some matters before releasing it.
 
 ## Changelog and version control
 
