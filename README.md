@@ -4,7 +4,7 @@
   <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLogo.png"  width="100"> 
 </p>
 
-## Table of Contents
+## Table of Contents <!-- {{{1
 
   * [Project overview](#project-overview)
   * [Frequently Asked Questions (FAQ)](#faq)
@@ -15,7 +15,7 @@
   * [Acknowledgements](#Acknowledgements)
   * [License](#license)
 
-## Project overview
+## Project overview <!-- {{{1
 
 The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB) supporting three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
@@ -43,11 +43,9 @@ Additionally, plate gerber files are also available so that the user can order t
 
 There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
 
-## FAQ 
+## FAQ <!-- {{{1
 
-<!-------------------------------------------------------------------->
-
-<details><summary> Is this design functional and tested? </summary>
+<details><summary> Is this design functional and tested? </summary> <!-- {{{2 --!>
 
 > Yes. Version 3.1 was prototyped and is proven to work.
 
@@ -55,7 +53,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <!-------------------------------------------------------------------->
 
-<details><summary> How can I obtain this PCB? Is there an IC or a GB thread? </summary>
+<details><summary> How can I obtain this PCB? Is there an IC or a GB thread? </summary> <!-- {{{2 --!>
 
 > There is an [IC thread](https://geekhack.org/index.php?topic=98934.0) on GeekHack, where many users have contributed to the design and given their thoughts. Any help or opinion is highly appreciated. There is also a [GB thread on Reddit](https://www.reddit.com/r/mechmarket/comments/b0sn8f/gb_shark_pcb_a_new_40_ortho_kit/) and a [GB thread on Geekhack](https://geekhack.org/index.php?topic=99753). For updated information please always check the GeekHack IC thread or this project's page.
 
@@ -63,25 +61,21 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-<!-------------------------------------------------------------------->
 
-<details><summary> Where are you planning to distribute this board? </summary>
+<details><summary> Where are you planning to distribute this board? </summary> <!-- {{{2 --!>
 
 > Steve from WoodCables is handling the GB in the US and I am handling it in Brazil. The UE is not out of the question, and I have some connections there should the european community show interest.
 
 </details>
 
-<!-------------------------------------------------------------------->
 
-<details><summary> How much will this board cost? </summary>
+<details><summary> How much will this board cost? </summary> <!-- {{{2 --!>
 
 > We are aiming at a US$40,00 mark. The prototypes show that this is likely to be achieved.
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> Will you (or Steve) profit from this project? </summary>
+<details><summary> Will you (or Steve) profit from this project? </summary> <!-- {{{2 --!>
 
 > I won't profit from it myself, although I retain a little portion of the gains to fund further projects, that is, to maintain prototyping, components and overall design costs. A famous brazilian writer, Millôr Fernandes, once said: "never trust an idealist that profits from his ideals".
 
@@ -89,25 +83,19 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> Who is funding this project? </summary>
+<details><summary> Who is funding this project? </summary> <!-- {{{2 --!>
 
 > I and Steve are -- although mostly him as parts and equipment availability in Brazil is limited. Also anyone that obtains this board either through one of the Group Buys or throw Wood Cables (Steve's shop) will be supporting the project as all gains from the sales and GBs are reserved to be used only with the project.
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> Can anyone contribute to this project? </summary>
+<details><summary> Can anyone contribute to this project? </summary> <!-- {{{2 --!>
 
 > Anyone is welcome to contribute, be it through feature requests, opinions or criticisms. This can be done through the GeekHack posts, issues and questions on GitHub or even through my Discord (#Gondolindrim#9738). If you want to actively contribute to the design, feel free to contact me and we'd be glad to have you. 
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> Why open-source? </summary>
+<details><summary> Why open-source? </summary> <!-- {{{2 --!>
 
 > As I don't intend to profit from this, there is no reason to keep the design closed. I also have the opportunity to contribute to the open-source way of thinking: many heads are better than one. Following these steps I use only open-source stuff to design the keyboards: the ECAD design is made with KiCad, the renders and animations in Blender, the logo design in Inkscape. All these software are run on Arch Linux, which is a Linux distro heavily based on the OSS and KISS principles.
 
@@ -117,9 +105,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> And why publish the design under a share-alike non-commercial license? </summary>
+<details><summary> And why publish the design under a share-alike non-commercial license? </summary> <!-- {{{2 --!>
 
 > The reason for the license is twofold: first, while I want the design to be open-source, that is, educational and freely available, I think it's not just that someone could just take it, make little adaptations (like changing the logos) and profitting from it when the idea of the project is to have the open-source ideas in mind. It's not about myself -- although of course I have some pride in my designs and like to have credit for them -- but about the project ideals.
 
@@ -127,9 +113,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> What resources and software do you use? </summary>
+<details><summary> What resources and software do you use? </summary> <!-- {{{2 --!>
 
 > All the footprints and symbols are available wither on the KiCad libraries or my MX library, which contains footprints and symbols for some components not available on KiCad.
 
@@ -141,15 +125,13 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-<!-------------------------------------------------------------------->
-
-<details><summary> How can I follow your design process and learn from this project? </summary>
+<details><summary> How can I follow your design process and learn from this project? </summary> <!-- {{{2 --!>
 
 > I try to stream the design process when I can. I generally do it at tuesdays and thursdays at 3PM PST (8PM BRT). In the streams I answer general electronics questions, and show how the board is designed. I stream at my [Twitch channel](http://twitch.tv/gondolindrim_). The past streams can be seen in my Youtube channel.
 
 </details>
 
-## Board preview (version 3.1)
+## Board preview (version 3.1) <!-- {{{1
 
 <details><summary> Front </summary>
 
@@ -163,7 +145,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-## The custom case
+## The custom case <!-- {{{1
 
 The folder ./case has the .stp and .stl files for the custom case being designed. The case is not ready and was not prototyped; also feedback from the community is still underway so we are still setting on some matters before releasing it.
 
@@ -175,9 +157,9 @@ The case can feature both the shark logo under it and the "SHARK" letters on the
 
 Steve and I will soon make an IC post where users can input their feedback. In any case, anyone can contact me directly through Reddit or Discord.
 
-## Changelog and version control
+## Changelog and version control <!-- {{{1
 
-<!-------------------------- 3.0.1 -------------------------------------->
+<!-------------------------- 3.0.1 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/01/12 (V3.0.1) </b></font></summary>
@@ -187,7 +169,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.0.2 -------------------------------------->
+<!-------------------------- 3.0.2 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/01/13 (V3.0.2) </b></font></summary>
@@ -197,7 +179,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.0.3 -------------------------------------->
+<!-------------------------- 3.0.3 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/01/14 (V3.0.3) </b></font></summary>
@@ -207,7 +189,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.0.4 -------------------------------------->
+<!-------------------------- 3.0.4 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/01/15 (V3.0.4) </b></font></summary>
@@ -217,7 +199,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.0.5 -------------------------------------->
+<!-------------------------- 3.0.5 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/01/21 (V3.0.5) </b></font></summary>
@@ -227,7 +209,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.0.6 -------------------------------------->
+<!-------------------------- 3.0.6 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/01/26 (V3.0.6) </b></font></summary>
@@ -241,7 +223,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.0.7 -------------------------------------->
+<!-------------------------- 3.0.7 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/02/13 (V3.0.7) </b></font></summary>
@@ -255,7 +237,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.0 -------------------------------------->
+<!-------------------------- 3.1.0 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/02/20 (V3.1.0) </b></font></summary>
@@ -267,7 +249,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.1 -------------------------------------->
+<!-------------------------- 3.1.1 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/02/27 (V3.1.1) </b></font></summary>
@@ -277,7 +259,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.2 -------------------------------------->
+<!-------------------------- 3.1.2 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/03/12 (V3.1.2) </b></font></summary>
@@ -291,7 +273,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.3 -------------------------------------->
+<!-------------------------- 3.1.3 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/03/13 (V3.1.3) </b></font></summary>
@@ -305,7 +287,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.4 -------------------------------------->
+<!-------------------------- 3.1.4 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/03/16 (V3.1.4) </b></font></summary>
@@ -317,7 +299,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.5 -------------------------------------->
+<!-------------------------- 3.1.5 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/03/19 (V3.1.5) </b></font></summary>
@@ -327,7 +309,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-<!-------------------------- 3.1.6 -------------------------------------->
+<!-------------------------- 3.1.6 --------------------------------------{{{2>
 
 <details>
  <summary> <font size="+2"><b> 2019/03/21 (V3.1.6) </b></font></summary>
@@ -339,7 +321,17 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 </p></details>
 
-## The prototypes
+<!-------------------------- 3.1.7 --------------------------------------{{{2>
+
+<details>
+ <summary> <font size="+2"><b> 2019/04/10 (V3.1.7) </b></font></summary>
+ <p>
+
+ <h6> The plate files were adjusted to fit the custom case. </h6>
+
+</p></details>
+
+## The prototypes <!-- {{{1
 
 See the pictures below.
 
@@ -381,7 +373,7 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 
 </details>
 
-## Bill of Materials
+## Bill of Materials <!-- {{{1
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
 
@@ -417,7 +409,7 @@ If you don't want to order them from LCSC, the table below can be used.
 
 (1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
 
-## To-do list
+## To-do list <!-- {{{1
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
@@ -432,7 +424,7 @@ If you don't want to order them from LCSC, the table below can be used.
 - [ ] Finish THT plates
 - [ ] Prototype THT design
 
-## Acknowledgements
+## Acknowledgements <!-- {{{1
 
 Although there is only me actively working on the project design, some acknowledgements are due:
   * Steve from [WoodCables](https://woodcables.com/). Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
@@ -442,7 +434,7 @@ Although there is only me actively working on the project design, some acknowled
   * User [u/ajp10204](https://www.reddit.com/user/ajp10304) from Reddit. Now this guy read the README and the documentation thoroughly and pointed inconsistencies and errors several times. He gave me good reasons to make a nice documentation and he helped me immensely by this;
   * [Jack Humbert](https://github.com/jackhumbert), from OLKB, and [ishtob](https://github.com/ishtob) from the QMK Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
 
-## License
+## License <!-- {{{1
 
 This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 

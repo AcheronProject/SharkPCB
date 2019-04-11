@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name acheronSwitchSlots)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronSwitchSlots.pretty)(options "")(descr ""))
+  (lib (name planck-pcb-module)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/SharkPCB/olkbParts/planck-pcb-module.pretty)(options "")(descr ""))
+)
