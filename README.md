@@ -4,7 +4,7 @@
   <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLogo.png"  width="100"> 
 </p>
 
-## Table of Contents <!-- {{{1
+## Table of Contents <!-- {{{1 -->
 
   * [Project overview](#project-overview)
   * [Frequently Asked Questions (FAQ)](#faq)
@@ -16,7 +16,7 @@
   * [Acknowledgements](#Acknowledgements)
   * [License](#license)
 
-## Project overview <!-- {{{1 -->
+## Project overview <!-- {{{1 --> -->
 
 The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB) supporting three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
@@ -44,7 +44,7 @@ Additionally, plate gerber files are also available so that the user can order t
 
 There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
 
-## FAQ <!-- {{{1
+## FAQ <!-- {{{1 -->
 
 <details><summary> Is this design functional and tested? </summary> <!-- {{{2 --!>
 
@@ -132,7 +132,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-## Board preview (version 3.1) <!-- {{{1
+## Board preview (version 3.1) <!-- {{{1 -->
 
 <details><summary> Front </summary>
 
@@ -146,7 +146,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-## The custom case <!-- {{{1
+## The custom case <!-- {{{1 -->
 
 The folder ./case has the .stp and .stl files for the custom case being designed. The case is not ready and was not prototyped; also feedback from the community is still underway so we are still setting on some matters before releasing it.
 
@@ -164,7 +164,7 @@ Click in the links below to acess the Fusion files for the low-profile and high-
 
 
 
-## Changelog and version control <!-- {{{1
+## Changelog and version control <!-- {{{1 -->
 
 <!-------------------------- 3.0.1 --------------------------------------{{{2>
 
@@ -338,7 +338,7 @@ Click in the links below to acess the Fusion files for the low-profile and high-
 
 </p></details>
 
-## The PCB prototypes <!-- {{{1
+## The PCB prototypes <!-- {{{1 -->
 
 See the pictures below.
 
@@ -380,7 +380,7 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 
 </details>
 
-## Bill of Materials <!-- {{{1
+## Bill of Materials <!-- {{{1 -->
 
 In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
 
@@ -416,7 +416,7 @@ If you don't want to order them from LCSC, the table below can be used.
 
 (1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
 
-## To-do list <!-- {{{1
+## To-do list <!-- {{{1 -->
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
@@ -431,7 +431,7 @@ If you don't want to order them from LCSC, the table below can be used.
 - [ ] Finish THT plates
 - [ ] Prototype THT design
 
-## Acknowledgements <!-- {{{1
+## Acknowledgements <!-- {{{1 -->
 
 Although there is only me actively working on the project design, some acknowledgements are due:
   * Steve from [WoodCables](https://woodcables.com/). Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
@@ -441,7 +441,7 @@ Although there is only me actively working on the project design, some acknowled
   * User [u/ajp10204](https://www.reddit.com/user/ajp10304) from Reddit. Now this guy read the README and the documentation thoroughly and pointed inconsistencies and errors several times. He gave me good reasons to make a nice documentation and he helped me immensely by this;
   * [Jack Humbert](https://github.com/jackhumbert), from OLKB, and [ishtob](https://github.com/ishtob) from the QMK Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
 
-## License <!-- {{{1
+## License <!-- {{{1 -->
 
 This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
