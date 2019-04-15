@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../gerbers/plates/hiPro/universal/"))
+      (outputdirectory "../../gerbers/plates/hipro/"))
   )
 
   (net 0 "")
