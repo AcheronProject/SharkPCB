@@ -1,10 +1,10 @@
 ﻿# Acheron Aχξρων 40-SM-O-MX-TH-WI (Codename "SharkPCB")
 
 <p align="center">
-  <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLogo.png"  width="100"> 
+  <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLogo.png"  width="100">
 </p>
 
-## Table of Contents <!-- {{{1 -->
+## Table of Contents
 
   * [Project overview](#project-overview)
   * [Frequently Asked Questions (FAQ)](#faq)
@@ -16,7 +16,7 @@
   * [Acknowledgements](#Acknowledgements)
   * [License](#license)
 
-## Project overview <!-- {{{1 -->
+## Project overview
 
 The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB) supporting three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
@@ -44,7 +44,7 @@ Additionally, plate gerber files are also available so that the user can order t
 
 There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
 
-## FAQ <!-- {{{1 -->
+## FAQ
 
 <details><summary> Is this design functional and tested? </summary> <!-- {{{2 --!>
 
@@ -92,7 +92,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 <details><summary> Can anyone contribute to this project? </summary> <!-- {{{2 --!>
 
-> Anyone is welcome to contribute, be it through feature requests, opinions or criticisms. This can be done through the GeekHack posts, issues and questions on GitHub or even through my Discord (#Gondolindrim#9738). If you want to actively contribute to the design, feel free to contact me and we'd be glad to have you. 
+> Anyone is welcome to contribute, be it through feature requests, opinions or criticisms. This can be done through the GeekHack posts, issues and questions on GitHub or even through my Discord (#Gondolindrim#9738). If you want to actively contribute to the design, feel free to contact me and we'd be glad to have you.
 
 </details>
 
@@ -132,7 +132,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-## Board preview (version 3.1) <!-- {{{1 -->
+## Board preview (version 3.1)
 
 <details><summary> Front </summary>
 
@@ -146,7 +146,7 @@ There are four plate designs available: one for each supported layout and a univ
 
 </details>
 
-## The custom cases <!-- {{{1 -->
+## The custom cases
 
 The folder ./case has the .stp and .stl files for the custom cases being designed, one being a low-profile (switches are exposed) and another a high-profile. The cases are not ready and were not prototyped; also feedback from the community is still underway so we are still setting on some matters before releasing them.
 
@@ -156,7 +156,7 @@ Steve and I will soon make an IC post where users can input their feedback. In a
 
 If you want to fork or create a case based on this one, you can check the public links for the [low profile](https://myhub.autodesk360.com/ue2d0e419/g/shares/SH7f1edQT22b515c761e412cd5b215194de6?mode=embed&viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C1cBOAMwgA4AbAGMARgFouuGF3EAWUaNlcATAGYJgiBB4B2ACb6YjflLQBfEAF0gA) and for the [high profile](https://myhub.autodesk360.com/ue2d0e419/g/shares/SH7f1edQT22b515c761e0bc166c9ba566c91?mode=embed&viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AWAdgDNOYAJlzcAtBBgxeozhAi5RAIwDGANgDMoxpwCsMNZwAcjdb0NoAviAC6QA) cases. With these links you can download the project files like F3D, STL, STEP and so on.
 
-## Changelog and version control <!-- {{{1 -->
+## Changelog and version control
 
 <!-------------------------- 3.0.1 --------------------------------------{{{2>
 
@@ -334,7 +334,7 @@ If you want to fork or create a case based on this one, you can check the public
 
 See the pictures below.
 
-The prototyped version was V3.1. The plates were ptotoyped with plain square slots, and work perfectly. 
+The prototyped version was V3.1. The plates were ptotoyped with plain square slots, and work perfectly.
 
 <details><summary> Front </summary>
 
@@ -372,9 +372,9 @@ The prototyped version was V3.1. The plates were ptotoyped with plain square slo
 
 </details>
 
-## Bill of Materials <!-- {{{1 -->
+## Bill of Materials
 
-In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions. 
+In the ./bom/ folder there is an .xlsx file that can be uploaded directly into the LCSC site. The file contains all LCSC part numbers, quantities and descriptions.
 
 If you don't want to order them from LCSC, the table below can be used.
 
@@ -382,33 +382,33 @@ If you don't want to order them from LCSC, the table below can be used.
 | ------------- | :-------------: | :-------------: | :-------------: |
 | J1 | - | TYPE-C-31-M-12 USBC Connector | 1 |
 | C1 and C2 | 22pF | 0805  | 2 |
-| C7, C9, CRST1, CRST2 | 4.7nF | 0805| 4 | 
-| (Poly)Fuse | 1.5A trip | 0805 | 1 | 
-| R5 and R6 | 1MOhm | 1206 | 2 | 
-| Q1 | AO4406AL | SOIC8 | 1 | 
-| CSin1, CSout1, CVBus1-3, CA1, CB1 | 100nF | 0805 | 7 | 
-| CVBus4 | 1uF | 0805 | 1 | 
-| CVBus5 | 4.7uF | 0805 | 1 | 
-| DF1 | RB060M-60TR Schottky Diode | SOD-123 | 1 | 
-| QRST | BC846 NPN BJT | SOT-23 | 1 | 
-| RCC | 5.1kOhm | 1206 | 1 | 
-| RD+ and RD- | 22ROhm | 1206 | 2 | 
-| RD+Up | 1.5kOhm | 1206 |  1 | 
-| RPGate, RB1/2, RA1/2 | 10kOhm | 1206 | 5 | 
-| RRST | 100kOhm|  1206	| 1 | 
-| RSGate1 | 100 Ohm | 1206 | 1 | 
-| SWRST1 |SMD Push Button | - | 1 | 
-| U1 | STM32F303CCT6 | LQFP48 | 1 | 
-| U2 | MCP1700-330 LDO | SOT23 | 1 | 
-| Y1 | 8MHz 4 pin SMD Crystal | 5032 | 1 | 
-| RGB | WS2812B | - | 8 | 
-| RL1-RL48 | 360 Ohm | 1206 | 50 | 
+| C7, C9, CRST1, CRST2 | 4.7nF | 0805| 4 |
+| (Poly)Fuse | 1.5A trip | 0805 | 1 |
+| R5 and R6 | 1MOhm | 1206 | 2 |
+| Q1 | AO4406AL | SOIC8 | 1 |
+| CSin1, CSout1, CVBus1-3, CA1, CB1 | 100nF | 0805 | 7 |
+| CVBus4 | 1uF | 0805 | 1 |
+| CVBus5 | 4.7uF | 0805 | 1 |
+| DF1 | RB060M-60TR Schottky Diode | SOD-123 | 1 |
+| QRST | BC846 NPN BJT | SOT-23 | 1 |
+| RCC | 5.1kOhm | 1206 | 1 |
+| RD+ and RD- | 22ROhm | 1206 | 2 |
+| RD+Up | 1.5kOhm | 1206 |  1 |
+| RPGate, RB1/2, RA1/2 | 10kOhm | 1206 | 5 |
+| RRST | 100kOhm|  1206	| 1 |
+| RSGate1 | 100 Ohm | 1206 | 1 |
+| SWRST1 |SMD Push Button | - | 1 |
+| U1 | STM32F303CCT6 | LQFP48 | 1 |
+| U2 | MCP1700-330 LDO | SOT23 | 1 |
+| Y1 | 8MHz 4 pin SMD Crystal | 5032 | 1 |
+| RGB | WS2812B | - | 8 |
+| RL1-RL48 | 360 Ohm | 1206 | 50 |
 | D1-48, DS1 and DRST | 1N4148W | SOD-123 | 52 |
 | ROT1 | ALPS EC11Ex (see note 1) | - | 1 |
 
 (1) Any EC11Ex rotary encoder should be fine, as the models differ only on shaft shape and size but their footprints are the same. In the render I used the ALPS EC11E 15244G1.
 
-## To-do list <!-- {{{1 -->
+## To-do list
 - [x] Finish the porting to STM32 (as suggested by Walkerstop from GH)
 - [x] Change the grid from 19.05mm (3/4΅) to 19mm as the Planck does (as suggested by garbo from GH)
 - [x] Add RGB underglow support
@@ -423,7 +423,7 @@ If you don't want to order them from LCSC, the table below can be used.
 - [ ] Finish THT plates
 - [ ] Prototype THT design
 
-## Acknowledgements <!-- {{{1 -->
+## Acknowledgements
 
 Although there is only me actively working on the project design, some acknowledgements are due:
   * Steve from [WoodCables](https://woodcables.com/). Steve was the proponent of this project and funded it with his own money. He will also take care of the distribution and Group Buys in the US.
@@ -433,7 +433,7 @@ Although there is only me actively working on the project design, some acknowled
   * User [u/ajp10204](https://www.reddit.com/user/ajp10304) from Reddit. Now this guy read the README and the documentation thoroughly and pointed inconsistencies and errors several times. He gave me good reasons to make a nice documentation and he helped me immensely by this;
   * [Jack Humbert](https://github.com/jackhumbert), from OLKB, and [ishtob](https://github.com/ishtob) from the QMK Discord Server. Jack was always very amicable and helpful; the 3D CAD files for the Planck Cases and plate came from the QMK parts Git repo. ishtob was always very accessible and helping with some design questions; in fact, some of the footprints and symbols used were based off of some of his own. In this regard many people in the Discord server helped with small hints (like yanfali, Upas and MechMerlin).
 
-## License <!-- {{{1 -->
+## License
 
 This project is licensed under the Creative Commons Non-Commercial Share-Alike 4.0 license, available in (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
