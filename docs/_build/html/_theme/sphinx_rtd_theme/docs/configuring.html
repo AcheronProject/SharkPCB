@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Configuration &mdash; Acheron Project 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> Acheron Project
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">The Acheron Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../overview.html">Overview</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Shark PCB</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../shark/shark.html">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../shark/bom.html">Bill of Materials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Acheron Project</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+      <li>Configuration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/_theme/sphinx_rtd_theme/docs/configuring.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuration">
+<h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="theme-options">
+<h2>Theme options<a class="headerlink" href="#theme-options" title="Permalink to this headline">¶</a></h2>
+<p>The following options can be defined in your project’s <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file, using
+the <a href="#id1"><span class="problematic" id="id2">:confval:`html_theme_options &lt;sphinx:html_theme_options&gt;`</span></a> configuration option.</p>
+<p>For example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;canonical_url&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;analytics_id&#39;</span><span class="p">:</span> <span class="s1">&#39;UA-XXXXXXX-1&#39;</span><span class="p">,</span>  <span class="c1">#  Provided by Google in your dashboard</span>
+    <span class="s1">&#39;logo_only&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="s1">&#39;display_version&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;prev_next_buttons_location&#39;</span><span class="p">:</span> <span class="s1">&#39;bottom&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;style_external_links&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="s1">&#39;vcs_pageview_mode&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;style_nav_header_background&#39;</span><span class="p">:</span> <span class="s1">&#39;white&#39;</span><span class="p">,</span>
+    <span class="c1"># Toc options</span>
+    <span class="s1">&#39;collapse_navigation&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;sticky_navigation&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;navigation_depth&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="s1">&#39;includehidden&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;titles_only&#39;</span><span class="p">:</span> <span class="bp">False</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="table-of-contents-options">
+<h3>Table of contents options<a class="headerlink" href="#table-of-contents-options" title="Permalink to this headline">¶</a></h3>
+<p>The following options change how <code class="xref rst rst-dir docutils literal notranslate"><span class="pre">sphinx:toctree</span></code> directives generate
+documentation navigation.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Setting <a href="#id3"><span class="problematic" id="id4">:confval:`collapse_navigation`</span></a> to <code class="docutils literal notranslate"><span class="pre">False</span></code> and using a high value
+for <a href="#id5"><span class="problematic" id="id6">:confval:`navigation_depth`</span></a> on projects with many files and a deep file
+structure can cause long compilation times and can result in HTML files that
+are significantly larger in file size.</p>
+</div>
+</div>
+<div class="section" id="miscellaneous-options">
+<h3>Miscellaneous options<a class="headerlink" href="#miscellaneous-options" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="file-wide-metadata">
+<h2>File-wide metadata<a class="headerlink" href="#file-wide-metadata" title="Permalink to this headline">¶</a></h2>
+<p>The following options can be used as <span class="xref std std-ref">file-wide metadata</span>:</p>
+</div>
+<div class="section" id="other-configuration">
+<h2>Other configuration<a class="headerlink" href="#other-configuration" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="adding-a-logo">
+<h3>Adding a logo<a class="headerlink" href="#adding-a-logo" title="Permalink to this headline">¶</a></h3>
+<p>Using the Sphinx standard option <a href="#id7"><span class="problematic" id="id8">:py:confval:`html_logo &lt;sphinx:html_logo&gt;`</span></a>,
+you can set an image file to be used as a logo at the top of the sidebar. The
+theme option <a href="#id9"><span class="problematic" id="id10">:py:confval:`logo_only`</span></a> also allows for <em>only</em> the logo to be shown
+at the top of the sidebar.</p>
+</div>
+<div class="section" id="adding-custom-css-or-javascript">
+<h3>Adding custom CSS or Javascript<a class="headerlink" href="#adding-custom-css-or-javascript" title="Permalink to this headline">¶</a></h3>
+<p>Adding custom CSS or Javascript can help you alter the look and feel of this
+theme without forking the theme for local use.</p>
+<p>In order to add custom CSS or Javascript without disrupting the existing theme
+files, you can <span class="xref std std-doc">add files to be included in your documentation output</span>.</p>
+</div>
+</div>
+<div class="section" id="how-the-table-of-contents-displays">
+<h2>How the table of contents displays<a class="headerlink" href="#how-the-table-of-contents-displays" title="Permalink to this headline">¶</a></h2>
+<p>Currently the left menu will build based upon any <code class="docutils literal notranslate"><span class="pre">toctree</span></code> directives defined
+in your source files.  It outputs 4 levels of depth by default, to allow for
+quick navigation through topics. If no TOC trees are defined, Sphinx’s default
+behavior is to use the page headings instead.</p>
+<p>It’s important to note that if you don’t follow the same styling for your reST
+headings across your documents, the TOC tree will build incorrectly, and the
+resulting menu might not show the correct depth when it renders.</p>
+<p>Also note that by default the table of contents is set with
+<code class="docutils literal notranslate"><span class="pre">includehidden=True</span></code>. This allows you to set a hidden TOC in your index file
+with the <span class="xref std std-ref">:hidden:</span> property that will allow you
+to build a TOC without it rendering in your index.</p>
+<p>By default, the navigation will “stick” to the screen as you scroll. However if
+your TOC is not tall enough, it will revert to static positioning. To disable the
+sticky navigation altogether, change the <a href="#id11"><span class="problematic" id="id12">:confval:`sticky_navigation`</span></a> theme option.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Alvaro &#34;Gondolindrim&#34; Volpato
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
