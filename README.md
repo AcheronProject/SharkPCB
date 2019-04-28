@@ -18,7 +18,7 @@
 
 ## Project overview <!-- {{{1 -->
 
-The SharkPCB is a freely available, open-source 40% keyboard Printed Circuit Board (PCB) supporting three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
+The SharkPCB is a freely available open-source 40% keyboard Printed Circuit Board (PCB) supporting three layouts: full grid, 1x2U spacebar and 2x2U spacebar. All resources and software used to design this board are open-source and/or freely available.
 
 Here's a list of the board's features:
 
