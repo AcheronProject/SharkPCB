@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 11)
-    (tracks 5)
+    (tracks 11)
     (zones 0)
     (modules 45)
     (nets 1)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../gerbers/plates/loPro/universal/"))
+      (outputdirectory "../../gerbers/plates/lopro/"))
   )
 
   (net 0 "")
@@ -2627,5 +2627,11 @@
   (via (at 150 100) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5CAF4BB9))
   (via (at 54.9914 119.05332) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5CAF4BB6))
   (via (at 54.9914 81.05268) (size 4) (drill 2.5) (layers F.Cu B.Cu) (net 0) (tstamp 5CAF4BB3))
+  (via (at 54.9914 100) (size 6) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5CB4B9E9))
+  (via (at 92.85 80.95) (size 6) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5CB4BAAF))
+  (via (at 92.85 119.05) (size 6) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5CB4BAB1))
+  (via (at 245.25 100) (size 6) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5CB4BAB3))
+  (via (at 207.15 80.95) (size 6) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5CB4BAB5))
+  (via (at 207.15 119.05) (size 6) (drill 4) (layers F.Cu B.Cu) (net 0) (tstamp 5CB4BAB7))
 
 )
