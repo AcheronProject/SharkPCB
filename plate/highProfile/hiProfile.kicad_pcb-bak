@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.0)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2)
 
   (general
     (thickness 1.6)
@@ -70,7 +70,7 @@
     (grid_origin 148.463 102.743)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x018f0_ffffffff)
+      (layerselection 0x01000_7ffffffe)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -86,16 +86,16 @@
       (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
-      (plotvalue true)
+      (plotreference false)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../gerbers/plates/hipro/"))
+      (outputdirectory "../../gerbers/"))
   )
 
   (net 0 "")
