@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name acheronSymbols)(type Legacy)(uri ${ACHERONLIB}/symbols/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name shark-rescue)(type Legacy)(uri ${KIPRJMOD}/shark-rescue.lib)(options "")(descr ""))
 )

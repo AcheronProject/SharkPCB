@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:shark-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
 Date "2019-03-20"
-Rev "3.1.6"
+Rev "3.1.7"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -3465,7 +3465,7 @@ Wire Wire Line
 Wire Wire Line
 	16025 9850 16250 9850
 $Comp
-L Connector:USB_C_Receptacle J1
+L shark-rescue:USB_C_Receptacle-Connector J1
 U 1 1 5CC01BA3
 P 8625 10675
 F 0 "J1" H 8730 11942 50  0000 C CNN
