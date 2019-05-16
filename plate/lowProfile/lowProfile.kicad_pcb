@@ -70,7 +70,7 @@
     (grid_origin 150 100)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01020_7ffffffe)
+      (layerselection 0x01030_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 2)
       (scaleselection 1)
-      (outputdirectory "../../gerbers/"))
+      (outputdirectory "../../gerbers/lowPlate/"))
   )
 
   (net 0 "")
