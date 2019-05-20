@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-03-20"
-Rev "3.1.7"
+Date "2019-05-20"
+Rev "3.2.0"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C_Small C1
+L Device:C_Small CX1
 U 1 1 5BEDBE98
 P 19950 7275
-F 0 "C1" H 20042 7321 50  0000 L CNN
+F 0 "CX1" H 20042 7321 50  0000 L CNN
 F 1 "22p" H 20042 7230 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19950 7275 50  0001 C CNN
 F 3 "~" H 19950 7275 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 19950 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small CX2
 U 1 1 5BEDBF42
 P 20650 7275
-F 0 "C2" H 20742 7321 50  0000 L CNN
+F 0 "CX2" H 20742 7321 50  0000 L CNN
 F 1 "22p" H 20742 7230 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20650 7275 50  0001 C CNN
 F 3 "~" H 20650 7275 50  0001 C CNN
@@ -85,15 +85,15 @@ F 3 "~" H 15225 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole_Pad H4
 U 1 1 5BF2790A
-P 15225 3750
-F 0 "H4" H 15325 3796 50  0000 L CNN
-F 1 "MountingHole" H 15325 3705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 15225 3750 50  0001 C CNN
-F 3 "~" H 15225 3750 50  0001 C CNN
-	1    15225 3750
-	1    0    0    -1  
+P 15275 3750
+F 0 "H4" V 15325 3600 50  0000 L CNN
+F 1 "MountingHole" V 15200 3200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 15275 3750 50  0001 C CNN
+F 3 "~" H 15275 3750 50  0001 C CNN
+	1    15275 3750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -110,12 +110,12 @@ $Comp
 L Mechanical:MountingHole H2
 U 1 1 5BF463E9
 P 15225 3350
-F 0 "H2" H 15325 3396 50  0000 L CNN
-F 1 "MountingHole" H 15325 3305 50  0000 L CNN
+F 0 "H2" V 15275 3150 50  0000 L CNN
+F 1 "MountingHole" V 15175 2750 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 15225 3350 50  0001 C CNN
 F 3 "~" H 15225 3350 50  0001 C CNN
 	1    15225 3350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
@@ -1884,13 +1884,11 @@ F 3 "" H 16025 10150 50  0001 C CNN
 	1    16025 10150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	18275 12025 18275 12075
 $Comp
-L Device:C_Small C9
+L Device:C_Small CESD1
 U 1 1 5C391EB2
 P 18275 12225
-F 0 "C9" H 18350 12150 31  0000 R CNN
+F 0 "CESD1" V 18175 12275 31  0000 R CNN
 F 1 "4.7n" H 18400 12300 31  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18275 12225 50  0001 C CNN
 F 3 "~" H 18275 12225 50  0001 C CNN
@@ -1898,10 +1896,10 @@ F 3 "~" H 18275 12225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R6
+L Device:R RESD1
 U 1 1 5C391EB9
 P 18075 12225
-F 0 "R6" V 17975 12225 50  0000 C CNN
+F 0 "RESD1" V 17975 12225 50  0000 C CNN
 F 1 "1M" V 18075 12225 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 18005 12225 50  0001 C CNN
 F 3 "~" H 18075 12225 50  0001 C CNN
@@ -1929,17 +1927,6 @@ F 1 "GND" V 18080 12297 50  0000 R CNN
 F 2 "" H 18075 12425 50  0001 C CNN
 F 3 "" H 18075 12425 50  0001 C CNN
 	1    18075 12425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 5C3B52F4
-P 18275 11925
-F 0 "H7" H 18375 11976 50  0000 L CNN
-F 1 "CASE" H 18375 11885 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 18275 11925 50  0001 C CNN
-F 3 "~" H 18275 11925 50  0001 C CNN
-	1    18275 11925
 	1    0    0    -1  
 $EndComp
 Connection ~ 2975 6025
@@ -3513,12 +3500,6 @@ Wire Wire Line
 	9225 10275 9300 10275
 Wire Wire Line
 	9300 10275 9300 10175
-Wire Wire Line
-	9225 10475 9300 10475
-Wire Wire Line
-	9300 10475 9300 10375
-Wire Wire Line
-	9300 10375 9225 10375
 Text GLabel 17250 9850 2    50   Output ~ 0
 3.3V
 Text GLabel 19125 4150 0    50   BiDi ~ 0
@@ -3803,12 +3784,11 @@ Wire Wire Line
 Connection ~ 9300 10175
 Wire Wire Line
 	9300 9875 9450 9875
-Connection ~ 9300 10375
 $Comp
-L Device:C_Small CVBus1
+L Device:C_Small CV1
 U 1 1 5ED231C7
 P 19400 10200
-F 0 "CVBus1" H 19492 10231 31  0000 L CNN
+F 0 "CV1" H 19492 10231 31  0000 L CNN
 F 1 "100n" H 19492 10169 31  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19400 10200 50  0001 C CNN
 F 3 "~" H 19400 10200 50  0001 C CNN
@@ -3816,10 +3796,10 @@ F 3 "~" H 19400 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVBus2
+L Device:C_Small CV2
 U 1 1 5ED24D83
 P 19750 10200
-F 0 "CVBus2" H 19842 10231 31  0000 L CNN
+F 0 "CV2" H 19842 10231 31  0000 L CNN
 F 1 "100n" H 19842 10169 31  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19750 10200 50  0001 C CNN
 F 3 "~" H 19750 10200 50  0001 C CNN
@@ -3827,10 +3807,10 @@ F 3 "~" H 19750 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVBus3
+L Device:C_Small CV3
 U 1 1 5ED24FA7
 P 20100 10200
-F 0 "CVBus3" H 20192 10231 31  0000 L CNN
+F 0 "CV3" H 20192 10231 31  0000 L CNN
 F 1 "100n" H 20192 10169 31  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20100 10200 50  0001 C CNN
 F 3 "~" H 20100 10200 50  0001 C CNN
@@ -3838,10 +3818,10 @@ F 3 "~" H 20100 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVBus4
+L Device:C_Small CV4
 U 1 1 5ED251CF
 P 20450 10200
-F 0 "CVBus4" H 20542 10231 31  0000 L CNN
+F 0 "CV4" H 20542 10231 31  0000 L CNN
 F 1 "1u" H 20542 10169 31  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20450 10200 50  0001 C CNN
 F 3 "~" H 20450 10200 50  0001 C CNN
@@ -3849,10 +3829,10 @@ F 3 "~" H 20450 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVBus5
+L Device:C_Small CV5
 U 1 1 5ED253F3
 P 20800 10200
-F 0 "CVBus5" H 20892 10231 31  0000 L CNN
+F 0 "CV5" H 20892 10231 31  0000 L CNN
 F 1 "4.7u" H 20892 10169 31  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20800 10200 50  0001 C CNN
 F 3 "~" H 20800 10200 50  0001 C CNN
@@ -3972,12 +3952,7 @@ Power supply and protection circuit
 Wire Wire Line
 	9225 9675 9675 9675
 Wire Wire Line
-	9300 10375 9475 10375
-Wire Wire Line
 	9750 10475 9675 10475
-Wire Wire Line
-	9475 10475 9300 10475
-Connection ~ 9300 10475
 Text GLabel 9750 10475 2    50   Output ~ 0
 5V
 Text GLabel 16025 9775 1    50   Output ~ 0
@@ -4257,17 +4232,17 @@ Wire Wire Line
 	21450 6150 21375 6150
 Text GLabel 21450 3600 2    50   Input ~ 0
 Row3
-Text GLabel 21450 4750 2    50   Input ~ 0
+Text GLabel 21450 4000 2    50   Input ~ 0
 Row2
 Wire Wire Line
-	21450 4750 21375 4750
+	21450 4000 21375 4000
 Text GLabel 21450 4950 2    50   Input ~ 0
 Row4
 Wire Wire Line
 	21450 4950 21375 4950
 Wire Wire Line
 	21450 3600 21375 3600
-Text GLabel 21450 5500 2    50   Input ~ 0
+Text GLabel 21450 5600 2    50   Input ~ 0
 Col7
 Wire Wire Line
 	21450 5500 21375 5500
@@ -4290,7 +4265,7 @@ F 3 "~" H 17025 3425 50  0001 C CNN
 	1    17025 3425
 	1    0    0    -1  
 $EndComp
-Text GLabel 19100 4450 0    50   Input ~ 0
+Text GLabel 21450 5050 2    50   Input ~ 0
 Col12
 Text GLabel 19125 4800 0    50   Input ~ 0
 Col2
@@ -4312,7 +4287,7 @@ Text GLabel 21450 5700 2    50   Input ~ 0
 Col6
 Wire Wire Line
 	21450 5700 21375 5700
-Text GLabel 21450 5600 2    50   Input ~ 0
+Text GLabel 21450 5500 2    50   Input ~ 0
 Col8
 Wire Wire Line
 	21450 5600 21375 5600
@@ -4320,10 +4295,10 @@ Text GLabel 21450 5400 2    50   Input ~ 0
 Col9
 Wire Wire Line
 	21450 5400 21375 5400
-Text GLabel 21450 4000 2    50   Input ~ 0
+Text GLabel 21450 4750 2    50   Input ~ 0
 Row1
 Wire Wire Line
-	21450 4000 21375 4000
+	21450 4750 21375 4750
 Wire Wire Line
 	21475 5300 21375 5300
 $Comp
@@ -4546,14 +4521,14 @@ Wire Wire Line
 	16325 6550 16400 6550
 Wire Wire Line
 	16325 6350 16400 6350
-Text GLabel 21450 4850 2    50   Input ~ 0
+Text GLabel 21450 4550 2    50   Input ~ 0
 EncA
-Text GLabel 21450 4650 2    50   Input ~ 0
+Text GLabel 21450 4450 2    50   Input ~ 0
 EncB
 Wire Wire Line
-	21450 4650 21375 4650
+	21450 4450 21375 4450
 Wire Wire Line
-	21375 4850 21450 4850
+	21375 4550 21450 4550
 $Comp
 L acheronSymbols:STM32F303CCT6 U1
 U 1 1 5DA11389
@@ -4919,7 +4894,7 @@ Wire Wire Line
 Wire Wire Line
 	21375 4100 21450 4100
 Wire Wire Line
-	19100 4450 19175 4450
+	21450 5050 21375 5050
 Text GLabel 21450 4300 2    50   Input ~ 0
 Extra1
 Text GLabel 21450 3100 2    50   Input ~ 0
@@ -4981,14 +4956,14 @@ Text GLabel 21450 3750 2    50   Input ~ 0
 Extra8
 Text GLabel 21450 3850 2    50   Input ~ 0
 Extra7
-Text GLabel 21450 4450 2    50   Input ~ 0
+Text GLabel 21450 4650 2    50   Input ~ 0
 Extra6
-Text GLabel 21450 4550 2    50   Input ~ 0
+Text GLabel 21450 4850 2    50   Input ~ 0
 Extra5
 Wire Wire Line
-	21450 4550 21375 4550
+	21450 4850 21375 4850
 Wire Wire Line
-	21375 4450 21450 4450
+	21375 4650 21450 4650
 Wire Wire Line
 	21450 3750 21375 3750
 Wire Wire Line
@@ -5049,4 +5024,99 @@ Wire Notes Line width 20
 	16475 3000 16475 4725
 Wire Notes Line width 20
 	17900 2975 17900 4725
+Text GLabel 18700 12075 2    50   Input ~ 0
+CASE
+Wire Wire Line
+	18375 12075 18275 12075
+Wire Wire Line
+	15375 3750 15500 3750
+Text GLabel 15500 3750 2    50   Input ~ 0
+CASE
+Text GLabel 19125 4450 0    50   Input ~ 0
+SWDIO
+Wire Wire Line
+	19125 4450 19175 4450
+Text GLabel 19125 4550 0    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	19125 4550 19175 4550
+$Comp
+L Connector:Conn_01x06_Male J5
+U 1 1 5CF6EE3E
+P 13125 9600
+F 0 "J5" H 13225 10175 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 13275 10000 50  0000 C CNN
+F 2 "acheronConnectors:male6pinHeader" H 13125 9600 50  0001 C CNN
+F 3 "~" H 13125 9600 50  0001 C CNN
+	1    13125 9600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 20
+	12675 9125 14550 9125
+Wire Notes Line width 20
+	14550 10200 12675 10200
+Text Notes 12725 10125 0    100  Italic 20
+Serial programming
+Wire Notes Line width 20
+	14550 10200 14550 9125
+Wire Notes Line width 20
+	12675 10200 12675 9125
+$Comp
+L Device:D DESD1
+U 1 1 5D0F26E7
+P 18525 12075
+F 0 "DESD1" V 18494 12154 31  0000 L CNN
+F 1 "1N4002" V 18556 12154 31  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18525 12075 50  0001 C CNN
+F 3 "~" H 18525 12075 50  0001 C CNN
+	1    18525 12075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 12075 18675 12075
+Connection ~ 9300 10475
+Connection ~ 9300 10375
+Wire Wire Line
+	9300 10375 9475 10375
+Wire Wire Line
+	9300 10375 9225 10375
+Wire Wire Line
+	9475 10475 9300 10475
+Wire Wire Line
+	9225 10475 9300 10475
+Wire Wire Line
+	9300 10475 9300 10375
+$Comp
+L power:GND #PWR0103
+U 1 1 5CFDFC6D
+P 13400 9400
+F 0 "#PWR0103" H 13400 9150 50  0001 C CNN
+F 1 "GND" V 13405 9272 50  0000 R CNN
+F 2 "" H 13400 9400 50  0001 C CNN
+F 3 "" H 13400 9400 50  0001 C CNN
+	1    13400 9400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13400 9800 13325 9800
+Text GLabel 13400 9800 2    50   Input ~ 0
+SWCLK
+Text GLabel 13400 9700 2    50   Input ~ 0
+SWDIO
+Wire Wire Line
+	13325 9700 13400 9700
+Wire Wire Line
+	13325 9400 13400 9400
+Text GLabel 13400 9900 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	13325 9900 13400 9900
+Wire Wire Line
+	13400 9600 13325 9600
+Text GLabel 13400 9600 2    50   Input ~ 0
+BOOT0
+Text GLabel 13400 9500 2    50   Input ~ 0
+NRST
+Wire Wire Line
+	13325 9500 13400 9500
 $EndSCHEMATC
