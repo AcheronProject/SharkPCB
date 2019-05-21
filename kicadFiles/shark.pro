@@ -1,4 +1,4 @@
-update=Mon 20 May 2019 12:06:48 PM -03
+update=Tue 21 May 2019 07:42:28 PM -03
 version=1
 last_client=kicad
 [general]
@@ -258,6 +258,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=Super Thick
+Clearance=0.13
+TrackWidth=1
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.45
+uViaDrill=0.2
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=Thick
 Clearance=0.13
 TrackWidth=0.5

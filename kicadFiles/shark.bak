@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-05-20"
-Rev "3.2.0"
+Date "2019-05-21"
+Rev "3.2.2"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -3452,7 +3452,7 @@ Wire Wire Line
 Wire Wire Line
 	16025 9850 16250 9850
 $Comp
-L shark-rescue:USB_C_Receptacle-Connector-shark-rescue J1
+L shark-rescue:USB_C_Receptacle-Connector-shark-rescue-shark-rescue J1
 U 1 1 5CC01BA3
 P 8625 10675
 F 0 "J1" H 8730 11942 50  0000 C CNN
