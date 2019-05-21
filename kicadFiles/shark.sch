@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-05-20"
-Rev "3.2.0"
+Date "2019-05-21"
+Rev "3.2.2"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -3452,7 +3452,7 @@ Wire Wire Line
 Wire Wire Line
 	16025 9850 16250 9850
 $Comp
-L shark-rescue:USB_C_Receptacle-Connector J1
+L shark-rescue:USB_C_Receptacle-Connector-shark-rescue J1
 U 1 1 5CC01BA3
 P 8625 10675
 F 0 "J1" H 8730 11942 50  0000 C CNN
@@ -3657,7 +3657,7 @@ $Comp
 L Device:R_Small RD-1
 U 1 1 5E5BA0B3
 P 9575 10175
-F 0 "RD-1" V 9500 10150 31  0000 L CNN
+F 0 "RD-1" V 9500 10110 31  0000 L CNN
 F 1 "22R" V 9575 10125 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9575 10175 50  0001 C CNN
 F 3 "~" H 9575 10175 50  0001 C CNN
@@ -3668,7 +3668,7 @@ $Comp
 L Device:R_Small RD+1
 U 1 1 5E5BB8E0
 P 9575 10375
-F 0 "RD+1" V 9500 10350 31  0000 L CNN
+F 0 "RD+1" V 9500 10310 31  0000 L CNN
 F 1 "22R" V 9575 10325 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9575 10375 50  0001 C CNN
 F 3 "~" H 9575 10375 50  0001 C CNN
@@ -3752,7 +3752,7 @@ $Comp
 L Device:R_Small RCC1
 U 1 1 5EA2CF13
 P 9550 9875
-F 0 "RCC1" V 9475 9850 31  0000 L CNN
+F 0 "RCC1" V 9475 9815 31  0000 L CNN
 F 1 "5.1k" V 9550 9825 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9550 9875 50  0001 C CNN
 F 3 "~" H 9550 9875 50  0001 C CNN
@@ -3763,7 +3763,7 @@ $Comp
 L Device:R_Small RD+Up1
 U 1 1 5EA80DA8
 P 9575 10475
-F 0 "RD+Up1" V 9650 10400 31  0000 L CNN
+F 0 "RD+Up1" V 9650 10380 31  0000 L CNN
 F 1 "1.5k" V 9575 10425 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9575 10475 50  0001 C CNN
 F 3 "~" H 9575 10475 50  0001 C CNN
