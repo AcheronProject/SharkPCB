@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-05-21"
-Rev "3.2.2"
+Date "2019-05-22"
+Rev "3.2.4"
 Comp "Gondolin Electronics"
 Comment1 ""
 Comment2 ""
@@ -3395,7 +3395,7 @@ F 3 "" H 2875 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 18225 12825 0    100  Italic 20
-ESD\nProtection
+ESD inrush\nProtection
 $Comp
 L Mechanical:MountingHole L1
 U 1 1 5C54F135
@@ -3452,7 +3452,7 @@ Wire Wire Line
 Wire Wire Line
 	16025 9850 16250 9850
 $Comp
-L shark-rescue:USB_C_Receptacle-Connector-shark-rescue-shark-rescue J1
+L shark-rescue:USB_C_Receptacle-Connector-shark-rescue-shark-rescue-shark-rescue J1
 U 1 1 5CC01BA3
 P 8625 10675
 F 0 "J1" H 8730 11942 50  0000 C CNN
@@ -3490,12 +3490,10 @@ F 3 "" H 9700 9875 50  0001 C CNN
 	1    9700 9875
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9750 10175 2    50   BiDi ~ 0
+Text GLabel 16300 12075 2    50   BiDi ~ 0
 D-
-Text GLabel 9750 10375 2    50   BiDi ~ 0
+Text GLabel 16300 13200 2    50   BiDi ~ 0
 D+
-Wire Wire Line
-	9225 10175 9300 10175
 Wire Wire Line
 	9225 10275 9300 10275
 Wire Wire Line
@@ -3573,8 +3571,6 @@ F 3 "" H 19100 6300 50  0001 C CNN
 	1    19100 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	19175 3700 19125 3700
 Wire Wire Line
 	19125 3700 19125 3550
 Wire Wire Line
@@ -3654,31 +3650,16 @@ F 3 "~" H 16650 7525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RD-1
-U 1 1 5E5BA0B3
-P 9575 10175
-F 0 "RD-1" V 9500 10110 31  0000 L CNN
-F 1 "22R" V 9575 10125 31  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9575 10175 50  0001 C CNN
-F 3 "~" H 9575 10175 50  0001 C CNN
-	1    9575 10175
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small RD+1
 U 1 1 5E5BB8E0
-P 9575 10375
-F 0 "RD+1" V 9500 10310 31  0000 L CNN
-F 1 "22R" V 9575 10325 31  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9575 10375 50  0001 C CNN
-F 3 "~" H 9575 10375 50  0001 C CNN
-	1    9575 10375
+P 16150 13200
+F 0 "RD+1" V 16075 13135 31  0000 L CNN
+F 1 "22R" V 16150 13150 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 16150 13200 50  0001 C CNN
+F 3 "~" H 16150 13200 50  0001 C CNN
+	1    16150 13200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9675 10375 9750 10375
-Wire Wire Line
-	9750 10175 9675 10175
 $Comp
 L power:GND #PWR05
 U 1 1 5E65AF3C
@@ -3760,10 +3741,10 @@ F 3 "~" H 9550 9875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RD+Up1
+L Device:R_Small RDPUp1
 U 1 1 5EA80DA8
 P 9575 10475
-F 0 "RD+Up1" V 9650 10380 31  0000 L CNN
+F 0 "RDPUp1" V 9650 10380 31  0000 L CNN
 F 1 "1.5k" V 9575 10425 31  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9575 10475 50  0001 C CNN
 F 3 "~" H 9575 10475 50  0001 C CNN
@@ -3772,9 +3753,6 @@ F 3 "~" H 9575 10475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9650 9875 9700 9875
-Wire Wire Line
-	9300 10175 9475 10175
-Connection ~ 9300 10175
 Wire Wire Line
 	9300 9875 9450 9875
 $Comp
@@ -3943,7 +3921,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 10475 9675 10475
 Text GLabel 9750 10475 2    50   Output ~ 0
-5V
+VBUS
 Text GLabel 16025 9775 1    50   Output ~ 0
 5V
 Wire Wire Line
@@ -4789,13 +4767,9 @@ Wire Notes Line width 20
 Text Notes 3125 9925 0    150  Italic 30
 Switch LED matrix
 Wire Notes Line width 20
-	18525 2450 22325 2450
-Wire Notes Line width 20
 	22325 2450 22325 8675
 Wire Notes Line width 20
-	22325 8675 18525 8675
-Wire Notes Line width 20
-	18525 8675 18525 2450
+	18375 8675 18375 2450
 Text Notes 19475 8375 0    150  Italic 30
 MCU and crystal
 Wire Notes Line width 20
@@ -5051,11 +5025,6 @@ $EndComp
 Wire Wire Line
 	18700 12075 18675 12075
 Connection ~ 9300 10475
-Connection ~ 9300 10375
-Wire Wire Line
-	9300 10375 9475 10375
-Wire Wire Line
-	9300 10375 9225 10375
 Wire Wire Line
 	9475 10475 9300 10475
 Wire Wire Line
@@ -5119,4 +5088,173 @@ Wire Wire Line
 Connection ~ 16000 8275
 Wire Wire Line
 	16000 8275 16075 8275
+$Comp
+L Device:C_Small CVA2
+U 1 1 5CFBDEE9
+P 18750 3900
+F 0 "CVA2" V 18650 3950 31  0000 R CNN
+F 1 "10n" H 18700 4000 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18750 3900 50  0001 C CNN
+F 3 "~" H 18750 3900 50  0001 C CNN
+	1    18750 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18750 3700 18750 3800
+Wire Wire Line
+	18750 3700 19125 3700
+Connection ~ 19125 3700
+Wire Wire Line
+	19125 3700 19175 3700
+$Comp
+L power:GND #PWR0104
+U 1 1 5D036411
+P 18750 4100
+F 0 "#PWR0104" H 18750 3850 50  0001 C CNN
+F 1 "GND" V 18750 3925 50  0000 C CNN
+F 2 "" H 18750 4100 50  0001 C CNN
+F 3 "" H 18750 4100 50  0001 C CNN
+	1    18750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CVA1
+U 1 1 5D036CC3
+P 18550 3900
+F 0 "CVA1" V 18450 3950 31  0000 R CNN
+F 1 "1u" H 18675 3975 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18550 3900 50  0001 C CNN
+F 3 "~" H 18550 3900 50  0001 C CNN
+	1    18550 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18550 3800 18550 3700
+Wire Wire Line
+	18550 3700 18750 3700
+Connection ~ 18750 3700
+Wire Wire Line
+	18750 4000 18750 4050
+Wire Wire Line
+	18750 4050 18550 4050
+Wire Wire Line
+	18550 4050 18550 4000
+Connection ~ 18750 4050
+Wire Wire Line
+	18750 4050 18750 4100
+Wire Notes Line width 20
+	18375 2450 22325 2450
+Wire Notes Line width 20
+	18375 8675 22325 8675
+$Comp
+L Power_Protection:USBLC6-2SC6 U3
+U 1 1 5D37D7BE
+P 15900 12650
+F 0 "U3" V 15550 13150 50  0000 L CNN
+F 1 "USBLC6-2SC6" V 15700 13100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 15150 13050 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 16100 13000 50  0001 C CNN
+	1    15900 12650
+	0    1    1    0   
+$EndComp
+Text GLabel 15700 13200 0    50   BiDi ~ 0
+D+Bus
+Wire Wire Line
+	15700 13200 15800 13200
+$Comp
+L power:GND #PWR0105
+U 1 1 5D616544
+P 15300 12650
+F 0 "#PWR0105" H 15300 12400 50  0001 C CNN
+F 1 "GND" H 15250 12625 31  0000 C CNN
+F 2 "" H 15300 12650 50  0001 C CNN
+F 3 "" H 15300 12650 50  0001 C CNN
+	1    15300 12650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15300 12650 15400 12650
+Wire Wire Line
+	15800 12075 15700 12075
+Text GLabel 15700 12075 0    50   BiDi ~ 0
+D-Bus
+$Comp
+L Device:C_Small CUSB1
+U 1 1 5D7F45E2
+P 16450 12850
+F 0 "CUSB1" V 16350 12900 31  0000 R CNN
+F 1 "4.7n" H 16575 12925 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16450 12850 50  0001 C CNN
+F 3 "~" H 16450 12850 50  0001 C CNN
+	1    16450 12850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D7F4E30
+P 16450 13050
+F 0 "#PWR0106" H 16450 12800 50  0001 C CNN
+F 1 "GND" H 16400 13025 31  0000 C CNN
+F 2 "" H 16450 13050 50  0001 C CNN
+F 3 "" H 16450 13050 50  0001 C CNN
+	1    16450 13050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16450 13050 16450 12950
+Wire Wire Line
+	16450 12750 16450 12650
+Wire Wire Line
+	16450 12650 16400 12650
+Wire Notes Line width 20
+	15100 11825 15100 13475
+Wire Notes Line width 20
+	17450 11825 17450 13475
+Text Notes 16550 13400 0    100  Italic 20
+Data ESD\nProtection
+Wire Notes Line width 20
+	15100 11825 17450 11825
+Wire Notes Line width 20
+	15100 13475 17450 13475
+Wire Wire Line
+	9300 10375 9225 10375
+Wire Wire Line
+	9225 10175 9300 10175
+Text GLabel 9400 10375 2    50   BiDi ~ 0
+D+Bus
+Text GLabel 9400 10175 2    50   BiDi ~ 0
+D-Bus
+Wire Wire Line
+	9300 10375 9400 10375
+Connection ~ 9300 10375
+Wire Wire Line
+	9300 10175 9400 10175
+Connection ~ 9300 10175
+Wire Wire Line
+	16050 13200 16000 13200
+$Comp
+L Device:R_Small RD-1
+U 1 1 5E5BA0B3
+P 16150 12075
+F 0 "RD-1" V 16075 12010 31  0000 L CNN
+F 1 "22R" V 16150 12025 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 16150 12075 50  0001 C CNN
+F 3 "~" H 16150 12075 50  0001 C CNN
+	1    16150 12075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16250 13200 16300 13200
+Wire Wire Line
+	16050 12075 16000 12075
+Wire Wire Line
+	16250 12075 16300 12075
+Wire Wire Line
+	15800 12075 15800 12150
+Wire Wire Line
+	16000 12075 16000 12150
+Wire Wire Line
+	15800 13200 15800 13150
+Wire Wire Line
+	16000 13200 16000 13150
 $EndSCHEMATC
