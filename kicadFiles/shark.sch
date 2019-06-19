@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-05-26"
-Rev "Alpha"
+Date "2019-06-18"
+Rev "V3.2.6"
 Comp "Designed by Álvaro \"Gondolindrim\" Volpato"
 Comment1 "Acheron 40-SM-O-MX-TH-WI codename SharkPCB"
 Comment2 ""
