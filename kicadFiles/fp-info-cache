@@ -1,4 +1,4 @@
-15895034100930933
+15912248636895522
 acheronComponents
 AO4406AL
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -7,12 +7,26 @@ SOIC 1.27
 8
 3
 acheronComponents
-Crystal_SMD_5032
+Crystal_SMD_5032-2Pin
 SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package
 SMD SMT crystal hand-soldering
 0
 2
 2
+acheronComponents
+Crystal_SMD_5032-4Pin
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+acheronComponents
+Crystal_SMD_5032-4Pin-HandSolder
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
 acheronComponents
 Crystal_SMD_5032-4Pin_5.0x3.2mm
 SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
@@ -35,9 +49,23 @@ LED RGB NeoPixel
 4
 4
 acheronComponents
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+acheronComponents
 Resistor_THT_5.08mm_Horizontal
 Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+acheronComponents
+R_1026
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
 0
 2
 2
@@ -55,6 +83,13 @@ SOIC 1.27
 0
 8
 8
+acheronComponents
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
 acheronComponents
 thtDiode
 Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
@@ -131,7 +166,7 @@ TYPE-C-31-M-12
 
 0
 20
-17
+13
 acheronHardware
 3313J
 
@@ -151,8 +186,8 @@ bluePill
 
 
 0
-40
-39
+50
+49
 acheronHardware
 MDBT40-256RV3
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -461,13 +496,20 @@ acheronLong
 0
 0
 0
+acheronLogos
+acheronLongExtended
+
+
+0
+0
+0
 acheronMountingHoles
 halfSideHole
 
 
 0
-0
-0
+1
+1
 acheronMountingHoles
 ovalHole
 
@@ -50287,13 +50329,6 @@ net tie
 0
 4
 4
-olkbParts
-proton_c
-
-
-0
-42
-39
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -51162,13 +51197,6 @@ SMD SMT crystal oscillator hand-soldering
 0
 4
 4
-ouroborosLogo
-ouroboros
-
-
-0
-0
-0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -65533,6 +65561,55 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+sharkLogo
+brazilFlag
+
+
+0
+3
+1
+sharkLogo
+osh-logo
+
+
+0
+0
+0
+sharkLogo
+shark
+
+
+0
+0
+0
+sharkLogo
+sharkLetters
+
+
+0
+5
+1
+sharkLogo
+sharkLogo
+
+
+0
+0
+0
+sharkLogo
+sharkPlated
+
+
+0
+8
+1
+sharkLogo
+usFlag
+
+
+0
+1
+1
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)

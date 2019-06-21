@@ -1,4 +1,4 @@
-update=Sun 26 May 2019 08:18:47 PM -03
+update=Fri 21 Jun 2019 05:30:04 PM -03
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../gerbers/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -39,6 +29,10 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.254
+TrackWidth2=0.13
+TrackWidth3=0.25
+TrackWidth4=0.5
+TrackWidth5=1
 ViaDiameter1=0.45
 ViaDrill1=0.2
 dPairWidth1=0.2
@@ -279,3 +273,13 @@ uViaDrill=0.2
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../manuFiles/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
