@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 470)
-    (tracks 2618)
+    (tracks 2621)
     (zones 0)
     (modules 267)
     (nets 162)
@@ -31,7 +31,7 @@
     (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user)
-    (40 Dwgs.User user)
+    (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 1)
     (user_trace_width 0.13)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
@@ -19094,6 +19094,9 @@
   (segment (start 223.133187 83.807187) (end 224.2535 84.9275) (width 0.5) (layer B.Cu) (net 120))
   (segment (start 223.133187 78.988187) (end 223.133187 83.807187) (width 0.5) (layer B.Cu) (net 120))
   (segment (start 220.363 76.218) (end 223.133187 78.988187) (width 0.5) (layer B.Cu) (net 120))
+  (segment (start 207.472763 120.083237) (end 207.486372 120.069628) (width 1) (layer F.Cu) (net 120))
+  (segment (start 207.403204 120.083237) (end 207.472763 120.083237) (width 1) (layer F.Cu) (net 120))
+  (segment (start 206.863 119.543033) (end 207.403204 120.083237) (width 1) (layer F.Cu) (net 120))
   (segment (start 226.34649 85.43451) (end 232.166734 85.43451) (width 0.25) (layer B.Cu) (net 122))
   (segment (start 224.04632 85.43451) (end 232.166734 85.43451) (width 0.25) (layer B.Cu) (net 122))
   (segment (start 222.626178 84.014368) (end 224.04632 85.43451) (width 0.25) (layer B.Cu) (net 122))
