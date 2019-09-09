@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:shark-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -4907,18 +4907,18 @@ Wire Wire Line
 Wire Wire Line
 	21575 4775 21500 4775
 Text GLabel 21575 4775 2    50   Input ~ 0
-EncOB
+EncOutB
 Text GLabel 21575 4875 2    50   Input ~ 0
-EncOA
+EncOutA
 Wire Wire Line
-	21600 5625 21500 5625
+	21600 5725 21500 5725
 Wire Wire Line
 	21575 5075 21500 5075
 Text GLabel 21575 5075 2    50   Input ~ 0
 Row1
 Wire Wire Line
-	21575 5725 21500 5725
-Text GLabel 21575 5725 2    50   Input ~ 0
+	21575 5625 21500 5625
+Text GLabel 21575 5625 2    50   Input ~ 0
 Col9
 Wire Wire Line
 	21575 5925 21500 5925
@@ -4974,11 +4974,11 @@ Wire Wire Line
 	21575 6425 21500 6425
 Text GLabel 21575 6425 2    50   Input ~ 0
 Col1
-Text GLabel 21600 5625 2    50   Output ~ 0
+Text GLabel 21600 5725 2    50   Output ~ 0
 RGB_PWM
 Wire Wire Line
-	21575 3875 21500 3875
-Text GLabel 21575 3875 2    50   Output ~ 0
+	21575 5475 21500 5475
+Text GLabel 21575 5475 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
 	19050 5625 19100 5625
@@ -5276,19 +5276,6 @@ Wire Wire Line
 	20150 6725 20150 6775
 Wire Wire Line
 	19850 6725 19850 6775
-$Comp
-L power:GND #PWR0115
-U 1 1 5D4FC297
-P 21575 5475
-F 0 "#PWR0115" H 21575 5225 50  0001 C CNN
-F 1 "GND" V 21580 5347 50  0000 R CNN
-F 2 "" H 21575 5475 50  0001 C CNN
-F 3 "" H 21575 5475 50  0001 C CNN
-	1    21575 5475
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	21575 5475 21500 5475
 Text Notes 19800 7775 0    50   ~ 0
 PB0 is a difficult to route pin and was left unused.\nThe STM32F3xx datasheet recommends that\nunused pins are grounded
 Text GLabel 15075 6075 0    50   Input ~ 0
