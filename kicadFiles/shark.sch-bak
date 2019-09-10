@@ -3318,7 +3318,7 @@ U 1 1 5DDB1E0B
 P 2875 13000
 F 0 "Q1" H 2981 13022 50  0000 L CNN
 F 1 "AO4406AL" H 2981 12955 20  0000 L CNN
-F 2 "acheronComponents:AO4406AL" H 2875 13000 50  0001 C CNN
+F 2 "acheronComponents:SOIC-8" H 2875 13000 50  0001 C CNN
 F 3 "" H 2875 13000 50  0001 C CNN
 	1    2875 13000
 	1    0    0    -1  
@@ -4711,15 +4711,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8825 10
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9225 10175 9275 10175
-Wire Wire Line
-	9275 10175 9275 10375
-Wire Wire Line
-	9275 10375 9225 10375
-Connection ~ 9275 10175
-Wire Wire Line
-	9275 10175 9325 10175
-Wire Wire Line
 	9225 9775 9300 9775
 Wire Wire Line
 	9300 9775 9300 9675
@@ -4907,9 +4898,9 @@ Wire Wire Line
 Wire Wire Line
 	21575 4775 21500 4775
 Text GLabel 21575 4775 2    50   Input ~ 0
-EncOB
+EncOutB
 Text GLabel 21575 4875 2    50   Input ~ 0
-EncOA
+EncOutA
 Wire Wire Line
 	21600 5725 21500 5725
 Wire Wire Line
@@ -5276,8 +5267,6 @@ Wire Wire Line
 	20150 6725 20150 6775
 Wire Wire Line
 	19850 6725 19850 6775
-Text Notes 19800 7775 0    50   ~ 0
-PB0 is a difficult to route pin and was left unused.\nThe STM32F3xx datasheet recommends that\nunused pins are grounded
 Text GLabel 15075 6075 0    50   Input ~ 0
 EncB
 Text GLabel 15600 6075 2    50   Input ~ 0
@@ -5315,4 +5304,32 @@ F 3 "~" H 15125 6200 50  0001 C CNN
 	1    15125 6200
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	9225 10175 9325 10175
+$Comp
+L Device:R_Small RCC2
+U 1 1 5D8FBDA5
+P 9425 10375
+F 0 "RCC2" V 9350 10315 31  0000 L CNN
+F 1 "5.1k" V 9425 10325 31  0000 L CNN
+F 2 "acheronComponents:R_SMD_1026" H 9425 10375 50  0001 C CNN
+F 3 "~" H 9425 10375 50  0001 C CNN
+	1    9425 10375
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5D8FCAA7
+P 9575 10375
+F 0 "#PWR0115" H 9575 10125 50  0001 C CNN
+F 1 "GND" V 9600 10425 31  0000 R CNN
+F 2 "" H 9575 10375 50  0001 C CNN
+F 3 "" H 9575 10375 50  0001 C CNN
+	1    9575 10375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9525 10375 9575 10375
+Wire Wire Line
+	9225 10375 9325 10375
 $EndSCHEMATC
