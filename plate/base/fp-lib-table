@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name acheronSwitchSlots)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronSwitchSlots.pretty)(options "")(descr ""))
+  (lib (name acheronSwitchSlots)(type KiCad)(uri ${ACHERONLIB}/footprints/acheron_SwitchSlots.pretty)(options "")(descr ""))
   (lib (name sharkLogo)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/SharkPCB/sharkLogo/sharkLogo.pretty)(options "")(descr ""))
+  (lib (name acheron_Connectors)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/AcheronLibrary/footprints/acheron_Connectors.pretty)(options "")(descr ""))
 )
