@@ -6,11 +6,11 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SharkPCB"
-Date "2019-07-01"
-Rev "V3.2.8"
+Date "2019-09-10"
+Rev "Alpha"
 Comp "And u/ajp10304"
 Comment1 "In partnership with Steve from WoodCables"
-Comment2 "Designed by Álvaro \"Gondolindrim\" Volpato"
+Comment2 "Designed by Gondolindrim"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -1,15 +1,15 @@
-### Module positions - created on Tue 02 Jul 2019 06:00:19 PM -03 ###
-### Printed by Pcbnew version kicad 5.1.2
+### Module positions - created on Mon 09 Sep 2019 10:51:28 PM -03 ###
+### Printed by Pcbnew version kicad 5.1.4
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                  Package                                              PosX       PosY       Rot  Side
-DF1       RB060M-60TR          D_SOD-123                                        -74.7000    25.0750  270.0000  bottom
-F1        1A                   Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder   -77.4688    25.5000  270.0000  bottom
-Q1        AO4406AL             AO4406AL                                          19.0000    -0.0538  180.0000  bottom
+DF1       RB060M-60TR          D_SOD-123                                        -74.2000    24.9000  270.0000  bottom
+F1        1A                   Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder   -77.4688    25.4000   90.0000  bottom
+Q1        AO4406AL             SOIC-8                                            19.0000    -0.0538  180.0000  bottom
 RL1       360                  R_1026                                            96.1875    28.4750  270.0000  bottom
 RL2       360                  R_1026                                            93.7500    28.4750  270.0000  bottom
 RL3       360                  R_1026                                            58.1875    28.4750  270.0000  bottom
-RL4       R_LED                R_1026                                            55.8125    28.4750  270.0000  bottom
+RL4       360                  R_1026                                            55.8125    28.4750  270.0000  bottom
 RL5       360                  R_1026                                            20.1875    28.4750  270.0000  bottom
 RL6       360                  R_1026                                            17.8125    28.4750  270.0000  bottom
 RL7       360                  R_1026                                           -17.8125    28.4750  270.0000  bottom
@@ -52,8 +52,8 @@ RL47      360                  R_1026                                           
 RL48      360                  R_1026                                           -95.3000   -26.7000  270.0000  bottom
 RPG1      10k                  R_1026                                             7.7500     0.0000  270.0000  bottom
 RSG1      100                  R_1026                                            10.2500     0.0000  270.0000  bottom
-CA1       100n                 C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       90.8406   -15.0000  180.0000  top
-CB1       100n                 C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       89.5750   -19.8000    0.0000  top
+CA1       10n                  C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       90.8406   -15.0000  180.0000  top
+CB1       10n                  C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       89.5750   -19.8000    0.0000  top
 CESD1     4.7n                 C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       60.9950    35.0688  180.0000  top
 CRST1     10u                  C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       80.3000    12.6000   90.0000  top
 CRST2     4.7n                 C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       38.0250    14.0506    0.0000  top
@@ -115,17 +115,18 @@ D43       1N4148               D_SOD-123                                        
 D44       1N4148               D_SOD-123                                         38.0000   -28.5250  270.0000  top
 D45       1N4148               D_SOD-123                                         55.8125   -28.5250   90.0000  top
 D46       1N4148               D_SOD-123                                         58.1875   -28.5250   90.0000  top
-D47       1N4148               D_SOD-123                                         93.2187   -28.5250   90.0000  top
-D48       1N4148               D_SOD-123                                         95.5937   -28.5250   90.0000  top
+D47       1N4148               D_SOD-123                                         92.9647   -28.5250   90.0000  top
+D48       1N4148               D_SOD-123                                         95.3397   -28.5250   90.0000  top
 DESD1     1N4007               D_SOD-123                                         62.7500    22.7500  180.0000  top
-DLDO1     1N4148               D_0805_2012Metric_Pad1.15x1.40mm_HandSolder       45.4000   -18.4750   90.0000  top
+DLDO1     1N4148               D_SOD-123                                         45.4000   -18.4750   90.0000  top
 DRST1     1N4148               D_SOD-123                                         74.4000    12.6000  270.0000  top
 QRST1     DTC123J              SOT-23                                            38.0000    10.5000  180.0000  top
 RA1       10k                  R_1026                                            88.3949   -17.3875  180.0000  top
 RA2       10k                  R_1026                                            83.2449   -17.3875  180.0000  top
 RB1       10k                  R_1026                                            89.2000   -22.4000  180.0000  top
 RB2       10k                  R_1026                                            83.2449   -20.4244  180.0000  top
-RCC1      5.1k                 R_1026                                            74.2188    25.0000   90.0000  top
+RCC1      5.1k                 R_1026                                            70.4850    18.9230   90.0000  top
+RCC2      5.1k                 R_SMD_1026                                        74.1680    25.0190   90.0000  top
 RDM1      22R                  R_1026                                            87.8781    -1.2125    0.0000  top
 RDP1      22R                  R_1026                                            87.8750     1.1625    0.0000  top
 RESD1     1M                   R_1026                                            60.9950    32.5700    0.0000  top
