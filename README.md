@@ -4,7 +4,7 @@
   <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/acheronLibrary/master/graphics/acheronLong.png"  width="400"> 
 </p>
 
-This master branch is for the PCB files only. For plates, cases and artworks files, please check the [hardware branch](https://github.com/Gondolindrim/SharkPCB/tree/hardware).
+This master branch is for the PCB files only. For plates, cases and artworks files, please check the [Shark hardware repository](https://github.com/Gondolindrim/SharkHardware).
 
 ## Introduction 
 
