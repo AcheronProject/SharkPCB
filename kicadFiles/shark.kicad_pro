@@ -120,6 +120,7 @@
           "drill": 0.508
         }
       ],
+      "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
     "layer_presets": []
@@ -296,7 +297,8 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "similar_labels": "error",
-      "unresolved_variable": "error"
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
     }
   },
   "libraries": {
