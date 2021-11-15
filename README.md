@@ -8,9 +8,9 @@ This master branch is for the PCB files only. For plates, cases and artworks fil
 
 ## Introduction 
 
-The SharkPCB was conceived as an alternative 40% ortho keyboard that could be easily built and sold in difficult-to-reach markets like Brazil.
+The SharkPCB was conceived as an alternative 40% ortho keyboard that could be easily built and sold in difficult-to-reach markets like the Brazilian market.
 
-When I was some years into the Mechanical Keyboard hobby, I wanted to try a 40% ortho layout. Unfortunately none were available in the Brazilian market; the Planck was (and still is) pretty much the only option in the market when it comes to that layout, and it was only available in the US market and EU through Massdrop.
+When I was some years into the Mechanical Keyboard hobby, I wanted to try a 40% ortho layout. Unfortunately none were available in the Brazilian market; the Planck was (and still is) pretty much the only option in the market when it comes to that layout, and it was only available in the US market and EU market through Massdrop.
 
 Due to the proxy prices, PayPal fees and importing taxes, I would not be able to get a Planck since I simply did not have the money. So I set myself to design a keyboard that I could easily build and customize. My idea was to use a Blue Pill breakout board, using simple THT components for diodes and resistors.
 
@@ -20,7 +20,7 @@ The name comes from a dear friend of mine, Gustavo, who at the time did not have
 
 ## Contributors 
 
-- Steve from WoodCables, who funded de project and made it grow bigger than I had never imagined;
+- Steve from WoodCables, who funded the project and made it grow bigger than I had ever imagined;
 
 - Alan Pocklington, also known as u/ajp10304, who built a prototype himself and offered to test the preliminary software to hasten the GB and gave immense feedback on documentation and component positioning.
 See [this page](http://acheronproject.com/shark/intro.html) for the SharkPCB documentation.
