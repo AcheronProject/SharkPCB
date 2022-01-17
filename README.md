@@ -6,6 +6,10 @@
 
 This master branch is for the PCB files only. For plates, cases and artworks files, please check the [Shark hardware repository](https://github.com/Gondolindrim/SharkHardware).
 
+## Warning
+
+The current version of SharkPCB is deprecated and should not be used as a design reference. Instead, use the [Athena PCB](https://github.com/AcheronProject/Athena) as it is more recent and feature-complete.
+
 ## Introduction 
 
 The SharkPCB was conceived as an alternative 40% ortho keyboard that could be easily built and sold in difficult-to-reach markets like the Brazilian market.
