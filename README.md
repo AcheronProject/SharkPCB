@@ -8,7 +8,7 @@ This master branch is for the PCB files only. For plates, cases and artworks fil
 
 ## Warning
 
-The current version of SharkPCB is deprecated and should not be used as a design reference. Instead, use the [Athena PCB](https://github.com/AcheronProject/Athena) as it is more recent and feature-complete.
+The current version of SharkPCB is deprecated and should not be used as a design reference nor as a product; a new version is being designed and tested. Instead, use the [Athena PCB](https://github.com/AcheronProject/Athena) as it is more recent and feature-complete.
 
 ## Introduction 
 
