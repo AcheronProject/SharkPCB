@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name "acheron_Logo")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Logo.pretty")(options "")(descr "Acheron Project symbol library"))
+  (lib (name "acheron_Graphics")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Graphics.pretty")(options "")(descr "Acheron Project symbol library"))
+  (lib (name "acheron_MX_soldermask")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_MX_soldermask.pretty")(options "")(descr "Acheron Project symbol library"))
+  (lib (name "acheron_Hardware")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Hardware.pretty")(options "")(descr "Acheron Project symbol library"))
+  (lib (name "acheron_Connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Connectors.pretty")(options "")(descr "Acheron Project symbol library"))
+  (lib (name "acheron_Components")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Components.pretty")(options "")(descr "Acheron Project symbol library"))
+  (lib (name "shark_library")(type "KiCad")(uri "/home/alvaro/Desktop/AcheronProject/Freya/kicad_files/libraries/shark_library.pretty")(options "")(descr ""))
+)
