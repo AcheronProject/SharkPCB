@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.19999999999999998,
         "silk_text_italic": false,
@@ -90,7 +90,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
+        "silk_over_copper": "warning",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -436,7 +436,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "X602.step",
+      "step": "../X602.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -502,7 +502,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,

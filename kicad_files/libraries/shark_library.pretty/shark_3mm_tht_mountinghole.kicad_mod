@@ -1,0 +1,18 @@
+(footprint "shark_3mm_tht_mountinghole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F5C950)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fcf322b4-1fc3-4454-a96b-fd494e3e6efd)
+  )
+  (fp_text value "shark_3mm_tht_mountinghole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0c1a9b9a-6dc7-461d-8f31-71c627b0bef9)
+  )
+  (fp_text user "${REF}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5e127bda-be1a-453d-b97e-837e25a09d2c)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 6.5 6.5) (drill 6) (layers *.Cu *.Mask) (tstamp 725a00d0-cb99-443c-a284-5ae16dd5d311))
+)

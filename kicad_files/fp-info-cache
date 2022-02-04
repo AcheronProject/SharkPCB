@@ -1,4 +1,4 @@
-20079929378704214
+20084862514928750
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84833,6 +84833,13 @@ SOT-363 SC-70-6
 6
 6
 acheron_Components
+SOT-563
+SOT563
+SOT-563
+0
+6
+6
+acheron_Components
 SSAL220100
 SPDT 10mA @ 5VDC 5V On-On SMD toggle switch
 
@@ -85595,6 +85602,20 @@ shark_logo_plated
 0
 16
 1
+shark_library
+sharkpcb_label
+
+
+0
+0
+0
+shark_library
+sharkpcb_quote
+
+
+0
+0
+0
 shark_library
 skark_huge_logo
 
